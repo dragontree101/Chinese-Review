@@ -1,0 +1,10666 @@
+[
+  {
+    "id": 1,
+    "char": "哀",
+    "keyword": "哀",
+    "meaning": "悲伤，悲哀，哀叹，哀悼",
+    "sentence": "杜鹃啼血猿哀鸣（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 2,
+    "char": "哀",
+    "keyword": "哀",
+    "meaning": "为……哀叹，为动",
+    "sentence": "秦人不暇自哀（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 3,
+    "char": "哀",
+    "keyword": "哀",
+    "meaning": "怜悯，同情",
+    "sentence": "君将哀而生之乎（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 4,
+    "char": "爱",
+    "keyword": "爱",
+    "meaning": "喜爱",
+    "sentence": "爱其子，择师而教之（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 5,
+    "char": "爱",
+    "keyword": "爱",
+    "meaning": "爱护",
+    "sentence": "使六国各爱其人（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 6,
+    "char": "爱",
+    "keyword": "爱",
+    "meaning": "吝惜",
+    "sentence": "不爱珍器重宝肥饶之地，以致天下之士（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 7,
+    "char": "爱",
+    "keyword": "爱",
+    "meaning": "吝惜",
+    "sentence": "国事至此，予不得爱身（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 8,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "安稳，稳定",
+    "sentence": "风雨不动安如山（《茅屋为秋风所破歌》）",
+    "familiarity": 0
+  },
+  {
+    "id": 9,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "安定",
+    "sentence": "谢庄遂安（《冯婉贞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 10,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "使……安定，使动",
+    "sentence": "又何可以安吾性耶（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 11,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "安全",
+    "sentence": "思国之安者，必积其德义（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 12,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "安心于，习惯于",
+    "sentence": "既来之，则安之（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 13,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "安适，安逸",
+    "sentence": "然后知生于忧患而死于安乐也（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 14,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "安寂，安置",
+    "sentence": "离山十里有王平安营（《失街亭》）",
+    "familiarity": 0
+  },
+  {
+    "id": 15,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "奉养",
+    "sentence": "衣食所安，弗敢专也（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 16,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "哪里，什么地方",
+    "sentence": "固一世之雄也，而今安在哉？（《前赤壁赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 17,
+    "char": "安",
+    "keyword": "安",
+    "meaning": "怎么，哪里",
+    "sentence": "危谓安足辞（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 18,
+    "char": "安",
+    "keyword": "安得",
+    "meaning": "怎么能",
+    "sentence": "安得使予多暇日（《病梅馆记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 19,
+    "char": "安",
+    "keyword": "安能",
+    "meaning": "怎么能",
+    "sentence": "安能摧眉折腰事权贵（《梦游天姥吟留别》）",
+    "familiarity": 0
+  },
+  {
+    "id": 20,
+    "char": "按",
+    "keyword": "按",
+    "meaning": "按住，用手压着",
+    "sentence": "项王按剑而跽曰……（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 21,
+    "char": "按",
+    "keyword": "按",
+    "meaning": "止住，停止",
+    "sentence": "按兵不动（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 22,
+    "char": "按",
+    "keyword": "按",
+    "meaning": "察看，巡视",
+    "sentence": "遂西定河南地，按榆溪旧塞（《史记·卫将军骠骑列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 23,
+    "char": "按",
+    "keyword": "按",
+    "meaning": "按照，依照",
+    "sentence": "按图索骥（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 24,
+    "char": "案",
+    "keyword": "案",
+    "meaning": "几案，小桌",
+    "sentence": "每移案，顾视无可置者（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 25,
+    "char": "案",
+    "keyword": "案",
+    "meaning": "几案，小桌",
+    "sentence": "成妻纳钱案上（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 26,
+    "char": "案",
+    "keyword": "案",
+    "meaning": "文书，案卷",
+    "sentence": "无案牍之劳形（《陋室铭》）",
+    "familiarity": 0
+  },
+  {
+    "id": 27,
+    "char": "案",
+    "keyword": "案",
+    "meaning": "同“按”，审察，察看",
+    "sentence": "召有司案图（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 28,
+    "char": "昂",
+    "keyword": "昂",
+    "meaning": "升高，抬高，形作动",
+    "sentence": "昂其直，居为奇货（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 29,
+    "char": "傲",
+    "keyword": "傲",
+    "meaning": "骄傲，高傲",
+    "sentence": "傲不可长（《尚书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 30,
+    "char": "傲",
+    "keyword": "傲",
+    "meaning": "轻视，看不起",
+    "sentence": "既得志，则纵情以傲物（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 31,
+    "char": "拔",
+    "keyword": "拔",
+    "meaning": "拔出，抽出",
+    "sentence": "拔剑四顾心茫然（《行路难》）",
+    "familiarity": 0
+  },
+  {
+    "id": 32,
+    "char": "拔",
+    "keyword": "拔",
+    "meaning": "选拔，提拔",
+    "sentence": "是以先帝简拔以遗陛下（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 33,
+    "char": "拔",
+    "keyword": "拔",
+    "meaning": "选拔，提拔",
+    "sentence": "过蒙拔擢，宠命优渥（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 34,
+    "char": "拔",
+    "keyword": "拔",
+    "meaning": "高出，超出",
+    "sentence": "势拔五岳掩赤城（《梦游天姥吟留别》）",
+    "familiarity": 0
+  },
+  {
+    "id": 35,
+    "char": "拔",
+    "keyword": "拔",
+    "meaning": "高出，超出",
+    "sentence": "出类拔萃（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 36,
+    "char": "拔",
+    "keyword": "拔",
+    "meaning": "攻取，占领",
+    "sentence": "其后秦伐赵，拔石城（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 37,
+    "char": "白",
+    "keyword": "白",
+    "meaning": "白色",
+    "sentence": "白头搔更短（《春望》）",
+    "familiarity": 0
+  },
+  {
+    "id": 38,
+    "char": "白",
+    "keyword": "白",
+    "meaning": "清白",
+    "sentence": "要留清白在人间（《石灰吟》）",
+    "familiarity": 0
+  },
+  {
+    "id": 39,
+    "char": "白",
+    "keyword": "白",
+    "meaning": "天亮，显出白色",
+    "sentence": "不知东方之既白（《前赤壁赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 40,
+    "char": "白",
+    "keyword": "白",
+    "meaning": "告诉，禀告，报告",
+    "sentence": "何可白公姥，及时相遣归（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 41,
+    "char": "败",
+    "keyword": "败",
+    "meaning": "毁坏，败坏",
+    "sentence": "败军之将，不可以言勇（《史记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 42,
+    "char": "败",
+    "keyword": "败",
+    "meaning": "破旧，破烂",
+    "sentence": "于败堵丛草处，探石发穴（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 43,
+    "char": "败",
+    "keyword": "败",
+    "meaning": "输，打败",
+    "sentence": "败秦师于殽（《秦晋殽之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 44,
+    "char": "败",
+    "keyword": "败",
+    "meaning": "失败",
+    "sentence": "于是从散约败（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 45,
+    "char": "败",
+    "keyword": "败",
+    "meaning": "毁弃",
+    "sentence": "败国丧家（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 46,
+    "char": "拜",
+    "keyword": "拜",
+    "meaning": "跪拜",
+    "sentence": "拜送书于庭（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 47,
+    "char": "拜",
+    "keyword": "拜",
+    "meaning": "拜见，谒见",
+    "sentence": "臣不敢拜受命（《战国策》）",
+    "familiarity": 0
+  },
+  {
+    "id": 48,
+    "char": "拜",
+    "keyword": "拜",
+    "meaning": "授予官职",
+    "sentence": "拜相如为上大夫（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 49,
+    "char": "拜",
+    "keyword": "拜",
+    "meaning": "接受官职",
+    "sentence": "于是辞相印不拜（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 50,
+    "char": "拜",
+    "keyword": "再拜",
+    "meaning": "拜两拜",
+    "sentence": "谨使臣良奉白璧一双，再拜献大王足下（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 51,
+    "char": "包",
+    "keyword": "包",
+    "meaning": "包袱，包裹",
+    "sentence": "席卷天下，包举宇内（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 52,
+    "char": "包",
+    "keyword": "包",
+    "meaning": "包容，包括",
+    "sentence": "无所不包（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 53,
+    "char": "报",
+    "keyword": "报",
+    "meaning": "报告，上报",
+    "sentence": "遂为猾胥报充里正役（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 54,
+    "char": "报",
+    "keyword": "报",
+    "meaning": "答复，回复",
+    "sentence": "求人可使报秦者（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 55,
+    "char": "报",
+    "keyword": "报",
+    "meaning": "报答",
+    "sentence": "非臣陨首所能上报（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 56,
+    "char": "报",
+    "keyword": "报",
+    "meaning": "报复",
+    "sentence": "报怨以德（《老子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 57,
+    "char": "报",
+    "keyword": "报",
+    "meaning": "同“赴”，赴，前往",
+    "sentence": "吾今且报府，不久当还归（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 58,
+    "char": "暴",
+    "keyword": "暴",
+    "meaning": "同“曝”，晒",
+    "sentence": "虽有暴，不复挺者（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 59,
+    "char": "暴",
+    "keyword": "暴",
+    "meaning": "暴露，显露",
+    "sentence": "思厥先祖父，暴霜露（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 60,
+    "char": "暴",
+    "keyword": "暴",
+    "meaning": "凶暴，残暴",
+    "sentence": "暴秦之欲无厌（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 61,
+    "char": "暴",
+    "keyword": "暴",
+    "meaning": "欺凌，损害",
+    "sentence": "并皆暴犯百姓（《周处》）",
+    "familiarity": 0
+  },
+  {
+    "id": 62,
+    "char": "暴",
+    "keyword": "暴",
+    "meaning": "急疾，暴躁",
+    "sentence": "性暴（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 63,
+    "char": "暴",
+    "keyword": "暴",
+    "meaning": "突然",
+    "sentence": "屠暴起，以刀劈狼首（《狼》）",
+    "familiarity": 0
+  },
+  {
+    "id": 64,
+    "char": "悲",
+    "keyword": "悲",
+    "meaning": "悲伤，悲痛",
+    "sentence": "悲从中来，不可断绝（《短歌行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 65,
+    "char": "悲",
+    "keyword": "悲",
+    "meaning": "悲叹",
+    "sentence": "悲歌可以当泣（《悲歌》）",
+    "familiarity": 0
+  },
+  {
+    "id": 66,
+    "char": "悲",
+    "keyword": "悲",
+    "meaning": "怜恤，同情",
+    "sentence": "使来者读之，悲予志焉（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 67,
+    "char": "北",
+    "keyword": "北",
+    "meaning": "北方，北面",
+    "sentence": "骊山北构而西折（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 68,
+    "char": "北",
+    "keyword": "北",
+    "meaning": "逃跑的败兵",
+    "sentence": "追亡逐北，伏尸百万（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 69,
+    "char": "背",
+    "keyword": "背",
+    "meaning": "脊背",
+    "sentence": "背道而驰（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 70,
+    "char": "背",
+    "keyword": "背",
+    "meaning": "背面",
+    "sentence": "背山面水（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 71,
+    "char": "背",
+    "keyword": "背",
+    "meaning": "离开",
+    "sentence": "背井离乡（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 72,
+    "char": "背",
+    "keyword": "背",
+    "meaning": "违背",
+    "sentence": "背信弃义（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 73,
+    "char": "背",
+    "keyword": "背",
+    "meaning": "背叛",
+    "sentence": "言沛公不敢背项王也（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 74,
+    "char": "背",
+    "keyword": "背",
+    "meaning": "背弃，死亡的委婉说法",
+    "sentence": "生孩六月，慈父见背（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 75,
+    "char": "备",
+    "keyword": "备",
+    "meaning": "准备，防备",
+    "sentence": "有备无患（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 76,
+    "char": "备",
+    "keyword": "备",
+    "meaning": "具有，具备",
+    "sentence": "积善成德，而神明自得，圣心备焉（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 77,
+    "char": "备",
+    "keyword": "备",
+    "meaning": "完备，详尽",
+    "sentence": "上于盆而养之，蟹白栗黄，备极护爱（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 78,
+    "char": "倍",
+    "keyword": "倍",
+    "meaning": "加倍，越发，更加",
+    "sentence": "独在异乡为异客，每逢佳节倍思亲（《九月九日忆山东兄弟》）",
+    "familiarity": 0
+  },
+  {
+    "id": 79,
+    "char": "倍",
+    "keyword": "倍",
+    "meaning": "同“背”，背弃，背叛",
+    "sentence": "愿伯具言臣之不敢倍德也（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 80,
+    "char": "被",
+    "keyword": "被",
+    "meaning": "覆盖",
+    "sentence": "幸大雪逾岭，被南越中数州（《答韦中立论师道书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 81,
+    "char": "被",
+    "keyword": "被",
+    "meaning": "遭受，蒙受",
+    "sentence": "久之，闻左公被炮烙（《左忠毅公逸事》）",
+    "familiarity": 0
+  },
+  {
+    "id": 82,
+    "char": "被",
+    "keyword": "被",
+    "meaning": "表被动",
+    "sentence": "妆成每被秋娘妒（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 83,
+    "char": "被",
+    "keyword": "被",
+    "meaning": "同“披”，穿",
+    "sentence": "操吴戈兮被犀甲（《国殇》）",
+    "familiarity": 0
+  },
+  {
+    "id": 84,
+    "char": "被",
+    "keyword": "被",
+    "meaning": "同“披”，散开",
+    "sentence": "屈原至于江滨，被发行吟泽畔（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 85,
+    "char": "奔",
+    "keyword": "奔",
+    "meaning": "跑",
+    "sentence": "奔流到海不复回（《将进酒》）",
+    "familiarity": 0
+  },
+  {
+    "id": 86,
+    "char": "奔",
+    "keyword": "奔",
+    "meaning": "急逃，迅速",
+    "sentence": "奔逃（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 87,
+    "char": "奔",
+    "keyword": "奔",
+    "meaning": "逃跑，逃亡",
+    "sentence": "奔亡（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 88,
+    "char": "奔",
+    "keyword": "奔",
+    "meaning": "追逐，追求",
+    "sentence": "奔逐（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 89,
+    "char": "本",
+    "keyword": "本",
+    "meaning": "树根",
+    "sentence": "摇其本以观其疏密（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 90,
+    "char": "本",
+    "keyword": "本",
+    "meaning": "事物的根本，根源",
+    "sentence": "抑本其成败之迹，而皆自于人欤（《伶官传序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 91,
+    "char": "本",
+    "keyword": "本",
+    "meaning": "农业生产（特指）",
+    "sentence": "今背本而趋末，食者甚众（《论积贮疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 92,
+    "char": "本",
+    "keyword": "本",
+    "meaning": "本钱",
+    "sentence": "本金（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 93,
+    "char": "本",
+    "keyword": "本",
+    "meaning": "本来的，原来的",
+    "sentence": "本自无教训（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 94,
+    "char": "本",
+    "keyword": "本",
+    "meaning": "书本，稿本",
+    "sentence": "授之书而习其句读者（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 95,
+    "char": "逼",
+    "keyword": "逼",
+    "meaning": "强迫，威胁",
+    "sentence": "逼上梁山（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 96,
+    "char": "逼",
+    "keyword": "逼",
+    "meaning": "逼迫，紧迫",
+    "sentence": "形势逼人（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 97,
+    "char": "逼",
+    "keyword": "逼",
+    "meaning": "迫近，接近",
+    "sentence": "鸡健进，逐逼之（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 98,
+    "char": "逼",
+    "keyword": "逼",
+    "meaning": "很，非常",
+    "sentence": "细路景状，与村东大佛阁逼似（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 99,
+    "char": "逼",
+    "keyword": "逼",
+    "meaning": "狭窄",
+    "sentence": "逼仄（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 100,
+    "char": "比",
+    "keyword": "比",
+    "meaning": "并列，排列",
+    "sentence": "其两膝相比者（《核舟记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 101,
+    "char": "比",
+    "keyword": "比",
+    "meaning": "靠近的",
+    "sentence": "海内存知己，天涯若比邻（《送杜少府之任蜀州》）",
+    "familiarity": 0
+  },
+  {
+    "id": 102,
+    "char": "比",
+    "keyword": "比",
+    "meaning": "比较",
+    "sentence": "比权量力（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 103,
+    "char": "比",
+    "keyword": "比",
+    "meaning": "比拟，和……一样",
+    "sentence": "比物此志（《诗经》）",
+    "familiarity": 0
+  },
+  {
+    "id": 104,
+    "char": "比",
+    "keyword": "比",
+    "meaning": "等到",
+    "sentence": "比去，以手阖门（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 105,
+    "char": "比",
+    "keyword": "比年",
+    "meaning": "近年",
+    "sentence": "比年不登（《礼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 106,
+    "char": "彼",
+    "keyword": "彼",
+    "meaning": "那，那个",
+    "sentence": "彼一时，此一时（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 107,
+    "char": "彼",
+    "keyword": "彼",
+    "meaning": "他，他的",
+    "sentence": "知己知彼（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 108,
+    "char": "彼",
+    "keyword": "彼",
+    "meaning": "别人，对方",
+    "sentence": "彼竭我盈，故克之（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 109,
+    "char": "鄙",
+    "keyword": "鄙",
+    "meaning": "边疆，边远的地方",
+    "sentence": "蜀之鄙有二僧（《为学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 110,
+    "char": "鄙",
+    "keyword": "鄙",
+    "meaning": "鄙陋，见识浅陋",
+    "sentence": "肉食者鄙，未能远谋（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 111,
+    "char": "鄙",
+    "keyword": "鄙",
+    "meaning": "鄙视，看不起",
+    "sentence": "孔子鄙其小器（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 112,
+    "char": "毕",
+    "keyword": "毕",
+    "meaning": "完结，结束",
+    "sentence": "六王毕，四海一（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 113,
+    "char": "毕",
+    "keyword": "毕",
+    "meaning": "全，都",
+    "sentence": "群贤毕至，少长咸集（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 114,
+    "char": "蔽",
+    "keyword": "蔽",
+    "meaning": "遮掩，遮盖",
+    "sentence": "枝叶蔽日（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 115,
+    "char": "蔽",
+    "keyword": "蔽",
+    "meaning": "隐藏",
+    "sentence": "隐天蔽日（《三峡》）",
+    "familiarity": 0
+  },
+  {
+    "id": 116,
+    "char": "蔽",
+    "keyword": "蔽",
+    "meaning": "蒙蔽",
+    "sentence": "虑壅蔽则思虚心以纳下（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 117,
+    "char": "蔽",
+    "keyword": "蔽",
+    "meaning": "概括",
+    "sentence": "《诗三百》，一言以蔽之，曰“思无邪”（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 118,
+    "char": "辟",
+    "keyword": "辟(bì)",
+    "meaning": "征召",
+    "sentence": "连辟公府不就（《张衡传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 119,
+    "char": "辟",
+    "keyword": "辟(bì)",
+    "meaning": "同“避”，躲避",
+    "sentence": "文王之辟风雨也（《秦晋殽之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 120,
+    "char": "辟",
+    "keyword": "辟(bì)",
+    "meaning": "同“避”，躲避",
+    "sentence": "故患有所不辟也（《鱼我所欲也》）",
+    "familiarity": 0
+  },
+  {
+    "id": 121,
+    "char": "辟",
+    "keyword": "辟(pì)",
+    "meaning": "开，打开",
+    "sentence": "唇吻翕辟，不知何词（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 122,
+    "char": "辟",
+    "keyword": "辟(pì)",
+    "meaning": "开辟",
+    "sentence": "辟邪说，难壬人（《答司马谏议书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 123,
+    "char": "便",
+    "keyword": "便(biàn)",
+    "meaning": "便利的，有利的",
+    "sentence": "因利乘便，宰割天下（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 124,
+    "char": "便",
+    "keyword": "便(biàn)",
+    "meaning": "立即，就",
+    "sentence": "便下襄阳向洛阳（《闻官军收河南河北》）",
+    "familiarity": 0
+  },
+  {
+    "id": 125,
+    "char": "便",
+    "keyword": "便(pián)",
+    "meaning": "能说会道",
+    "sentence": "便言多令才（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 126,
+    "char": "遍",
+    "keyword": "遍",
+    "meaning": "遍及，遍布",
+    "sentence": "一切异状遍试之（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 127,
+    "char": "遍",
+    "keyword": "遍",
+    "meaning": "全，广泛，普遍",
+    "sentence": "以侈自败者多矣，不可遍数（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 128,
+    "char": "表",
+    "keyword": "表",
+    "meaning": "外，外面",
+    "sentence": "表里山河（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 129,
+    "char": "表",
+    "keyword": "表",
+    "meaning": "标记，标志",
+    "sentence": "流水暴益，荆人弗知，循表而夜涉（《察今》）",
+    "familiarity": 0
+  },
+  {
+    "id": 130,
+    "char": "表",
+    "keyword": "表",
+    "meaning": "奏章",
+    "sentence": "臣具以表闻，辞不就职（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 131,
+    "char": "表",
+    "keyword": "江表",
+    "meaning": "长江以外，指长江以南地区",
+    "sentence": "江表英豪咸归附之（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 132,
+    "char": "兵",
+    "keyword": "兵",
+    "meaning": "兵器，武器",
+    "sentence": "收天下之兵，聚之咸阳（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 133,
+    "char": "兵",
+    "keyword": "兵",
+    "meaning": "士兵、军队",
+    "sentence": "赵亦盛设兵以待秦（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 134,
+    "char": "兵",
+    "keyword": "兵",
+    "meaning": "军事、战争",
+    "sentence": "兵旱相乘，天下大屈（《论积贮疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 135,
+    "char": "兵",
+    "keyword": "兵",
+    "meaning": "兵法、战略",
+    "sentence": "纸上谈兵（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 136,
+    "char": "并",
+    "keyword": "并",
+    "meaning": "合并",
+    "sentence": "并吞八荒之心（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 137,
+    "char": "并",
+    "keyword": "并",
+    "meaning": "吞并，兼并",
+    "sentence": "并国二十，遂霸西戎（《谏逐客书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 138,
+    "char": "并",
+    "keyword": "并",
+    "meaning": "一起，全部",
+    "sentence": "黄发垂髫，并怡然自乐（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 139,
+    "char": "并",
+    "keyword": "并",
+    "meaning": "连",
+    "sentence": "两股间脓血流离，并虫亦不能行捉矣（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 140,
+    "char": "并",
+    "keyword": "并",
+    "meaning": "连",
+    "sentence": "又义兴水中有蛟，山中有白额虎，并皆暴犯百姓（《周处》）",
+    "familiarity": 0
+  },
+  {
+    "id": 141,
+    "char": "病",
+    "keyword": "病",
+    "meaning": "疾病",
+    "sentence": "病，隆然伏行（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 142,
+    "char": "病",
+    "keyword": "病",
+    "meaning": "使……显病态，使动",
+    "sentence": "以夭梅病梅为业以求钱也（《病梅馆记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 143,
+    "char": "病",
+    "keyword": "病",
+    "meaning": "缺点，毛病",
+    "sentence": "人皆嗤吾固陋，吾不以为病（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 144,
+    "char": "病",
+    "keyword": "病",
+    "meaning": "疲惫，困乏",
+    "sentence": "今日病矣，予助苗长矣（《我善养吾浩然之气》）",
+    "familiarity": 0
+  },
+  {
+    "id": 145,
+    "char": "病",
+    "keyword": "病",
+    "meaning": "疾苦，贫困",
+    "sentence": "向吾不为斯役，则久已病矣（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 146,
+    "char": "病",
+    "keyword": "病",
+    "meaning": "担心，忧虑",
+    "sentence": "士生于世，使其中不自得，将何往而非病（《黄州快哉亭记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 147,
+    "char": "伯",
+    "keyword": "伯",
+    "meaning": "排行第一（伯、仲、叔、季）",
+    "sentence": "伯仲之间（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 148,
+    "char": "伯",
+    "keyword": "伯",
+    "meaning": "伯父",
+    "sentence": "侯伯（《左传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 149,
+    "char": "伯",
+    "keyword": "伯",
+    "meaning": "古代一方长官",
+    "sentence": "五侯九伯（《左传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 150,
+    "char": "伯",
+    "keyword": "伯",
+    "meaning": "同“霸”，春秋时诸侯的盟主",
+    "sentence": "秦伯说（《烛之武退秦师》）",
+    "familiarity": 0
+  },
+  {
+    "id": 151,
+    "char": "伯",
+    "keyword": "伯仲",
+    "meaning": "差不多，不相上下",
+    "sentence": "出师一表真名世，千载谁堪伯仲间？（《书愤》）",
+    "familiarity": 0
+  },
+  {
+    "id": 152,
+    "char": "泊",
+    "keyword": "泊",
+    "meaning": "停船",
+    "sentence": "士大夫终不肯以小舟夜泊绝壁之下（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 153,
+    "char": "泊",
+    "keyword": "泊",
+    "meaning": "淡泊，恬静",
+    "sentence": "非淡泊无以明志（《诫子书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 154,
+    "char": "博",
+    "keyword": "博",
+    "meaning": "宽广，广博",
+    "sentence": "地广物博（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 155,
+    "char": "博",
+    "keyword": "博",
+    "meaning": "众多，丰富",
+    "sentence": "博古通今（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 156,
+    "char": "博",
+    "keyword": "博",
+    "meaning": "广泛，普遍",
+    "sentence": "君子博学而日参省乎己（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 157,
+    "char": "薄",
+    "keyword": "薄",
+    "meaning": "轻微，微薄",
+    "sentence": "门衰祚薄（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 158,
+    "char": "薄",
+    "keyword": "薄",
+    "meaning": "轻视，看不起",
+    "sentence": "不宜妄自菲薄，引喻失义（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 159,
+    "char": "薄",
+    "keyword": "薄",
+    "meaning": "迫近，靠近",
+    "sentence": "但以刘日薄西山，气息奄奄（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 160,
+    "char": "步",
+    "keyword": "步",
+    "meaning": "行走",
+    "sentence": "步余马于兰皋兮（《离骚》）",
+    "familiarity": 0
+  },
+  {
+    "id": 161,
+    "char": "步",
+    "keyword": "步",
+    "meaning": "脚步",
+    "sentence": "五十步笑百步（《寡人之于国也》）",
+    "familiarity": 0
+  },
+  {
+    "id": 162,
+    "char": "裁",
+    "keyword": "裁",
+    "meaning": "裁衣服",
+    "sentence": "裁衣（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 163,
+    "char": "裁",
+    "keyword": "裁",
+    "meaning": "削减，删减",
+    "sentence": "裁军（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 164,
+    "char": "裁",
+    "keyword": "裁",
+    "meaning": "同“才”",
+    "sentence": "手裁举，则又超忽而跃（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 165,
+    "char": "裁",
+    "keyword": "自裁",
+    "meaning": "自杀",
+    "sentence": "忠烈拔刀自裁（《梅花岭记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 166,
+    "char": "苍",
+    "keyword": "苍",
+    "meaning": "青色",
+    "sentence": "苍颜白发（《醉翁亭记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 167,
+    "char": "苍",
+    "keyword": "苍",
+    "meaning": "苍老",
+    "sentence": "苍老（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 168,
+    "char": "苍",
+    "keyword": "苍",
+    "meaning": "苍天，上苍",
+    "sentence": "苍天已死（《三国演义》）",
+    "familiarity": 0
+  },
+  {
+    "id": 169,
+    "char": "操",
+    "keyword": "操",
+    "meaning": "拿，持",
+    "sentence": "大王来何操（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 170,
+    "char": "操",
+    "keyword": "操",
+    "meaning": "操控，掌握",
+    "sentence": "操刀（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 171,
+    "char": "操",
+    "keyword": "操",
+    "meaning": "从事",
+    "sentence": "邑有成名者，操童子业（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 172,
+    "char": "操",
+    "keyword": "操",
+    "meaning": "操守，品行",
+    "sentence": "操行（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 173,
+    "char": "草",
+    "keyword": "草",
+    "meaning": "野草",
+    "sentence": "草色入帘青（《陋室铭》）",
+    "familiarity": 0
+  },
+  {
+    "id": 174,
+    "char": "草",
+    "keyword": "草",
+    "meaning": "乡野，民间",
+    "sentence": "草民（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 175,
+    "char": "草",
+    "keyword": "草",
+    "meaning": "草稿",
+    "sentence": "草稿（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 176,
+    "char": "草",
+    "keyword": "草",
+    "meaning": "在草丛中，名作状",
+    "sentence": "不得已，变姓名，诡踪迹，草行露宿（《<指南录>后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 177,
+    "char": "策",
+    "keyword": "策",
+    "meaning": "马鞭",
+    "sentence": "振长策而御宇内（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 178,
+    "char": "策",
+    "keyword": "策",
+    "meaning": "拐杖",
+    "sentence": "策扶老以流憩（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 179,
+    "char": "策",
+    "keyword": "策",
+    "meaning": "计策，计谋",
+    "sentence": "出谋划策（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 180,
+    "char": "策",
+    "keyword": "策",
+    "meaning": "对策",
+    "sentence": "对策（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 181,
+    "char": "策",
+    "keyword": "策",
+    "meaning": "谋划",
+    "sentence": "策之（《马说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 182,
+    "char": "曾",
+    "keyword": "曾",
+    "meaning": "曾经",
+    "sentence": "曾经沧海难为水（《离思》）",
+    "familiarity": 0
+  },
+  {
+    "id": 183,
+    "char": "曾",
+    "keyword": "曾",
+    "meaning": "同“增”，增加",
+    "sentence": "曾益其所不能（《生于忧患，死于安乐》）",
+    "familiarity": 0
+  },
+  {
+    "id": 184,
+    "char": "曾",
+    "keyword": "曾不",
+    "meaning": "竟不",
+    "sentence": "盖将自其变者而观之，则天地曾不能以一瞬（《前赤壁赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 185,
+    "char": "差",
+    "keyword": "差(chā)",
+    "meaning": "差别",
+    "sentence": "差别（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 186,
+    "char": "差",
+    "keyword": "差(chā)",
+    "meaning": "差错",
+    "sentence": "差错（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 187,
+    "char": "差",
+    "keyword": "差(chā)",
+    "meaning": "稍微",
+    "sentence": "唯青文上差厚（《透光镜》）",
+    "familiarity": 0
+  },
+  {
+    "id": 188,
+    "char": "差",
+    "keyword": "差(chài)",
+    "meaning": "劣等，差事",
+    "sentence": "出差（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 189,
+    "char": "差",
+    "keyword": "差(chài)",
+    "meaning": "同“瘥”，病好了",
+    "sentence": "病瘥（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 190,
+    "char": "差",
+    "keyword": "参差(cī)",
+    "meaning": "长短不齐",
+    "sentence": "参差菜（《关雎》）",
+    "familiarity": 0
+  },
+  {
+    "id": 191,
+    "char": "察",
+    "keyword": "察",
+    "meaning": "仔细看，观察",
+    "sentence": "徐而察之，则山下皆石穴罅（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 192,
+    "char": "察",
+    "keyword": "察",
+    "meaning": "看清楚，明白",
+    "sentence": "明察秋毫（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 193,
+    "char": "察",
+    "keyword": "察",
+    "meaning": "考察，调查",
+    "sentence": "察访（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 194,
+    "char": "察",
+    "keyword": "察",
+    "meaning": "察举，考察后予以推荐",
+    "sentence": "前太守臣察臣孝廉（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 195,
+    "char": "长",
+    "keyword": "长(cháng)",
+    "meaning": "长久",
+    "sentence": "天长地久（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 196,
+    "char": "长",
+    "keyword": "长(cháng)",
+    "meaning": "长处，优势",
+    "sentence": "度长絜大，比权量力（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 197,
+    "char": "长",
+    "keyword": "长(cháng)",
+    "meaning": "擅长",
+    "sentence": "擅长（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 198,
+    "char": "长",
+    "keyword": "长(zhǎng)",
+    "meaning": "生长，成长",
+    "sentence": "草木生长（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 199,
+    "char": "长",
+    "keyword": "长(zhǎng)",
+    "meaning": "增长",
+    "sentence": "增长（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 200,
+    "char": "长",
+    "keyword": "长(zhǎng)",
+    "meaning": "年纪大",
+    "sentence": "长者（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 201,
+    "char": "长",
+    "keyword": "长(zhǎng)",
+    "meaning": "首领，负责人",
+    "sentence": "校长（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 202,
+    "char": "长",
+    "keyword": "长(zhàng)",
+    "meaning": "多余的",
+    "sentence": "身无长物（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 203,
+    "char": "尝",
+    "keyword": "尝",
+    "meaning": "品尝",
+    "sentence": "品尝（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 204,
+    "char": "尝",
+    "keyword": "尝",
+    "meaning": "试，试探",
+    "sentence": "尝试（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 205,
+    "char": "尝",
+    "keyword": "尝",
+    "meaning": "曾经",
+    "sentence": "轩东故尝为厨（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 206,
+    "char": "尝",
+    "keyword": "未尝",
+    "meaning": "从来没有，不曾",
+    "sentence": "齐人未尝赂秦，终继五国迁灭，何哉（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 207,
+    "char": "超",
+    "keyword": "超",
+    "meaning": "一跃而上",
+    "sentence": "超乘者三百乘（《秦晋殽之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 208,
+    "char": "超",
+    "keyword": "超",
+    "meaning": "超出，胜过",
+    "sentence": "超群绝伦（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 209,
+    "char": "超",
+    "keyword": "超",
+    "meaning": "遥远",
+    "sentence": "平原忽兮路超远（《国殇》）",
+    "familiarity": 0
+  },
+  {
+    "id": 210,
+    "char": "朝",
+    "keyword": "朝(zhāo)",
+    "meaning": "早晨",
+    "sentence": "朝发白帝（《三峡》）",
+    "familiarity": 0
+  },
+  {
+    "id": 211,
+    "char": "朝",
+    "keyword": "朝(cháo)",
+    "meaning": "朝见，朝拜",
+    "sentence": "朝拜（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 212,
+    "char": "朝",
+    "keyword": "朝(cháo)",
+    "meaning": "朝廷",
+    "sentence": "朝廷（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 213,
+    "char": "朝",
+    "keyword": "朝(cháo)",
+    "meaning": "朝代",
+    "sentence": "朝代（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 214,
+    "char": "朝",
+    "keyword": "市朝",
+    "meaning": "公共场所",
+    "sentence": "能谤讥于市朝，闻寡人之耳者，受下赏（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 215,
+    "char": "朝",
+    "keyword": "朝(cháo)",
+    "meaning": "使……朝拜，使动",
+    "sentence": "序八州而朝同列（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 216,
+    "char": "朝",
+    "keyword": "朝(cháo)",
+    "meaning": "使……朝拜，使动",
+    "sentence": "相如每朝时，常称病（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 217,
+    "char": "彻",
+    "keyword": "彻",
+    "meaning": "通达，通透",
+    "sentence": "日光下彻，影布石上，怡然不动（《小石潭记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 218,
+    "char": "陈",
+    "keyword": "陈",
+    "meaning": "陈列，排列",
+    "sentence": "信臣精卒陈利兵而谁何（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 219,
+    "char": "陈",
+    "keyword": "陈",
+    "meaning": "陈述",
+    "sentence": "跪敷衽以陈辞兮（《离骚》）",
+    "familiarity": 0
+  },
+  {
+    "id": 220,
+    "char": "陈",
+    "keyword": "陈",
+    "meaning": "陈旧",
+    "sentence": "俯仰之间，已为陈迹（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 221,
+    "char": "陈",
+    "keyword": "陈",
+    "meaning": "同“阵”，阵势，战阵",
+    "sentence": "前至匈奴陈二里所（《李将军列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 222,
+    "char": "陈",
+    "keyword": "陈",
+    "meaning": "同“阵”，布阵，列阵，名作动",
+    "sentence": "楚亦发兵拒吴，夹水陈（《吴太伯世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 223,
+    "char": "称",
+    "keyword": "称(chēng)",
+    "meaning": "称赞",
+    "sentence": "称善者久之（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 224,
+    "char": "称",
+    "keyword": "称(chēng)",
+    "meaning": "声称",
+    "sentence": "试用于昔日，先帝称之曰能（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 225,
+    "char": "称",
+    "keyword": "称(chēng)",
+    "meaning": "声称",
+    "sentence": "相如每朝时，常称病（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 226,
+    "char": "称",
+    "keyword": "称(chēng)",
+    "meaning": "称呼，称作",
+    "sentence": "称之为（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 227,
+    "char": "称",
+    "keyword": "称(chèn)",
+    "meaning": "符合，相称",
+    "sentence": "称心如意（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 228,
+    "char": "诚",
+    "keyword": "诚",
+    "meaning": "真心实意",
+    "sentence": "愿陛下矜悯愚诚（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 229,
+    "char": "诚",
+    "keyword": "诚",
+    "meaning": "实在，确实",
+    "sentence": "臣诚恐见欺于王而负赵（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 230,
+    "char": "诚",
+    "keyword": "诚",
+    "meaning": "实在，确实",
+    "sentence": "是为宰相听事诚隘（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 231,
+    "char": "诚",
+    "keyword": "诚",
+    "meaning": "果真",
+    "sentence": "是诚能绝齐，秦愿献商於之地六百里（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 232,
+    "char": "乘",
+    "keyword": "乘(chéng)",
+    "meaning": "升，登",
+    "sentence": "乘鄂渚而反顾兮（《涉江》）",
+    "familiarity": 0
+  },
+  {
+    "id": 233,
+    "char": "乘",
+    "keyword": "乘(chéng)",
+    "meaning": "骑，乘坐，驾",
+    "sentence": "乘犊车，从吏卒（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 234,
+    "char": "乘",
+    "keyword": "乘(chéng)",
+    "meaning": "凭借，利用，趁着",
+    "sentence": "因利乘便，宰割天下（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 235,
+    "char": "乘",
+    "keyword": "乘(shèng)",
+    "meaning": "兵车",
+    "sentence": "然秦以区区之地，致万乘之势（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 236,
+    "char": "驰",
+    "keyword": "驰",
+    "meaning": "赶马快跑",
+    "sentence": "项伯乃夜驰之沛公军（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 237,
+    "char": "驰",
+    "keyword": "驰",
+    "meaning": "骑马追击，追逐",
+    "sentence": "齐师败绩，公将驰之（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 238,
+    "char": "驰",
+    "keyword": "驰",
+    "meaning": "传扬，传播",
+    "sentence": "驰名中外（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 239,
+    "char": "冲",
+    "keyword": "冲",
+    "meaning": "向上冲，顶",
+    "sentence": "怒发冲冠（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 240,
+    "char": "冲",
+    "keyword": "冲",
+    "meaning": "谦虚",
+    "sentence": "念高危，则思谦冲而自牧（《太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 241,
+    "char": "冲",
+    "keyword": "冲",
+    "meaning": "交通要道",
+    "sentence": "首当其冲（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 242,
+    "char": "冲",
+    "keyword": "冲",
+    "meaning": "冲击，冲撞",
+    "sentence": "冲撞（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 243,
+    "char": "出",
+    "keyword": "出",
+    "meaning": "外，对外",
+    "sentence": "出则无敌国外患者（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 244,
+    "char": "出",
+    "keyword": "出",
+    "meaning": "外调，离开京城",
+    "sentence": "予出官二年，恬然自安（《琵琶行》并序）",
+    "familiarity": 0
+  },
+  {
+    "id": 245,
+    "char": "出",
+    "keyword": "出",
+    "meaning": "拿出",
+    "sentence": "余人各复延至其家，皆出酒食（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 246,
+    "char": "出",
+    "keyword": "出",
+    "meaning": "出现，显露",
+    "sentence": "蜀山兀，阿房出（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 247,
+    "char": "出",
+    "keyword": "出",
+    "meaning": "出产",
+    "sentence": "殚其地之出，竭其庐之入（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 248,
+    "char": "出",
+    "keyword": "出",
+    "meaning": "超出",
+    "sentence": "古之圣人，其出人也远矣（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 249,
+    "char": "除",
+    "keyword": "除",
+    "meaning": "台阶",
+    "sentence": "扶辇下除（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 250,
+    "char": "除",
+    "keyword": "除",
+    "meaning": "清除，去除",
+    "sentence": "兴利除害（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 251,
+    "char": "除",
+    "keyword": "除",
+    "meaning": "授职，任命",
+    "sentence": "寻蒙国恩，除臣洗马（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 252,
+    "char": "除",
+    "keyword": "除",
+    "meaning": "授职，任命",
+    "sentence": "予除左丞相兼枢密使（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 253,
+    "char": "处",
+    "keyword": "处(chǔ)",
+    "meaning": "处于，处在",
+    "sentence": "设身处地（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 254,
+    "char": "处",
+    "keyword": "处(chǔ)",
+    "meaning": "占有，占据",
+    "sentence": "号物之数谓之万，人处一焉（《秋水》）",
+    "familiarity": 0
+  },
+  {
+    "id": 255,
+    "char": "处",
+    "keyword": "处(chǔ)",
+    "meaning": "处理，处置",
+    "sentence": "处分适兄意，那得自任专（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 256,
+    "char": "处",
+    "keyword": "处(chǔ)",
+    "meaning": "相处，交往",
+    "sentence": "与贵酋处二十日（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 257,
+    "char": "处",
+    "keyword": "处(chù)",
+    "meaning": "处所，地方",
+    "sentence": "处江湖之远则忧其君（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 258,
+    "char": "传",
+    "keyword": "传(chuán)",
+    "meaning": "传递，传送",
+    "sentence": "传之美人（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 259,
+    "char": "传",
+    "keyword": "传(chuán)",
+    "meaning": "传授",
+    "sentence": "师者，所以传道受业解惑也（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 260,
+    "char": "传",
+    "keyword": "传(chuán)",
+    "meaning": "流传，传说",
+    "sentence": "此世所以不传也（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 261,
+    "char": "传",
+    "keyword": "传(chuán)",
+    "meaning": "传颂",
+    "sentence": "和氏璧，天下所共传宝也（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 262,
+    "char": "传",
+    "keyword": "传(zhuàn)",
+    "meaning": "传记",
+    "sentence": "吾已作传（《祭妹文》）",
+    "familiarity": 0
+  },
+  {
+    "id": 263,
+    "char": "传",
+    "keyword": "传(zhuàn)",
+    "meaning": "解释经文的著作",
+    "sentence": "六艺经传皆通习之（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 264,
+    "char": "传",
+    "keyword": "传舍",
+    "meaning": "招待宾客的馆舍",
+    "sentence": "舍相如广成传舍（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 265,
+    "char": "垂",
+    "keyword": "垂",
+    "meaning": "垂挂",
+    "sentence": "垂拱而治（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 266,
+    "char": "垂",
+    "keyword": "垂",
+    "meaning": "流传",
+    "sentence": "名成于前，德垂于后（《诸子喻山水》）",
+    "familiarity": 0
+  },
+  {
+    "id": 267,
+    "char": "垂",
+    "keyword": "垂",
+    "meaning": "将近",
+    "sentence": "垂死挣扎（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 268,
+    "char": "辞",
+    "keyword": "辞",
+    "meaning": "话语，言辞",
+    "sentence": "辞不达意（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 269,
+    "char": "辞",
+    "keyword": "辞",
+    "meaning": "文学、文辞",
+    "sentence": "其辞微，其志洁（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 270,
+    "char": "辞",
+    "keyword": "辞",
+    "meaning": "推辞，拒绝",
+    "sentence": "于是辞相印不拜（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 271,
+    "char": "辞",
+    "keyword": "辞",
+    "meaning": "告别，告辞",
+    "sentence": "辞楼下殿，辇来于泰（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 272,
+    "char": "辞",
+    "keyword": "辞谢",
+    "meaning": "婉言道歉",
+    "sentence": "秦王恐其破璧，乃辞谢（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 273,
+    "char": "次",
+    "keyword": "次",
+    "meaning": "次序",
+    "sentence": "鳞次栉比（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 274,
+    "char": "次",
+    "keyword": "次",
+    "meaning": "临时驻扎，临时住宿",
+    "sentence": "初一交战，操军不利，引次江北（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 275,
+    "char": "次",
+    "keyword": "次",
+    "meaning": "旁边",
+    "sentence": "引以为流觞曲水，列坐其次（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 276,
+    "char": "次",
+    "keyword": "次",
+    "meaning": "次数，回数",
+    "sentence": "又间令吴广之次所旁丛祠中（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 277,
+    "char": "刺",
+    "keyword": "刺",
+    "meaning": "扎",
+    "sentence": "引锥自刺其股（《战国策》）",
+    "familiarity": 0
+  },
+  {
+    "id": 278,
+    "char": "刺",
+    "keyword": "刺",
+    "meaning": "刺杀，杀死",
+    "sentence": "荆轲刺秦王（《战国策》）",
+    "familiarity": 0
+  },
+  {
+    "id": 279,
+    "char": "刺",
+    "keyword": "刺",
+    "meaning": "指责",
+    "sentence": "群臣吏民能面刺寡人之过者，受上赏（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 280,
+    "char": "刺",
+    "keyword": "刺",
+    "meaning": "名帖",
+    "sentence": "即门者持刺入，而主人又不即出见（《报刘一丈书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 281,
+    "char": "从",
+    "keyword": "从(cóng)",
+    "meaning": "跟从，跟随",
+    "sentence": "战则请从（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 282,
+    "char": "从",
+    "keyword": "从(cóng)",
+    "meaning": "使……跟从，带领，使动",
+    "sentence": "沛公旦日从百余骑来见项王（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 283,
+    "char": "从",
+    "keyword": "从(cóng)",
+    "meaning": "追逐，追随",
+    "sentence": "乘胜逐北，从之（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 284,
+    "char": "从",
+    "keyword": "从(cóng)",
+    "meaning": "顺从，听从",
+    "sentence": "臣从其计（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 285,
+    "char": "从",
+    "keyword": "从(cóng)",
+    "meaning": "参与，从事",
+    "sentence": "弟走从军阿姨死（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 286,
+    "char": "从",
+    "keyword": "从(cóng)",
+    "meaning": "堂房亲",
+    "sentence": "广从弟李蔡亦为郎（《李将军列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 287,
+    "char": "从",
+    "keyword": "从(cóng)",
+    "meaning": "由，自",
+    "sentence": "从此道至吾军（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 288,
+    "char": "从",
+    "keyword": "从(zòng)",
+    "meaning": "同“纵”",
+    "sentence": "合从缔交，相与为一（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 289,
+    "char": "促",
+    "keyword": "促",
+    "meaning": "紧，迫",
+    "sentence": "促膝长谈（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 290,
+    "char": "促",
+    "keyword": "促",
+    "meaning": "使……紧，拧紧，使动",
+    "sentence": "却坐促弦弦转急（《琵琶行》并序）",
+    "familiarity": 0
+  },
+  {
+    "id": 291,
+    "char": "促",
+    "keyword": "促",
+    "meaning": "催促",
+    "sentence": "促耕（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 292,
+    "char": "促",
+    "keyword": "促",
+    "meaning": "局促，狭小",
+    "sentence": "局促不安（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 293,
+    "char": "错",
+    "keyword": "错",
+    "meaning": "交错，错杂",
+    "sentence": "而境界危恶，层见错出（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 294,
+    "char": "达",
+    "keyword": "达",
+    "meaning": "到达，达到",
+    "sentence": "达于汉阴（《愚公移山》）",
+    "familiarity": 0
+  },
+  {
+    "id": 295,
+    "char": "达",
+    "keyword": "达",
+    "meaning": "豁达",
+    "sentence": "豁达大度（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 296,
+    "char": "达",
+    "keyword": "达",
+    "meaning": "显达，显贵",
+    "sentence": "本图宦达，不矜名节（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 297,
+    "char": "达",
+    "keyword": "达",
+    "meaning": "送，送到",
+    "sentence": "辞楼下殿，辇来于秦（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 298,
+    "char": "殆",
+    "keyword": "殆",
+    "meaning": "危险",
+    "sentence": "知彼知己，百战不殆（《孙子兵法》）",
+    "familiarity": 0
+  },
+  {
+    "id": 299,
+    "char": "殆",
+    "keyword": "殆",
+    "meaning": "近于，几乎",
+    "sentence": "且燕赵处秦革灭殆尽之际（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 300,
+    "char": "殆",
+    "keyword": "殆",
+    "meaning": "大概，恐怕",
+    "sentence": "轩凡四遭火，得不焚，殆有神护者（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 301,
+    "char": "殆",
+    "keyword": "殆",
+    "meaning": "大概，恐怕",
+    "sentence": "鄙元之所见闻，殆与余同（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 302,
+    "char": "怠",
+    "keyword": "怠",
+    "meaning": "松懈，懈怠",
+    "sentence": "怠慢（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 303,
+    "char": "怠",
+    "keyword": "怠",
+    "meaning": "怠慢",
+    "sentence": "有怠而欲出者（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 304,
+    "char": "旦",
+    "keyword": "旦",
+    "meaning": "早晨",
+    "sentence": "旦辞爷娘去（《木兰诗》）",
+    "familiarity": 0
+  },
+  {
+    "id": 305,
+    "char": "旦",
+    "keyword": "旦",
+    "meaning": "日，天",
+    "sentence": "旦夕（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 306,
+    "char": "旦",
+    "keyword": "旦日",
+    "meaning": "旦日：明日，第二天",
+    "sentence": "旦日不可不蚤自来谢项王（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 307,
+    "char": "旦",
+    "keyword": "一旦",
+    "meaning": "一旦：他日，有那么一天",
+    "sentence": "一旦不能有，输来其间（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 308,
+    "char": "当",
+    "keyword": "当(dāng)",
+    "meaning": "对着，正对",
+    "sentence": "曲终收拨当心画（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 309,
+    "char": "当",
+    "keyword": "当(dāng)",
+    "meaning": "抵挡，阻挡",
+    "sentence": "锐不可当（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 310,
+    "char": "当",
+    "keyword": "当(dāng)",
+    "meaning": "主持，掌管",
+    "sentence": "北邀当国者相见（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 311,
+    "char": "当",
+    "keyword": "当(dāng)",
+    "meaning": "在，值",
+    "sentence": "当是时（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 312,
+    "char": "当",
+    "keyword": "当(dāng)",
+    "meaning": "应该，应当",
+    "sentence": "吾闻二世少子也，不当立，当立者乃公子扶苏（《史记·陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 313,
+    "char": "当",
+    "keyword": "当(dāng)",
+    "meaning": "判决（相应的罪）",
+    "sentence": "公等遇雨，皆已失期，失期，当斩（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 314,
+    "char": "当",
+    "keyword": "当(dàng)",
+    "meaning": "抵当",
+    "sentence": "以一仪而当汉中地（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 315,
+    "char": "当",
+    "keyword": "当(dàng)",
+    "meaning": "抵押",
+    "sentence": "抵押（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 316,
+    "char": "当",
+    "keyword": "当(dàng)",
+    "meaning": "适合",
+    "sentence": "将献公堂，惴惴恐不当意（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 317,
+    "char": "当",
+    "keyword": "当道",
+    "meaning": "在路当中",
+    "sentence": "有狼当道，人立而啼（《中山狼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 318,
+    "char": "当",
+    "keyword": "当道",
+    "meaning": "当权的人",
+    "sentence": "郡之贤士大夫请于当道，即除魏阉废祠之址以葬",
+    "familiarity": 0
+  },
+  {
+    "id": 319,
+    "char": "道",
+    "keyword": "道",
+    "meaning": "道路",
+    "sentence": "从郦山下，道芷阳间行（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 320,
+    "char": "道",
+    "keyword": "道",
+    "meaning": "方法",
+    "sentence": "策之不以其道（《马说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 321,
+    "char": "道",
+    "keyword": "道",
+    "meaning": "道理，规律",
+    "sentence": "以子之道，移之官理，可乎？（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 322,
+    "char": "道",
+    "keyword": "道",
+    "meaning": "主张，学说",
+    "sentence": "于是废先王之道，焚百家之言（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 323,
+    "char": "道",
+    "keyword": "道",
+    "meaning": "讲，述说",
+    "sentence": "不足为外人道也（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 324,
+    "char": "道",
+    "keyword": "道",
+    "meaning": "风尚，传统",
+    "sentence": "师道之不传也久矣（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 325,
+    "char": "得",
+    "keyword": "得",
+    "meaning": "获得，得到",
+    "sentence": "得双石于潭上（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 326,
+    "char": "得",
+    "keyword": "得",
+    "meaning": "心得，收获",
+    "sentence": "古人之观于天地...往往有得（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 327,
+    "char": "得",
+    "keyword": "得",
+    "meaning": "得意",
+    "sentence": "意气扬扬，甚自得也（《史记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 328,
+    "char": "得",
+    "keyword": "得",
+    "meaning": "能够",
+    "sentence": "因得观所谓石钟者（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 329,
+    "char": "得",
+    "keyword": "得",
+    "meaning": "能够",
+    "sentence": "得无教我猎虫所耶？（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 330,
+    "char": "得",
+    "keyword": "得",
+    "meaning": "同“德”，感激",
+    "sentence": "为宫室之美...所识穷乏者得我欤？（《鱼我所欲也》）",
+    "familiarity": 0
+  },
+  {
+    "id": 331,
+    "char": "定",
+    "keyword": "定",
+    "meaning": "安定，稳定",
+    "sentence": "定计（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 332,
+    "char": "定",
+    "keyword": "定",
+    "meaning": "决定，确定",
+    "sentence": "决定（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 333,
+    "char": "定",
+    "keyword": "定",
+    "meaning": "固定的，规定的",
+    "sentence": "而奉行者即为定例（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 334,
+    "char": "定",
+    "keyword": "定",
+    "meaning": "一定，必定",
+    "sentence": "一定（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 335,
+    "char": "定",
+    "keyword": "定",
+    "meaning": "止，息",
+    "sentence": "痛定思痛，痛何如哉？（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 336,
+    "char": "独",
+    "keyword": "独",
+    "meaning": "单独，独自",
+    "sentence": "独乐乐，与人乐乐，孰乐？（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 337,
+    "char": "独",
+    "keyword": "独",
+    "meaning": "老而无子的人",
+    "sentence": "鳏寡孤独（《礼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 338,
+    "char": "独",
+    "keyword": "独",
+    "meaning": "仅，只",
+    "sentence": "子所言者，其人与骨皆已朽矣，独其言在耳（《史记·老子韩非列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 339,
+    "char": "独",
+    "keyword": "独",
+    "meaning": "难道",
+    "sentence": "独畏廉将军哉（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 340,
+    "char": "独",
+    "keyword": "独夫",
+    "meaning": "残暴无道众叛亲离的君主",
+    "sentence": "独夫之心，日益骄固（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 341,
+    "char": "笃",
+    "keyword": "笃",
+    "meaning": "深，深厚",
+    "sentence": "博学之，审问之，慎思之，明辨之，笃行之（《中庸》）",
+    "familiarity": 0
+  },
+  {
+    "id": 342,
+    "char": "笃",
+    "keyword": "笃",
+    "meaning": "病重",
+    "sentence": "则刘病日笃（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 343,
+    "char": "笃",
+    "keyword": "笃",
+    "meaning": "坚定",
+    "sentence": "笃志好学（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 344,
+    "char": "笃",
+    "keyword": "笃",
+    "meaning": "局限",
+    "sentence": "夏虫不可以语于冰者，笃于时也（《秋水》）",
+    "familiarity": 0
+  },
+  {
+    "id": 345,
+    "char": "度",
+    "keyword": "度(dù)",
+    "meaning": "尺寸，尺码",
+    "sentence": "吾忘持度（《郑人买履》）",
+    "familiarity": 0
+  },
+  {
+    "id": 346,
+    "char": "度",
+    "keyword": "度(dù)",
+    "meaning": "限度",
+    "sentence": "乐游赏，则思三驱以为度（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 347,
+    "char": "度",
+    "keyword": "度(dù)",
+    "meaning": "制度、法度",
+    "sentence": "内立法度，务耕织（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 348,
+    "char": "度",
+    "keyword": "度(dù)",
+    "meaning": "同“渡”，渡过、越过",
+    "sentence": "一夜飞度镜湖月（《梦游天姥吟留别》）",
+    "familiarity": 0
+  },
+  {
+    "id": 349,
+    "char": "度",
+    "keyword": "度(duó)",
+    "meaning": "衡量，计算",
+    "sentence": "试使山东之国与陈涉度长絜大（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 350,
+    "char": "度",
+    "keyword": "度(duó)",
+    "meaning": "推测，估计",
+    "sentence": "度我至军中，公乃入（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 351,
+    "char": "度",
+    "keyword": "度(duó)",
+    "meaning": "考虑",
+    "sentence": "死固付之度外矣（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 352,
+    "char": "断",
+    "keyword": "断",
+    "meaning": "截断，斩断",
+    "sentence": "断其喉，尽其肉（《狼》）",
+    "familiarity": 0
+  },
+  {
+    "id": 353,
+    "char": "断",
+    "keyword": "断",
+    "meaning": "判断，决断",
+    "sentence": "事不目见耳闻，而臆断其有无，可乎（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 354,
+    "char": "断",
+    "keyword": "断",
+    "meaning": "回绝，拒绝",
+    "sentence": "自可断来信，徐徐更谓之（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 355,
+    "char": "夺",
+    "keyword": "夺",
+    "meaning": "强取",
+    "sentence": "夺其财（《童区寄传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 356,
+    "char": "夺",
+    "keyword": "夺",
+    "meaning": "强行改变",
+    "sentence": "三军可夺帅也，匹夫不可夺志也（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 357,
+    "char": "夺",
+    "keyword": "夺",
+    "meaning": "压倒，胜过",
+    "sentence": "巧夺天工（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 358,
+    "char": "发",
+    "keyword": "发",
+    "meaning": "发射，射箭",
+    "sentence": "见其发矢十中八九（《卖油翁》）",
+    "familiarity": 0
+  },
+  {
+    "id": 359,
+    "char": "发",
+    "keyword": "发",
+    "meaning": "出发",
+    "sentence": "朝发白帝，暮到江陵（《三峡》）",
+    "familiarity": 0
+  },
+  {
+    "id": 360,
+    "char": "发",
+    "keyword": "发",
+    "meaning": "发动",
+    "sentence": "发难（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 361,
+    "char": "发",
+    "keyword": "发",
+    "meaning": "拿出",
+    "sentence": "发粟（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 362,
+    "char": "发",
+    "keyword": "发",
+    "meaning": "派出",
+    "sentence": "发兵（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 363,
+    "char": "发",
+    "keyword": "发",
+    "meaning": "打开",
+    "sentence": "成有子九岁，窥父不在，窃发盆（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 364,
+    "char": "伐",
+    "keyword": "伐",
+    "meaning": "砍伐",
+    "sentence": "伐木丁丁（《诗经》）",
+    "familiarity": 0
+  },
+  {
+    "id": 365,
+    "char": "伐",
+    "keyword": "伐",
+    "meaning": "攻打，征伐",
+    "sentence": "齐师伐我（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 366,
+    "char": "伐",
+    "keyword": "伐",
+    "meaning": "功劳",
+    "sentence": "自矜功伐（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 367,
+    "char": "伐",
+    "keyword": "伐",
+    "meaning": "夸耀",
+    "sentence": "每一令出，平伐其功（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 368,
+    "char": "法",
+    "keyword": "法",
+    "meaning": "法律，法令",
+    "sentence": "守法（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 369,
+    "char": "法",
+    "keyword": "法",
+    "meaning": "依法，按照法令，名作状",
+    "sentence": "失期，法皆斩（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 370,
+    "char": "法",
+    "keyword": "法",
+    "meaning": "效法，仿效，名作动",
+    "sentence": "上胡不法先王之法（《察今》）",
+    "familiarity": 0
+  },
+  {
+    "id": 371,
+    "char": "法",
+    "keyword": "法",
+    "meaning": "准则，标准",
+    "sentence": "法则（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 372,
+    "char": "法",
+    "keyword": "法",
+    "meaning": "方法",
+    "sentence": "办法（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 373,
+    "char": "反",
+    "keyword": "反",
+    "meaning": "违反",
+    "sentence": "反道（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 374,
+    "char": "反",
+    "keyword": "反",
+    "meaning": "反叛",
+    "sentence": "造反（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 375,
+    "char": "反",
+    "keyword": "反",
+    "meaning": "反而",
+    "sentence": "反受其害（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 376,
+    "char": "反",
+    "keyword": "反",
+    "meaning": "同“返”，返回",
+    "sentence": "经纶世务者，窥谷忘反（《与朱元思书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 377,
+    "char": "犯",
+    "keyword": "犯",
+    "meaning": "侵犯",
+    "sentence": "侵犯（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 378,
+    "char": "犯",
+    "keyword": "犯",
+    "meaning": "触犯，违犯",
+    "sentence": "犯法（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 379,
+    "char": "犯",
+    "keyword": "犯",
+    "meaning": "侵害，危害",
+    "sentence": "犯难（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 380,
+    "char": "犯",
+    "keyword": "犯",
+    "meaning": "冒",
+    "sentence": "触风雨，犯寒暑（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 381,
+    "char": "方",
+    "keyword": "方",
+    "meaning": "方形",
+    "sentence": "方枘圆凿（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 382,
+    "char": "方",
+    "keyword": "方",
+    "meaning": "方圆",
+    "sentence": "方六七十，如五六十，求也为之（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 383,
+    "char": "方",
+    "keyword": "方",
+    "meaning": "方法",
+    "sentence": "方略（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 384,
+    "char": "方",
+    "keyword": "方",
+    "meaning": "道理",
+    "sentence": "可使有勇，且知方也（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 385,
+    "char": "方",
+    "keyword": "方",
+    "meaning": "正直",
+    "sentence": "方正（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 386,
+    "char": "方",
+    "keyword": "方",
+    "meaning": "正，正当",
+    "sentence": "余方心动欲还，而大声发于水上（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 387,
+    "char": "方",
+    "keyword": "方",
+    "meaning": "始，才",
+    "sentence": "庑下一生伏案卧，文方成草（《左忠毅公逸事》）",
+    "familiarity": 0
+  },
+  {
+    "id": 388,
+    "char": "方",
+    "keyword": "地方",
+    "meaning": "土地方圆",
+    "sentence": "今齐地方千里（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 389,
+    "char": "方",
+    "keyword": "方略",
+    "meaning": "策略，计谋",
+    "sentence": "以鲁肃为赞军校尉，助画方略（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 390,
+    "char": "放",
+    "keyword": "放",
+    "meaning": "流放",
+    "sentence": "放逐（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 391,
+    "char": "放",
+    "keyword": "放",
+    "meaning": "放纵，放任",
+    "sentence": "放浪形骸之外（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 392,
+    "char": "放",
+    "keyword": "放",
+    "meaning": "放置",
+    "sentence": "安放（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 393,
+    "char": "放",
+    "keyword": "放",
+    "meaning": "开放",
+    "sentence": "百花齐放（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 394,
+    "char": "非",
+    "keyword": "非",
+    "meaning": "不对",
+    "sentence": "是非（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 395,
+    "char": "非",
+    "keyword": "非",
+    "meaning": "责怪、反对",
+    "sentence": "且举世而非之而不加沮（《逍遥游》）",
+    "familiarity": 0
+  },
+  {
+    "id": 396,
+    "char": "非",
+    "keyword": "非",
+    "meaning": "不是",
+    "sentence": "非刘豫州莫可以当曹操者（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 397,
+    "char": "非",
+    "keyword": "非",
+    "meaning": "除非、除了",
+    "sentence": "非此即彼（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 398,
+    "char": "非",
+    "keyword": "非常",
+    "meaning": "不同一般",
+    "sentence": "而世之奇伟瑰怪非常之观,常在于险远（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 399,
+    "char": "非",
+    "keyword": "非常",
+    "meaning": "意外事故",
+    "sentence": "备他盗之出入与非常也（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 400,
+    "char": "非",
+    "keyword": "非惟……抑",
+    "meaning": "不仅……而且",
+    "sentence": "非惟天时，抑亦人谋也（《隆中对》）",
+    "familiarity": 0
+  },
+  {
+    "id": 401,
+    "char": "分",
+    "keyword": "分",
+    "meaning": "分开",
+    "sentence": "分道扬镳（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 402,
+    "char": "分",
+    "keyword": "分",
+    "meaning": "分配",
+    "sentence": "分配（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 403,
+    "char": "分",
+    "keyword": "分",
+    "meaning": "分别",
+    "sentence": "分别（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 404,
+    "char": "分",
+    "keyword": "分",
+    "meaning": "名分",
+    "sentence": "名分（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 405,
+    "char": "分",
+    "keyword": "分",
+    "meaning": "按名分，名作状",
+    "sentence": "予分当引决（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 406,
+    "char": "分",
+    "keyword": "分",
+    "meaning": "料想",
+    "sentence": "自分已死久矣（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 407,
+    "char": "奉",
+    "keyword": "奉",
+    "meaning": "同“捧”",
+    "sentence": "王必无人，臣愿奉璧往使（《廉颇相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 408,
+    "char": "奉",
+    "keyword": "奉",
+    "meaning": "接受",
+    "sentence": "臣欲奉诏奔驰（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 409,
+    "char": "奉",
+    "keyword": "奉",
+    "meaning": "侍奉",
+    "sentence": "奉事循公姥，进止敢自专（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 410,
+    "char": "伏",
+    "keyword": "伏",
+    "meaning": "趴，倒下",
+    "sentence": "伏地（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 411,
+    "char": "伏",
+    "keyword": "伏",
+    "meaning": "使……倒下，使动",
+    "sentence": "追亡逐北，伏尸百万（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 412,
+    "char": "伏",
+    "keyword": "伏",
+    "meaning": "隐藏，埋伏",
+    "sentence": "埋伏（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 413,
+    "char": "伏",
+    "keyword": "伏",
+    "meaning": "敬辞，不详",
+    "sentence": "伏惟圣朝以孝治天下（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 414,
+    "char": "服",
+    "keyword": "服",
+    "meaning": "衣服",
+    "sentence": "衣服（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 415,
+    "char": "服",
+    "keyword": "服",
+    "meaning": "穿，佩戴",
+    "sentence": "服冕（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 416,
+    "char": "服",
+    "keyword": "服",
+    "meaning": "服从",
+    "sentence": "服从（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 417,
+    "char": "服",
+    "keyword": "服",
+    "meaning": "佩服",
+    "sentence": "佩服（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 418,
+    "char": "服",
+    "keyword": "服",
+    "meaning": "从事，做事",
+    "sentence": "汝非徒身当服行（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 419,
+    "char": "负",
+    "keyword": "负",
+    "meaning": "背",
+    "sentence": "肉袒负荆（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 420,
+    "char": "负",
+    "keyword": "负",
+    "meaning": "担负，承担",
+    "sentence": "担负（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 421,
+    "char": "负",
+    "keyword": "负",
+    "meaning": "使……承担，使动",
+    "sentence": "均之二策，宁许以负秦曲（《廉颇相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 422,
+    "char": "负",
+    "keyword": "负",
+    "meaning": "依仗，凭借",
+    "sentence": "秦贪，负其强（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 423,
+    "char": "负",
+    "keyword": "负",
+    "meaning": "辜负，对不起",
+    "sentence": "臣诚恐见欺于王而负赵（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 424,
+    "char": "负",
+    "keyword": "负",
+    "meaning": "违背",
+    "sentence": "相如度秦王虽喜，决负约不偿城（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 425,
+    "char": "复",
+    "keyword": "复",
+    "meaning": "返回",
+    "sentence": "反复（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 426,
+    "char": "复",
+    "keyword": "复",
+    "meaning": "恢复",
+    "sentence": "更若役，复若赋，则何如（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 427,
+    "char": "复",
+    "keyword": "复",
+    "meaning": "回答",
+    "sentence": "答复（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 428,
+    "char": "复",
+    "keyword": "复",
+    "meaning": "又，再",
+    "sentence": "复行数十步（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 429,
+    "char": "赋",
+    "keyword": "赋",
+    "meaning": "赋税",
+    "sentence": "租赋（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 430,
+    "char": "赋",
+    "keyword": "赋",
+    "meaning": "征收赋税",
+    "sentence": "岁赋其二（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 431,
+    "char": "赋",
+    "keyword": "赋",
+    "meaning": "缴纳赋税",
+    "sentence": "完赋（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 432,
+    "char": "赋",
+    "keyword": "赋",
+    "meaning": "吟咏",
+    "sentence": "登高而赋（《左传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 433,
+    "char": "赋",
+    "keyword": "赋",
+    "meaning": "创作",
+    "sentence": "乃赋离骚（《史记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 434,
+    "char": "赋",
+    "keyword": "赋",
+    "meaning": "古代一种文体",
+    "sentence": "《阿房宫赋》",
+    "familiarity": 0
+  },
+  {
+    "id": 435,
+    "char": "盖",
+    "keyword": "盖",
+    "meaning": "盖子，车盖",
+    "sentence": "今已亭亭如盖矣（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 436,
+    "char": "盖",
+    "keyword": "盖",
+    "meaning": "遮盖",
+    "sentence": "覆盖（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 437,
+    "char": "盖",
+    "keyword": "盖",
+    "meaning": "压倒，胜过",
+    "sentence": "盖世（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 438,
+    "char": "盖",
+    "keyword": "盖",
+    "meaning": "大概",
+    "sentence": "盖余所至，比好游者尚不能十一（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 439,
+    "char": "盖",
+    "keyword": "盖",
+    "meaning": "由于、因为",
+    "sentence": "盖失强援，不能独完（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 440,
+    "char": "更",
+    "keyword": "更(gēng)",
+    "meaning": "更换",
+    "sentence": "使吏更献衣（《左忠毅公逸事》）",
+    "familiarity": 0
+  },
+  {
+    "id": 441,
+    "char": "更",
+    "keyword": "更(gēng)",
+    "meaning": "古代计时单位",
+    "sentence": "三更半夜（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 442,
+    "char": "更",
+    "keyword": "更(gēng)",
+    "meaning": "交替，轮换",
+    "sentence": "使将士更休（《左忠毅公逸事》）",
+    "familiarity": 0
+  },
+  {
+    "id": 443,
+    "char": "更",
+    "keyword": "更(gēng)",
+    "meaning": "改变",
+    "sentence": "更若役，复若赋，则何如（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 444,
+    "char": "更",
+    "keyword": "更(gēng)",
+    "meaning": "经历",
+    "sentence": "少不更事（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 445,
+    "char": "更",
+    "keyword": "更(gèng)",
+    "meaning": "更加",
+    "sentence": "更上一层楼（《登鹳雀楼》）",
+    "familiarity": 0
+  },
+  {
+    "id": 446,
+    "char": "更",
+    "keyword": "更(gèng)",
+    "meaning": "再，又",
+    "sentence": "欲穷千里目，更上一层楼（《登鹳雀楼》）",
+    "familiarity": 0
+  },
+  {
+    "id": 447,
+    "char": "苟",
+    "keyword": "苟",
+    "meaning": "苟且，马虎",
+    "sentence": "终苟免而不怀仁（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 448,
+    "char": "苟",
+    "keyword": "苟",
+    "meaning": "如果",
+    "sentence": "苟或不然，人争非之（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 449,
+    "char": "鼓",
+    "keyword": "鼓",
+    "meaning": "击鼓，击鼓进攻",
+    "sentence": "战于长勺，公将鼓之（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 450,
+    "char": "鼓",
+    "keyword": "鼓",
+    "meaning": "弹奏、敲击（乐器）",
+    "sentence": "虎鼓瑟兮鸾回车，仙之人兮列如麻（《梦游天姥吟留别》）",
+    "familiarity": 0
+  },
+  {
+    "id": 451,
+    "char": "鼓",
+    "keyword": "鼓",
+    "meaning": "振动",
+    "sentence": "微风鼓浪，水石相搏（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 452,
+    "char": "鼓",
+    "keyword": "鼓",
+    "meaning": "“更”的代称",
+    "sentence": "更鼓（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 453,
+    "char": "故",
+    "keyword": "故",
+    "meaning": "旧的，过去的，原来的",
+    "sentence": "故乡（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 454,
+    "char": "故",
+    "keyword": "故",
+    "meaning": "旧交情",
+    "sentence": "君安与项伯有故（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 455,
+    "char": "故",
+    "keyword": "故",
+    "meaning": "所以，因此",
+    "sentence": "夫秦无道，故沛公得至此（《史记·留侯世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 456,
+    "char": "故",
+    "keyword": "故",
+    "meaning": "特意",
+    "sentence": "故遣将守关者，备他盗出入与非常也（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 457,
+    "char": "故",
+    "keyword": "故",
+    "meaning": "缘故，原因",
+    "sentence": "无缘无故（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 458,
+    "char": "故",
+    "keyword": "以……之故",
+    "meaning": "因为……的原因",
+    "sentence": "扶苏以数谏故，上使外将兵（《史记·陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 459,
+    "char": "故",
+    "keyword": "故事",
+    "meaning": "旧事，前例",
+    "sentence": "苟以天下之大，而从六国破亡之故事（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 460,
+    "char": "固",
+    "keyword": "固",
+    "meaning": "坚固，牢固，特指地形险要",
+    "sentence": "秦孝公据函之固（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 461,
+    "char": "固",
+    "keyword": "固",
+    "meaning": "坚持，坚决",
+    "sentence": "少年固强之（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 462,
+    "char": "固",
+    "keyword": "固",
+    "meaning": "顽固，固执",
+    "sentence": "固执（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 463,
+    "char": "固",
+    "keyword": "固",
+    "meaning": "本来，原来",
+    "sentence": "其闻道也固先乎吾（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 464,
+    "char": "固",
+    "keyword": "固",
+    "meaning": "固然，诚然，表示让步",
+    "sentence": "固不如也（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 465,
+    "char": "顾",
+    "keyword": "顾",
+    "meaning": "回头看，回头",
+    "sentence": "顾野有麦场（《狼》）",
+    "familiarity": 0
+  },
+  {
+    "id": 466,
+    "char": "顾",
+    "keyword": "顾",
+    "meaning": "看",
+    "sentence": "顾视（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 467,
+    "char": "顾",
+    "keyword": "顾",
+    "meaning": "看望，拜访",
+    "sentence": "三顾臣于草庐之中（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 468,
+    "char": "顾",
+    "keyword": "顾",
+    "meaning": "顾惜，顾念",
+    "sentence": "屈平既嫉之，虽流放，眷顾楚国，系心怀王（《史记·屈原贾生列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 469,
+    "char": "顾",
+    "keyword": "顾",
+    "meaning": "考虑，顾及",
+    "sentence": "大行不顾细谨，大礼不辞小让（《史记·项羽本纪》）",
+    "familiarity": 0
+  },
+  {
+    "id": 470,
+    "char": "顾",
+    "keyword": "顾",
+    "meaning": "只，不过",
+    "sentence": "顾吾念之（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 471,
+    "char": "顾",
+    "keyword": "顾",
+    "meaning": "反而，却",
+    "sentence": "而王不争焉，顾争于戎狄（《战国策·秦策一》）",
+    "familiarity": 0
+  },
+  {
+    "id": 472,
+    "char": "顾",
+    "keyword": "顾",
+    "meaning": "难道",
+    "sentence": "人之立志，顾不如蜀鄙之僧哉《为学》",
+    "familiarity": 0
+  },
+  {
+    "id": 473,
+    "char": "寡",
+    "keyword": "寡",
+    "meaning": "少",
+    "sentence": "寡人之于国也（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 474,
+    "char": "寡",
+    "keyword": "寡",
+    "meaning": "死了丈夫",
+    "sentence": "老而无夫曰寡（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 475,
+    "char": "寡",
+    "keyword": "寡人",
+    "meaning": "古代君主自称",
+    "sentence": "寡人愿安承教（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 476,
+    "char": "观",
+    "keyword": "观",
+    "meaning": "看",
+    "sentence": "臣观大王无意偿赵王城邑（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 477,
+    "char": "观",
+    "keyword": "观",
+    "meaning": "景象",
+    "sentence": "此则岳阳楼之大观也（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 478,
+    "char": "观",
+    "keyword": "观",
+    "meaning": "认识，看法",
+    "sentence": "世之奇伟、瑰怪、非常之观（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 479,
+    "char": "归",
+    "keyword": "归",
+    "meaning": "回，返回",
+    "sentence": "后五年，吾妻来归（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 480,
+    "char": "归",
+    "keyword": "归",
+    "meaning": "归还，送回",
+    "sentence": "久假而不归（《孟子·尽心上》）",
+    "familiarity": 0
+  },
+  {
+    "id": 481,
+    "char": "归",
+    "keyword": "归",
+    "meaning": "使……归，使动",
+    "sentence": "臣请完璧归赵（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 482,
+    "char": "归",
+    "keyword": "归",
+    "meaning": "归顺，归依",
+    "sentence": "江表英豪咸归附之（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 483,
+    "char": "归",
+    "keyword": "归",
+    "meaning": "女子出嫁",
+    "sentence": "后五年，吾妻来归（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 484,
+    "char": "国",
+    "keyword": "国",
+    "meaning": "国家，诸侯国",
+    "sentence": "僵卧孤村不自哀，尚思为国戍轮台（《十一月四日风雨大作》）",
+    "familiarity": 0
+  },
+  {
+    "id": 485,
+    "char": "国",
+    "keyword": "国",
+    "meaning": "国都，京城",
+    "sentence": "登斯楼也，则有去国怀乡（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 486,
+    "char": "国",
+    "keyword": "中国",
+    "meaning": "中原地区",
+    "sentence": "若能以吴越之众与中国抗衡（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 487,
+    "char": "过",
+    "keyword": "过",
+    "meaning": "经过，通过",
+    "sentence": "一出门，裘马过世家焉（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 488,
+    "char": "过",
+    "keyword": "过",
+    "meaning": "超过",
+    "sentence": "闻大王有意督过之（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 489,
+    "char": "过",
+    "keyword": "过",
+    "meaning": "胜过",
+    "sentence": "至圣，过蒙拔擢（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 490,
+    "char": "过",
+    "keyword": "过",
+    "meaning": "过分，过度",
+    "sentence": "王行，度道里会遇之礼毕，还，不过三十日（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 491,
+    "char": "过",
+    "keyword": "过",
+    "meaning": "错误，过失",
+    "sentence": "人非圣贤，孰能无过（《左传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 492,
+    "char": "过",
+    "keyword": "过",
+    "meaning": "责备",
+    "sentence": "闻大王有意督过之（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 493,
+    "char": "过",
+    "keyword": "过",
+    "meaning": "探望",
+    "sentence": "一日，大母过余曰（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 494,
+    "char": "过",
+    "keyword": "不过",
+    "meaning": "不超过",
+    "sentence": "王行，度道里会遇之礼毕，还，不过三十日（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 495,
+    "char": "好",
+    "keyword": "好(ho)",
+    "meaning": "美好",
+    "sentence": "秦氏有好女（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 496,
+    "char": "好",
+    "keyword": "好(ho)",
+    "meaning": "友好",
+    "sentence": "外结好孙权（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 497,
+    "char": "好",
+    "keyword": "好(hào)",
+    "meaning": "喜欢",
+    "sentence": "见长人者好烦其令（《种树郭驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 498,
+    "char": "号",
+    "keyword": "号(háo)",
+    "meaning": "大声喊叫",
+    "sentence": "号呼而转徙（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 499,
+    "char": "号",
+    "keyword": "号(hào)",
+    "meaning": "号召",
+    "sentence": "号令三军（《史记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 500,
+    "char": "号",
+    "keyword": "号(hào)",
+    "meaning": "号令，命令",
+    "sentence": "发枪之号（《病梅馆记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 501,
+    "char": "号",
+    "keyword": "号(hào)",
+    "meaning": "宣称",
+    "sentence": "号为张楚（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 502,
+    "char": "号",
+    "keyword": "号(hào)",
+    "meaning": "称呼",
+    "sentence": "故乡人号之曰驼（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 503,
+    "char": "号",
+    "keyword": "号(hào)",
+    "meaning": "称号",
+    "sentence": "号为张楚（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 504,
+    "char": "恨",
+    "keyword": "恨",
+    "meaning": "遗憾，不满意",
+    "sentence": "未尝不叹息痛恨于桓灵也（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 505,
+    "char": "恨",
+    "keyword": "恨",
+    "meaning": "怨恨",
+    "sentence": "别有幽愁暗恨生（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 506,
+    "char": "厚",
+    "keyword": "厚",
+    "meaning": "与“薄”相对",
+    "sentence": "厚古薄今（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 507,
+    "char": "厚",
+    "keyword": "厚",
+    "meaning": "忠厚，厚道",
+    "sentence": "宽厚爱人（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 508,
+    "char": "厚",
+    "keyword": "厚",
+    "meaning": "忠厚，厚道",
+    "sentence": "天将以酬长厚者（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 509,
+    "char": "厚",
+    "keyword": "厚",
+    "meaning": "优厚地，丰厚地",
+    "sentence": "厚币委质事楚（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 510,
+    "char": "还",
+    "keyword": "还",
+    "meaning": "返回",
+    "sentence": "卒廷见相如，毕礼而归之（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 511,
+    "char": "还",
+    "keyword": "还",
+    "meaning": "交还，归还",
+    "sentence": "臣请完璧归赵（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 512,
+    "char": "患",
+    "keyword": "患",
+    "meaning": "忧虑，担心",
+    "sentence": "欲勿予，即患秦兵之来（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 513,
+    "char": "患",
+    "keyword": "患",
+    "meaning": "忧患，灾祸",
+    "sentence": "患难与共（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 514,
+    "char": "患",
+    "keyword": "患",
+    "meaning": "疾病",
+    "sentence": "愈膏肓之患（《左传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 515,
+    "char": "会",
+    "keyword": "会",
+    "meaning": "聚集",
+    "sentence": "会天大雨，道不通（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 516,
+    "char": "会",
+    "keyword": "会",
+    "meaning": "会面",
+    "sentence": "会于会稽山阴之兰亭（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 517,
+    "char": "会",
+    "keyword": "会",
+    "meaning": "盟会，宴会",
+    "sentence": "为赵王寿，请奉盆缶秦王，以相娱乐（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 518,
+    "char": "会",
+    "keyword": "会",
+    "meaning": "决，一定",
+    "sentence": "会当凌绝顶（《望岳》）",
+    "familiarity": 0
+  },
+  {
+    "id": 519,
+    "char": "会",
+    "keyword": "会",
+    "meaning": "恰好，正逢",
+    "sentence": "吾已失恩义，会不相从许（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 520,
+    "char": "会",
+    "keyword": "会",
+    "meaning": "恰好，正逢",
+    "sentence": "会其怒，不敢献（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 521,
+    "char": "惠",
+    "keyword": "惠",
+    "meaning": "恩惠",
+    "sentence": "小惠未遍（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 522,
+    "char": "惠",
+    "keyword": "惠",
+    "meaning": "柔顺，柔和",
+    "sentence": "惠风和畅（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 523,
+    "char": "惠",
+    "keyword": "惠",
+    "meaning": "同“慧”",
+    "sentence": "甚矣，汝之不惠（《愚公移山》）",
+    "familiarity": 0
+  },
+  {
+    "id": 524,
+    "char": "或",
+    "keyword": "或",
+    "meaning": "有人",
+    "sentence": "或曰此鹳鹤也（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 525,
+    "char": "或",
+    "keyword": "或",
+    "meaning": "有时，偶尔",
+    "sentence": "或百步而后止（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 526,
+    "char": "或",
+    "keyword": "或",
+    "meaning": "也许，或许",
+    "sentence": "或异二者之为（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 527,
+    "char": "及",
+    "keyword": "及",
+    "meaning": "赶上，追上",
+    "sentence": "及滑，郑商人弦高将市于周（《蹇叔哭师》）",
+    "familiarity": 0
+  },
+  {
+    "id": 528,
+    "char": "及",
+    "keyword": "及",
+    "meaning": "等到，到",
+    "sentence": "及至始皇（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 529,
+    "char": "及",
+    "keyword": "及",
+    "meaning": "到达",
+    "sentence": "自古及今",
+    "familiarity": 0
+  },
+  {
+    "id": 530,
+    "char": "及",
+    "keyword": "及",
+    "meaning": "涉及，牵连，推及",
+    "sentence": "一人飞升，仙及鸡犬（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 531,
+    "char": "及",
+    "keyword": "及",
+    "meaning": "比得上",
+    "sentence": "徐公何能及君也（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 532,
+    "char": "及",
+    "keyword": "及",
+    "meaning": "和，并",
+    "sentence": "及郡下，诣太守（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 533,
+    "char": "极",
+    "keyword": "极",
+    "meaning": "顶点，尽头",
+    "sentence": "南极潇湘（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 534,
+    "char": "极",
+    "keyword": "极",
+    "meaning": "穷尽，享受尽，名作动",
+    "sentence": "而不得极夫游之乐也（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 535,
+    "char": "极",
+    "keyword": "极",
+    "meaning": "非常",
+    "sentence": "极天云一线异色（《登泰山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 536,
+    "char": "期",
+    "keyword": "期",
+    "meaning": "靠近，接近",
+    "sentence": "期年（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 537,
+    "char": "期",
+    "keyword": "期",
+    "meaning": "就",
+    "sentence": "期月（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 538,
+    "char": "期",
+    "keyword": "期",
+    "meaning": "立刻，马上",
+    "sentence": "期期不可（《史记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 539,
+    "char": "期",
+    "keyword": "期",
+    "meaning": "倘若",
+    "sentence": "期年之后（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 540,
+    "char": "期",
+    "keyword": "期",
+    "meaning": "即使",
+    "sentence": "期期艾艾（《世说新语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 541,
+    "char": "期",
+    "keyword": "即日",
+    "meaning": "当天",
+    "sentence": "项王即日因留沛公与饮（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 542,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "病",
+    "sentence": "君有疾在腠理（《扁鹊见蔡桓公》）",
+    "familiarity": 0
+  },
+  {
+    "id": 543,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "疾病，痛苦",
+    "sentence": "疾痛惨怛（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 544,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "痛心",
+    "sentence": "疾恶如仇（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 545,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "缺点，毛病",
+    "sentence": "必为有窃疾矣（《公输》）",
+    "familiarity": 0
+  },
+  {
+    "id": 546,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "厌恶，痛恨",
+    "sentence": "君子疾夫舍曰欲之而必为之辞（《季氏将伐颛臾》）",
+    "familiarity": 0
+  },
+  {
+    "id": 547,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "厌恶，痛恨",
+    "sentence": "岂非愤世疾邪者也（《卖柑者言》）",
+    "familiarity": 0
+  },
+  {
+    "id": 548,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "妒忌",
+    "sentence": "庞涓恐其贤于己，疾之（《孙膑》）",
+    "familiarity": 0
+  },
+  {
+    "id": 549,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "快，敏捷；强，猛",
+    "sentence": "虽乘奔御风，不以疾也（《三峡》）",
+    "familiarity": 0
+  },
+  {
+    "id": 550,
+    "char": "疾",
+    "keyword": "疾",
+    "meaning": "快，敏捷；强，猛",
+    "sentence": "顺风而呼，声非加疾也（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 551,
+    "char": "计",
+    "keyword": "计",
+    "meaning": "计算",
+    "sentence": "计日以还（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 552,
+    "char": "计",
+    "keyword": "计",
+    "meaning": "打算，谋划",
+    "sentence": "臣尝有罪，窃计欲亡走燕（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 553,
+    "char": "计",
+    "keyword": "计",
+    "meaning": "计策，主意，谋略",
+    "sentence": "计之曰（《黔之驴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 554,
+    "char": "济",
+    "keyword": "济",
+    "meaning": "渡水",
+    "sentence": "直挂云帆济沧海（《行路难》）",
+    "familiarity": 0
+  },
+  {
+    "id": 555,
+    "char": "济",
+    "keyword": "济",
+    "meaning": "渡水",
+    "sentence": "同舟共济（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 556,
+    "char": "济",
+    "keyword": "济",
+    "meaning": "成功",
+    "sentence": "糜计不施，迄无济（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 557,
+    "char": "济",
+    "keyword": "济",
+    "meaning": "帮助，救济",
+    "sentence": "劫富济贫（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 558,
+    "char": "既",
+    "keyword": "既",
+    "meaning": "已经",
+    "sentence": "相如既归，赵王以为贤大夫（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 559,
+    "char": "既",
+    "keyword": "既而",
+    "meaning": "不久",
+    "sentence": "既而得其尸于井（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 560,
+    "char": "加",
+    "keyword": "加",
+    "meaning": "增加，加上",
+    "sentence": "即谋单于，何以加复（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 561,
+    "char": "加",
+    "keyword": "加",
+    "meaning": "施加",
+    "sentence": "强秦之所以不敢加兵于赵者（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 562,
+    "char": "加",
+    "keyword": "加",
+    "meaning": "超过",
+    "sentence": "加少（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 563,
+    "char": "加",
+    "keyword": "加",
+    "meaning": "更加，更",
+    "sentence": "盖其又深，则其至又加少矣（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 564,
+    "char": "假",
+    "keyword": "假",
+    "meaning": "借",
+    "sentence": "以是人多以书假余（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 565,
+    "char": "假",
+    "keyword": "假",
+    "meaning": "凭借，借助，利用",
+    "sentence": "君子生非异也，善假于物也（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 566,
+    "char": "假",
+    "keyword": "假",
+    "meaning": "宽容",
+    "sentence": "愿大王少假借之（《荆轲刺秦王》）",
+    "familiarity": 0
+  },
+  {
+    "id": 567,
+    "char": "假",
+    "keyword": "假",
+    "meaning": "如果，假如",
+    "sentence": "假令仆伏法受诛（《报任安书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 568,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "间隙，空隙",
+    "sentence": "中间力拉崩倒之声（《口技》）",
+    "familiarity": 0
+  },
+  {
+    "id": 569,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "间隔",
+    "sentence": "遂与外人间隔（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 570,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "机会",
+    "sentence": "至京口，得间奔真州（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 571,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "离间",
+    "sentence": "谗人间之（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 572,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "小路",
+    "sentence": "从郦山下，道芷阳间行（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 573,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "从小路，名作状",
+    "sentence": "故令人持璧归，间至赵矣（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 574,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "间或，有时",
+    "sentence": "予在患难中，间以诗记所遭（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 575,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "参与",
+    "sentence": "肉食者谋之，又何间焉（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 576,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "中间，期间",
+    "sentence": "奉命于危难之间（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 577,
+    "char": "间",
+    "keyword": "间",
+    "meaning": "片刻，顷刻",
+    "sentence": "扁鹊见蔡桓公，立有间（《扁鹊见蔡桓公》）",
+    "familiarity": 0
+  },
+  {
+    "id": 578,
+    "char": "简",
+    "keyword": "简",
+    "meaning": "竹简",
+    "sentence": "汗牛充栋（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 579,
+    "char": "简",
+    "keyword": "简",
+    "meaning": "书信",
+    "sentence": "简讯（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 580,
+    "char": "简",
+    "keyword": "简",
+    "meaning": "简易，简陋",
+    "sentence": "盖简桃核修狭者为之（《核舟记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 581,
+    "char": "简",
+    "keyword": "简",
+    "meaning": "选拔",
+    "sentence": "是以先帝简拔以遗陛下（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 582,
+    "char": "见",
+    "keyword": "见",
+    "meaning": "看见",
+    "sentence": "见藐小之物（《童趣》）",
+    "familiarity": 0
+  },
+  {
+    "id": 583,
+    "char": "见",
+    "keyword": "见",
+    "meaning": "拜见，会见",
+    "sentence": "项伯即入见沛公（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 584,
+    "char": "见",
+    "keyword": "见",
+    "meaning": "召见",
+    "sentence": "秦王坐章台见相如（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 585,
+    "char": "见",
+    "keyword": "见",
+    "meaning": "见解，见识",
+    "sentence": "真知灼见（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 586,
+    "char": "见",
+    "keyword": "见",
+    "meaning": "被，表被动",
+    "sentence": "欲予秦，秦城恐不可得，徒见欺（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 587,
+    "char": "见",
+    "keyword": "见",
+    "meaning": "自己",
+    "sentence": "君既若见录，不久望君来（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 588,
+    "char": "见",
+    "keyword": "见",
+    "meaning": "同“现”，出现",
+    "sentence": "而境界危恶，层见错出（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 589,
+    "char": "将",
+    "keyword": "将(jiāng)",
+    "meaning": "搀扶，扶助",
+    "sentence": "爷娘闻女来，出郭相扶将（《木兰诗》）",
+    "familiarity": 0
+  },
+  {
+    "id": 590,
+    "char": "将",
+    "keyword": "将(jiāng)",
+    "meaning": "将要",
+    "sentence": "公将鼓之（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 591,
+    "char": "将",
+    "keyword": "将(jiàng)",
+    "meaning": "带领",
+    "sentence": "将兵（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 592,
+    "char": "将",
+    "keyword": "将(jiàng)",
+    "meaning": "将军",
+    "sentence": "廉颇者，赵之良将也（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 593,
+    "char": "交",
+    "keyword": "交",
+    "meaning": "交错",
+    "sentence": "阡陌交通（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 594,
+    "char": "交",
+    "keyword": "交",
+    "meaning": "交往，结交",
+    "sentence": "臣以为布衣之交尚不相欺（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 595,
+    "char": "交",
+    "keyword": "交",
+    "meaning": "交情",
+    "sentence": "卒相与欢，为刎颈之交（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 596,
+    "char": "交",
+    "keyword": "交",
+    "meaning": "交互，互相",
+    "sentence": "枝叶相覆盖，叶叶相交通（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 597,
+    "char": "交",
+    "keyword": "交通",
+    "meaning": "互相通达",
+    "sentence": "阡陌交通（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 598,
+    "char": "结",
+    "keyword": "结",
+    "meaning": "打结",
+    "sentence": "结绳记事（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 599,
+    "char": "结",
+    "keyword": "结",
+    "meaning": "构造，建造",
+    "sentence": "结庐在人境（《饮酒》）",
+    "familiarity": 0
+  },
+  {
+    "id": 600,
+    "char": "结",
+    "keyword": "结",
+    "meaning": "结交",
+    "sentence": "燕王私握臣手曰“愿结友”（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 601,
+    "char": "竭",
+    "keyword": "竭",
+    "meaning": "穷尽，用完",
+    "sentence": "一鼓作气，再而衰，三而竭（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 602,
+    "char": "解",
+    "keyword": "解",
+    "meaning": "剖开，分解（动物的肢体）",
+    "sentence": "庖丁解牛（《庖丁解牛》）",
+    "familiarity": 0
+  },
+  {
+    "id": 603,
+    "char": "解",
+    "keyword": "解",
+    "meaning": "解开，使分开",
+    "sentence": "解衣欲睡（《记承天寺夜游》）",
+    "familiarity": 0
+  },
+  {
+    "id": 604,
+    "char": "解",
+    "keyword": "解",
+    "meaning": "脱掉",
+    "sentence": "公阅毕，即解貂覆生《左忠毅公逸事》",
+    "familiarity": 0
+  },
+  {
+    "id": 605,
+    "char": "解",
+    "keyword": "解",
+    "meaning": "解释，解答",
+    "sentence": "师者，所以传道受业解惑（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 606,
+    "char": "解",
+    "keyword": "解",
+    "meaning": "理解，懂得",
+    "sentence": "不求甚解（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 607,
+    "char": "矜",
+    "keyword": "矜",
+    "meaning": "怜悯，同情",
+    "sentence": "凡在故老，犹蒙矜育（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 608,
+    "char": "矜",
+    "keyword": "矜",
+    "meaning": "骄傲，夸耀",
+    "sentence": "虫翘然矜鸣（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 609,
+    "char": "矜",
+    "keyword": "矜",
+    "meaning": "注重",
+    "sentence": "本图宦达，不矜名节（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 610,
+    "char": "尽",
+    "keyword": "尽",
+    "meaning": "完，没有了",
+    "sentence": "触草木，尽死（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 611,
+    "char": "尽",
+    "keyword": "尽",
+    "meaning": "全部，都",
+    "sentence": "尽吾志也而不能至者（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 612,
+    "char": "尽",
+    "keyword": "尽",
+    "meaning": "死",
+    "sentence": "尽命（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 613,
+    "char": "尽",
+    "keyword": "尽",
+    "meaning": "竭尽，用尽",
+    "sentence": "尽吾志也而不能至者（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 614,
+    "char": "进",
+    "keyword": "进",
+    "meaning": "前进",
+    "sentence": "进兵击秦军（《史记·魏公子列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 615,
+    "char": "进",
+    "keyword": "进",
+    "meaning": "做官，升官",
+    "sentence": "是进亦忧，退亦忧（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 616,
+    "char": "进",
+    "keyword": "进",
+    "meaning": "进谏",
+    "sentence": "进献（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 617,
+    "char": "进",
+    "keyword": "进",
+    "meaning": "进献",
+    "sentence": "于是相如前进缶（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 618,
+    "char": "进",
+    "keyword": "进",
+    "meaning": "推荐",
+    "sentence": "进贤（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 619,
+    "char": "景",
+    "keyword": "景",
+    "meaning": "阳光，日光",
+    "sentence": "景翳翳以将入（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 620,
+    "char": "景",
+    "keyword": "景",
+    "meaning": "景色，景致",
+    "sentence": "凡百元首，承天景命（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 621,
+    "char": "景",
+    "keyword": "景",
+    "meaning": "景物",
+    "sentence": "好景不长（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 622,
+    "char": "景",
+    "keyword": "景",
+    "meaning": "大",
+    "sentence": "景福（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 623,
+    "char": "景",
+    "keyword": "景",
+    "meaning": "同“影”，像影子似的，名作状",
+    "sentence": "天下云集响应，赢粮而景从（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 624,
+    "char": "竟",
+    "keyword": "竟",
+    "meaning": "终于，终究",
+    "sentence": "竟怒不救楚（《史记·屈原贾生列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 625,
+    "char": "竟",
+    "keyword": "竟",
+    "meaning": "结束，完毕",
+    "sentence": "秦王竟酒，终不能加胜于赵（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 626,
+    "char": "竟",
+    "keyword": "竟",
+    "meaning": "从头至尾，整",
+    "sentence": "何竟日默默在此（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 627,
+    "char": "就",
+    "keyword": "就",
+    "meaning": "接近，靠近",
+    "sentence": "故木受绳则直，金就砺则利（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 628,
+    "char": "就",
+    "keyword": "就",
+    "meaning": "趋向",
+    "sentence": "禹趋就下风，立而问焉（《庄子·天地》）",
+    "familiarity": 0
+  },
+  {
+    "id": 629,
+    "char": "就",
+    "keyword": "就",
+    "meaning": "赴任，就职",
+    "sentence": "永元中，举孝廉不行，连辟公府不就（《张衡传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 630,
+    "char": "就",
+    "keyword": "就",
+    "meaning": "完成，达到目的",
+    "sentence": "何自知事不就，倚柱而笑（《荆轲刺秦王》）",
+    "familiarity": 0
+  },
+  {
+    "id": 631,
+    "char": "就",
+    "keyword": "就",
+    "meaning": "成就",
+    "sentence": "某业所就（《原君》）",
+    "familiarity": 0
+  },
+  {
+    "id": 632,
+    "char": "居",
+    "keyword": "居",
+    "meaning": "居住",
+    "sentence": "君子居必择乡（《荀子·劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 633,
+    "char": "居",
+    "keyword": "居",
+    "meaning": "住处",
+    "sentence": "居所（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 634,
+    "char": "居",
+    "keyword": "居",
+    "meaning": "处在",
+    "sentence": "居安思危（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 635,
+    "char": "居",
+    "keyword": "居",
+    "meaning": "囤积，储存",
+    "sentence": "昂其直，居为奇货（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 636,
+    "char": "居",
+    "keyword": "居",
+    "meaning": "过了",
+    "sentence": "居十日，扁鹊复见（《扁鹊见蔡桓公》）",
+    "familiarity": 0
+  },
+  {
+    "id": 637,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "举起，抬起",
+    "sentence": "举所佩玉玦以示之者三（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 638,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "举出，提出",
+    "sentence": "举例（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 639,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "发动，举行",
+    "sentence": "举大计亦死（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 640,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "推荐，推举",
+    "sentence": "后刺史臣荣举臣秀才（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 641,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "攻拔，占领",
+    "sentence": "西举巴蜀（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 642,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "被攻占，意念被动",
+    "sentence": "戍卒叫，函谷举（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 643,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "总和，聚合",
+    "sentence": "举凡（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 644,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "全，皆",
+    "sentence": "大喜，笼归，举家庆贺（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 645,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "尽，完",
+    "sentence": "杀人如不能举，刑人如恐不胜《鸿门宴》",
+    "familiarity": 0
+  },
+  {
+    "id": 646,
+    "char": "举",
+    "keyword": "举",
+    "meaning": "拿",
+    "sentence": "举之予人，如弃草芥（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 647,
+    "char": "具",
+    "keyword": "具",
+    "meaning": "准备，备办",
+    "sentence": "成妻具资诣问（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 648,
+    "char": "具",
+    "keyword": "具",
+    "meaning": "具备，具有",
+    "sentence": "各具情态（《核舟记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 649,
+    "char": "具",
+    "keyword": "具",
+    "meaning": "全部，详细",
+    "sentence": "此人一一为具言所闻（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 650,
+    "char": "具",
+    "keyword": "具",
+    "meaning": "用具，器械",
+    "sentence": "器具（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 651,
+    "char": "俱",
+    "keyword": "俱",
+    "meaning": "在一起",
+    "sentence": "臣客屠者朱亥可与俱（《史记·魏公子列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 652,
+    "char": "俱",
+    "keyword": "俱",
+    "meaning": "一起，都",
+    "sentence": "欲呼张良与俱去（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 653,
+    "char": "聚",
+    "keyword": "聚",
+    "meaning": "聚集",
+    "sentence": "收天下之兵，聚之咸阳（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 654,
+    "char": "决",
+    "keyword": "决",
+    "meaning": "决定",
+    "sentence": "是天下之大决也（《荀子·仲尼》）",
+    "familiarity": 0
+  },
+  {
+    "id": 655,
+    "char": "决",
+    "keyword": "决",
+    "meaning": "判决",
+    "sentence": "决狱（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 656,
+    "char": "决",
+    "keyword": "决",
+    "meaning": "杀死，自杀",
+    "sentence": "予分当引决（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 657,
+    "char": "决",
+    "keyword": "决",
+    "meaning": "一定",
+    "sentence": "相如度秦王虽斋，决负约不偿城（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 658,
+    "char": "绝",
+    "keyword": "绝",
+    "meaning": "断，断绝",
+    "sentence": "绝秦赵之欢（《史记·廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 659,
+    "char": "绝",
+    "keyword": "绝",
+    "meaning": "停止，消失",
+    "sentence": "而大声发于水上，噌吰如钟鼓不绝（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 660,
+    "char": "绝",
+    "keyword": "绝",
+    "meaning": "隔绝，阻绝",
+    "sentence": "隔绝（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 661,
+    "char": "绝",
+    "keyword": "绝",
+    "meaning": "极，非常",
+    "sentence": "佛印绝类弥勒（《核舟记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 662,
+    "char": "绝",
+    "keyword": "绝",
+    "meaning": "完全，绝对",
+    "sentence": "绝无仅有（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 663,
+    "char": "绝",
+    "keyword": "绝",
+    "meaning": "绝妙的，独一无二的",
+    "sentence": "以为妙绝（《口技》）",
+    "familiarity": 0
+  },
+  {
+    "id": 664,
+    "char": "绝",
+    "keyword": "绝",
+    "meaning": "横渡",
+    "sentence": "假舟楫者，非能水也，而绝江河（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 665,
+    "char": "堪",
+    "keyword": "堪",
+    "meaning": "经得起，忍受得住",
+    "sentence": "而境界危恶，层见错出，非人世所堪（《指南录》后序）",
+    "familiarity": 0
+  },
+  {
+    "id": 666,
+    "char": "堪",
+    "keyword": "堪",
+    "meaning": "能够，可以",
+    "sentence": "不堪设想（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 667,
+    "char": "堪",
+    "keyword": "堪",
+    "meaning": "胜任",
+    "sentence": "妾不堪驱使（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 668,
+    "char": "克",
+    "keyword": "克",
+    "meaning": "能够",
+    "sentence": "克终者盖寡（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 669,
+    "char": "克",
+    "keyword": "克",
+    "meaning": "完成，成功",
+    "sentence": "克勤克俭（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 670,
+    "char": "克",
+    "keyword": "克",
+    "meaning": "战胜，攻破",
+    "sentence": "彼竭我盈，故克之（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 671,
+    "char": "克",
+    "keyword": "克",
+    "meaning": "克制，约束",
+    "sentence": "克己复礼（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 672,
+    "char": "困",
+    "keyword": "困",
+    "meaning": "围困",
+    "sentence": "数十伶人困之（《伶官传·序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 673,
+    "char": "困",
+    "keyword": "困",
+    "meaning": "困窘",
+    "sentence": "秦无亡矢遗镞之费，而天下诸侯已困矣（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 674,
+    "char": "困",
+    "keyword": "困",
+    "meaning": "贫乏，贫困",
+    "sentence": "行而无资谓之乏，居而无食谓之困（《周礼·地官·禀人》）",
+    "familiarity": 0
+  },
+  {
+    "id": 675,
+    "char": "困",
+    "keyword": "困",
+    "meaning": "疲乏，困倦",
+    "sentence": "牛困人饥日已高（《卖炭翁》）",
+    "familiarity": 0
+  },
+  {
+    "id": 676,
+    "char": "困",
+    "keyword": "困",
+    "meaning": "困难",
+    "sentence": "楚大困（《史记·屈原贾生列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 677,
+    "char": "类",
+    "keyword": "类",
+    "meaning": "种类",
+    "sentence": "种类（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 678,
+    "char": "类",
+    "keyword": "类",
+    "meaning": "类似，像",
+    "sentence": "佛印绝类弥勒（《核舟记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 679,
+    "char": "类",
+    "keyword": "类",
+    "meaning": "类推",
+    "sentence": "类推（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 680,
+    "char": "类",
+    "keyword": "类",
+    "meaning": "类比",
+    "sentence": "类比（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 681,
+    "char": "怜",
+    "keyword": "怜",
+    "meaning": "怜悯，同情",
+    "sentence": "可怜体无比（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 682,
+    "char": "怜",
+    "keyword": "怜",
+    "meaning": "怜爱，爱",
+    "sentence": "楚人怜之（《史记·陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 683,
+    "char": "怜",
+    "keyword": "可怜",
+    "meaning": "可爱",
+    "sentence": "可怜体无比，阿母为汝求（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 684,
+    "char": "怜",
+    "keyword": "可怜",
+    "meaning": "可惜",
+    "sentence": "楚人一炬，可怜焦土（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 685,
+    "char": "临",
+    "keyword": "临",
+    "meaning": "从高处往低处看",
+    "sentence": "临危不惧（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 686,
+    "char": "临",
+    "keyword": "临",
+    "meaning": "到，临近",
+    "sentence": "临近（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 687,
+    "char": "临",
+    "keyword": "临",
+    "meaning": "面对",
+    "sentence": "未尝不临文嗟悼（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 688,
+    "char": "虑",
+    "keyword": "虑",
+    "meaning": "考虑，打算",
+    "sentence": "深谋远虑（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 689,
+    "char": "虑",
+    "keyword": "虑",
+    "meaning": "忧虑，担忧",
+    "sentence": "既然已，勿动勿虑（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 690,
+    "char": "论",
+    "keyword": "论",
+    "meaning": "议论，讨论",
+    "sentence": "议论（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 691,
+    "char": "论",
+    "keyword": "论",
+    "meaning": "学说，观点",
+    "sentence": "论语（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 692,
+    "char": "论",
+    "keyword": "论",
+    "meaning": "考核，衡量",
+    "sentence": "论功行赏（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 693,
+    "char": "论",
+    "keyword": "论",
+    "meaning": "定罪",
+    "sentence": "单于使使晓武，会论虞常（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 694,
+    "char": "漫",
+    "keyword": "漫",
+    "meaning": "水涨，满溢",
+    "sentence": "水漫金山（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 695,
+    "char": "漫",
+    "keyword": "漫",
+    "meaning": "遍布，弥漫",
+    "sentence": "漫山遍野（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 696,
+    "char": "漫",
+    "keyword": "漫",
+    "meaning": "随便，随意",
+    "sentence": "漫卷诗书喜欲狂（《闻官军收河南河北》）",
+    "familiarity": 0
+  },
+  {
+    "id": 697,
+    "char": "漫",
+    "keyword": "漫",
+    "meaning": "模糊不清",
+    "sentence": "有碑仆道，其文漫灭（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 698,
+    "char": "弥",
+    "keyword": "弥",
+    "meaning": "长，久",
+    "sentence": "旷日弥久（《战国策》）",
+    "familiarity": 0
+  },
+  {
+    "id": 699,
+    "char": "弥",
+    "keyword": "弥",
+    "meaning": "满，遍",
+    "sentence": "弥天大谎（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 700,
+    "char": "弥",
+    "keyword": "弥",
+    "meaning": "更加",
+    "sentence": "奉之弥繁，侵之愈急（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 701,
+    "char": "靡",
+    "keyword": "靡",
+    "meaning": "倒下",
+    "sentence": "吾视其缴乱，望其旗靡（《曹判论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 702,
+    "char": "靡",
+    "keyword": "靡",
+    "meaning": "倒下",
+    "sentence": "故不随俗者盖鲜矣（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 703,
+    "char": "靡",
+    "keyword": "靡",
+    "meaning": "奢侈，浪费",
+    "sentence": "吾性不喜华靡（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 704,
+    "char": "靡",
+    "keyword": "靡",
+    "meaning": "退却，败退",
+    "sentence": "相如张目叱之，左右皆靡（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 705,
+    "char": "靡",
+    "keyword": "靡",
+    "meaning": "退却，败退",
+    "sentence": "试与他虫斗，虫尽靡（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 706,
+    "char": "靡",
+    "keyword": "靡",
+    "meaning": "没有，不",
+    "sentence": "靡计不施，迄无济《促织》",
+    "familiarity": 0
+  },
+  {
+    "id": 707,
+    "char": "灭",
+    "keyword": "灭",
+    "meaning": "熄灭",
+    "sentence": "火尚足以明也（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 708,
+    "char": "灭",
+    "keyword": "灭",
+    "meaning": "灭亡，消灭",
+    "sentence": "后世之谬其传而莫能名者（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 709,
+    "char": "名",
+    "keyword": "名",
+    "meaning": "名字，名称",
+    "sentence": "名字（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 710,
+    "char": "名",
+    "keyword": "名",
+    "meaning": "命名，名作动",
+    "sentence": "以故其后名之曰褒禅（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 711,
+    "char": "名",
+    "keyword": "名",
+    "meaning": "名义，名分",
+    "sentence": "名分（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 712,
+    "char": "名",
+    "keyword": "名",
+    "meaning": "在名义上，名作状",
+    "sentence": "二贵酋名曰馆伴，夜则以兵围所寓舍（《<指南录>后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 713,
+    "char": "名",
+    "keyword": "名",
+    "meaning": "名声",
+    "sentence": "名声（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 714,
+    "char": "名",
+    "keyword": "名",
+    "meaning": "著名的",
+    "sentence": "著名（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 715,
+    "char": "名",
+    "keyword": "名",
+    "meaning": "闻名",
+    "sentence": "闻名（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 716,
+    "char": "名",
+    "keyword": "名",
+    "meaning": "说明，说出",
+    "sentence": "后世之谬其传而莫能名者（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 717,
+    "char": "明",
+    "keyword": "明",
+    "meaning": "明亮",
+    "sentence": "月明星稀，乌鹊南飞（《短歌行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 718,
+    "char": "明",
+    "keyword": "明",
+    "meaning": "照明，形作动",
+    "sentence": "火尚足以明也（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 719,
+    "char": "明",
+    "keyword": "明",
+    "meaning": "明白",
+    "sentence": "明察秋毫（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 720,
+    "char": "明",
+    "keyword": "明",
+    "meaning": "阐明，说明",
+    "sentence": "明志（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 721,
+    "char": "明",
+    "keyword": "明",
+    "meaning": "英明，明智",
+    "sentence": "亦以明死生之大（《五人墓碑记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 722,
+    "char": "明",
+    "keyword": "明",
+    "meaning": "公开地",
+    "sentence": "明抢（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 723,
+    "char": "命",
+    "keyword": "命",
+    "meaning": "命令",
+    "sentence": "命令（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 724,
+    "char": "命",
+    "keyword": "命",
+    "meaning": "天命，天意",
+    "sentence": "命途多舛（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 725,
+    "char": "命",
+    "keyword": "命",
+    "meaning": "命运",
+    "sentence": "故天子一跬步皆关民命（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 726,
+    "char": "命",
+    "keyword": "命",
+    "meaning": "生命",
+    "sentence": "命如南山石，四体康且直（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 727,
+    "char": "命",
+    "keyword": "命",
+    "meaning": "吩咐，差遣",
+    "sentence": "命人（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 728,
+    "char": "命",
+    "keyword": "命",
+    "meaning": "命名，题名",
+    "sentence": "命曰《琵琶行》",
+    "familiarity": 0
+  },
+  {
+    "id": 729,
+    "char": "莫",
+    "keyword": "莫",
+    "meaning": "同“暮”，傍晚",
+    "sentence": "至莫夜月明（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 730,
+    "char": "莫",
+    "keyword": "莫",
+    "meaning": "没有谁，没有什么",
+    "sentence": "莫我肯顾（《硕鼠》）",
+    "familiarity": 0
+  },
+  {
+    "id": 731,
+    "char": "莫",
+    "keyword": "莫",
+    "meaning": "不，不要",
+    "sentence": "莫愁（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 732,
+    "char": "谋",
+    "keyword": "谋",
+    "meaning": "计算，计谋",
+    "sentence": "谋事在人（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 733,
+    "char": "谋",
+    "keyword": "谋",
+    "meaning": "谋划，商量",
+    "sentence": "会盟而谋弱秦（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 734,
+    "char": "谋",
+    "keyword": "谋",
+    "meaning": "图谋",
+    "sentence": "阴谋（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 735,
+    "char": "难",
+    "keyword": "难",
+    "meaning": "困难",
+    "sentence": "蜀道之难，难于上青天（《蜀道难》）",
+    "familiarity": 0
+  },
+  {
+    "id": 736,
+    "char": "难",
+    "keyword": "难",
+    "meaning": "灾难",
+    "sentence": "今有难（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 737,
+    "char": "难",
+    "keyword": "难",
+    "meaning": "质问，诘难",
+    "sentence": "质难（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 738,
+    "char": "内",
+    "keyword": "内",
+    "meaning": "里面，内部",
+    "sentence": "海内（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 739,
+    "char": "内",
+    "keyword": "内",
+    "meaning": "内心",
+    "sentence": "王平子形甚散朗，内实劲侠（《世说新语·谗险》）",
+    "familiarity": 0
+  },
+  {
+    "id": 740,
+    "char": "内",
+    "keyword": "内",
+    "meaning": "同“纳”，接纳，使进入",
+    "sentence": "距关，毋内诸侯（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 741,
+    "char": "能",
+    "keyword": "能",
+    "meaning": "才能，能力",
+    "sentence": "简能而任之（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 742,
+    "char": "能",
+    "keyword": "能",
+    "meaning": "能够",
+    "sentence": "能（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 743,
+    "char": "逆",
+    "keyword": "逆",
+    "meaning": "背叛",
+    "sentence": "逆贼（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 744,
+    "char": "逆",
+    "keyword": "逆",
+    "meaning": "抵触，违背",
+    "sentence": "且以一璧之故逆强秦之欢（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 745,
+    "char": "逆",
+    "keyword": "逆",
+    "meaning": "揣测，预料",
+    "sentence": "恐不任我意，逆以煎我怀（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 746,
+    "char": "平",
+    "keyword": "平",
+    "meaning": "平坦",
+    "sentence": "土地平旷（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 747,
+    "char": "平",
+    "keyword": "平",
+    "meaning": "平息，平定",
+    "sentence": "平乱（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 748,
+    "char": "平",
+    "keyword": "平",
+    "meaning": "安定，太平",
+    "sentence": "天下平（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 749,
+    "char": "平",
+    "keyword": "平",
+    "meaning": "平常，普通",
+    "sentence": "平庸（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 750,
+    "char": "平",
+    "keyword": "平",
+    "meaning": "公平",
+    "sentence": "不平心持正，反欲斗两主（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 751,
+    "char": "迫",
+    "keyword": "迫",
+    "meaning": "逼迫，强迫",
+    "sentence": "迫不得已（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 752,
+    "char": "迫",
+    "keyword": "迫",
+    "meaning": "紧迫，急促",
+    "sentence": "此迫矣！臣请入，与之同命（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 753,
+    "char": "迫",
+    "keyword": "迫",
+    "meaning": "接近，逼近",
+    "sentence": "时北兵已迫修门外（《〈指南录〉后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 754,
+    "char": "戚",
+    "keyword": "戚",
+    "meaning": "忧愁，悲伤",
+    "sentence": "貌若甚戚者（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 755,
+    "char": "戚",
+    "keyword": "戚",
+    "meaning": "亲属",
+    "sentence": "亲戚（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 756,
+    "char": "戚",
+    "keyword": "亲戚",
+    "meaning": "内/外亲属",
+    "sentence": "臣所以去亲戚而事君者（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 757,
+    "char": "期",
+    "keyword": "期",
+    "meaning": "限定或约定的时间、时日",
+    "sentence": "会天大雨，道不通，度已失期（《史记·陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 758,
+    "char": "期",
+    "keyword": "期",
+    "meaning": "希望，期望",
+    "sentence": "富贵非吾愿，帝乡不可期（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 759,
+    "char": "期",
+    "keyword": "期年",
+    "meaning": "满一年",
+    "sentence": "期年之后，虽欲言，无可进者（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 760,
+    "char": "奇",
+    "keyword": "奇",
+    "meaning": "奇特的，罕见的，不平常的",
+    "sentence": "奇山异水（《与朱元思书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 761,
+    "char": "奇",
+    "keyword": "奇",
+    "meaning": "以……为奇，感到惊奇，意动",
+    "sentence": "每闻琴瑟之声，则应节而舞。益奇之（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 762,
+    "char": "奇",
+    "keyword": "奇",
+    "meaning": "零头，余数",
+    "sentence": "舟首尾长约八分有奇（《核舟记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 763,
+    "char": "启",
+    "keyword": "启",
+    "meaning": "开，打开",
+    "sentence": "启窗而观（《核舟记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 764,
+    "char": "启",
+    "keyword": "启",
+    "meaning": "启发，开导",
+    "sentence": "佑启我后人(《孟子》)",
+    "familiarity": 0
+  },
+  {
+    "id": 765,
+    "char": "启",
+    "keyword": "启",
+    "meaning": "陈述，禀告",
+    "sentence": "府吏得闻之，堂上启阿母（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 766,
+    "char": "迁",
+    "keyword": "迁",
+    "meaning": "迁移",
+    "sentence": "出自幽谷，迁于乔马（《诗·小雅·伐木》）",
+    "familiarity": 0
+  },
+  {
+    "id": 767,
+    "char": "迁",
+    "keyword": "迁",
+    "meaning": "改变",
+    "sentence": "齐人未尝赂秦，终继五国迁灭（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 768,
+    "char": "迁",
+    "keyword": "迁",
+    "meaning": "调动官职",
+    "sentence": "迁为太史令（《后汉书·张衡传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 769,
+    "char": "迁",
+    "keyword": "迁",
+    "meaning": "贬谪",
+    "sentence": "感斯人言，是夕始觉有迁谪意（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 770,
+    "char": "迁",
+    "keyword": "左迁",
+    "meaning": "贬官",
+    "sentence": "元和十年，予左迁九江郡司马（《琵琶行》并序）",
+    "familiarity": 0
+  },
+  {
+    "id": 771,
+    "char": "强",
+    "keyword": "强",
+    "meaning": "强大，强盛",
+    "sentence": "赵强而燕弱（《史记·廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 772,
+    "char": "强",
+    "keyword": "强",
+    "meaning": "强迫",
+    "sentence": "少年固强之（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 773,
+    "char": "强",
+    "keyword": "强",
+    "meaning": "勉强",
+    "sentence": "乃强起扶杖，执图诣寺后（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 774,
+    "char": "强",
+    "keyword": "强",
+    "meaning": "有余，略多",
+    "sentence": "策勋十二转，赏赐百千强（《木兰诗》）",
+    "familiarity": 0
+  },
+  {
+    "id": 775,
+    "char": "请",
+    "keyword": "请",
+    "meaning": "请求对方",
+    "sentence": "请求（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 776,
+    "char": "请",
+    "keyword": "请",
+    "meaning": "请允许我",
+    "sentence": "相如视秦王无意偿赵城，乃前曰：“璧有瑕，请指示王。”（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 777,
+    "char": "请",
+    "keyword": "请",
+    "meaning": "请教，问，请示",
+    "sentence": "俯身倾耳以请（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 778,
+    "char": "穷",
+    "keyword": "穷",
+    "meaning": "困顿，困窘，不得志",
+    "sentence": "穷途末路（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 779,
+    "char": "穷",
+    "keyword": "穷",
+    "meaning": "贫困",
+    "sentence": "穷饿无聊（《指南录后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 780,
+    "char": "穷",
+    "keyword": "穷",
+    "meaning": "穷尽",
+    "sentence": "穷于生之光阴以疗梅也哉（《病梅馆记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 781,
+    "char": "穷",
+    "keyword": "穷",
+    "meaning": "走到尽头",
+    "sentence": "复前行，欲穷其林（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 782,
+    "char": "求",
+    "keyword": "求",
+    "meaning": "寻找，寻求",
+    "sentence": "求人可使报秦者，未得（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 783,
+    "char": "求",
+    "keyword": "求",
+    "meaning": "探求，探索",
+    "sentence": "求古仁人之心（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 784,
+    "char": "求",
+    "keyword": "求",
+    "meaning": "要求，追求",
+    "sentence": "不求闻达（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 785,
+    "char": "求",
+    "keyword": "求",
+    "meaning": "请求，乞求，索求",
+    "sentence": "因留怀王以求割地（《史记·屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 786,
+    "char": "取",
+    "keyword": "取",
+    "meaning": "拿，获取",
+    "sentence": "取之不尽（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 787,
+    "char": "取",
+    "keyword": "取",
+    "meaning": "夺取，攻取",
+    "sentence": "南取汉中，西举巴蜀（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 788,
+    "char": "取",
+    "keyword": "取",
+    "meaning": "采取，择取",
+    "sentence": "此亡秦之续耳，窃为大王不取也（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 789,
+    "char": "取",
+    "keyword": "取",
+    "meaning": "同“娶”",
+    "sentence": "今若遣此妇，终老不复取（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 790,
+    "char": "去",
+    "keyword": "去",
+    "meaning": "离开",
+    "sentence": "臣所以去亲戚而事君者（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 791,
+    "char": "去",
+    "keyword": "去",
+    "meaning": "除去",
+    "sentence": "去死肌（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 792,
+    "char": "去",
+    "keyword": "去",
+    "meaning": "过去的",
+    "sentence": "去年（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 793,
+    "char": "去",
+    "keyword": "去",
+    "meaning": "距，距离",
+    "sentence": "相去四十里（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 794,
+    "char": "去",
+    "keyword": "去",
+    "meaning": "同“弆”，收藏",
+    "sentence": "掘野鼠去草实而食之（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 795,
+    "char": "全",
+    "keyword": "全",
+    "meaning": "完整，完好",
+    "sentence": "完璧归赵（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 796,
+    "char": "全",
+    "keyword": "全",
+    "meaning": "使……完好，使动",
+    "sentence": "必复之全之（《病梅馆记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 797,
+    "char": "全",
+    "keyword": "全",
+    "meaning": "整个的，全部",
+    "sentence": "三年之后，未尝见全牛也（《庄子·养生主》）",
+    "familiarity": 0
+  },
+  {
+    "id": 798,
+    "char": "全",
+    "keyword": "全",
+    "meaning": "保全",
+    "sentence": "苟全性命于乱世（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 799,
+    "char": "劝",
+    "keyword": "劝",
+    "meaning": "鼓励，勉励",
+    "sentence": "且举世而誉之而不加劝（《逍遥游》）",
+    "familiarity": 0
+  },
+  {
+    "id": 800,
+    "char": "劝",
+    "keyword": "劝",
+    "meaning": "劝说",
+    "sentence": "劝君更尽一杯酒（《送元二使安西》）",
+    "familiarity": 0
+  },
+  {
+    "id": 801,
+    "char": "劝",
+    "keyword": "劝",
+    "meaning": "举世事而加之不加劝...（《庄子·逍遥游》）",
+    "sentence": "且举世而誉之而不加劝（《逍遥游》）",
+    "familiarity": 0
+  },
+  {
+    "id": 802,
+    "char": "却",
+    "keyword": "却",
+    "meaning": "退，后退",
+    "sentence": "王授璧，相如因持璧却立（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 803,
+    "char": "却",
+    "keyword": "却",
+    "meaning": "使……退，击退，使动",
+    "sentence": "却匈奴七百余里（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 804,
+    "char": "却",
+    "keyword": "却",
+    "meaning": "拒绝，推却",
+    "sentence": "却之不恭（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 805,
+    "char": "却",
+    "keyword": "却",
+    "meaning": "还，再",
+    "sentence": "何当共剪西窗烛，却话巴山夜雨时（《夜雨寄北》）",
+    "familiarity": 0
+  },
+  {
+    "id": 806,
+    "char": "却",
+    "keyword": "却",
+    "meaning": "回头",
+    "sentence": "却看妻子愁何在（《闻官军收河南河北》）",
+    "familiarity": 0
+  },
+  {
+    "id": 807,
+    "char": "任",
+    "keyword": "任",
+    "meaning": "责任，职责",
+    "sentence": "天将降大任于斯人也（《孟子·告子下》）",
+    "familiarity": 0
+  },
+  {
+    "id": 808,
+    "char": "任",
+    "keyword": "任",
+    "meaning": "职位，职务",
+    "sentence": "弦不调，弄不明，中期之任也（《韩非子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 809,
+    "char": "任",
+    "keyword": "任",
+    "meaning": "担任，担当",
+    "sentence": "任重道远（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 810,
+    "char": "任",
+    "keyword": "任",
+    "meaning": "任用，委任",
+    "sentence": "简能而任之，择善而从之（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 811,
+    "char": "任",
+    "keyword": "任",
+    "meaning": "信任",
+    "sentence": "王甚任之（《史记·屈原贾生列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 812,
+    "char": "任",
+    "keyword": "任",
+    "meaning": "听凭，听任",
+    "sentence": "处分适兄意，那得自任专（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 813,
+    "char": "如",
+    "keyword": "如",
+    "meaning": "到……去",
+    "sentence": "坐须臾，沛公起如厕（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 814,
+    "char": "如",
+    "keyword": "如",
+    "meaning": "依照，遵从",
+    "sentence": "使者大喜，如惠语以让单于（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 815,
+    "char": "如",
+    "keyword": "如",
+    "meaning": "如同",
+    "sentence": "日初出大如车盖（《列子·汤问》）",
+    "familiarity": 0
+  },
+  {
+    "id": 816,
+    "char": "如",
+    "keyword": "如",
+    "meaning": "及，比得上",
+    "sentence": "他植者虽窥伺效慕，莫能如也（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 817,
+    "char": "如",
+    "keyword": "如",
+    "meaning": "如果，假如",
+    "sentence": "洛阳亲友如相问（《芙蓉楼送辛渐》）",
+    "familiarity": 0
+  },
+  {
+    "id": 818,
+    "char": "如",
+    "keyword": "何如",
+    "meaning": "怎么样",
+    "sentence": "樊哙曰：“今日之事何如？”（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 819,
+    "char": "如",
+    "keyword": "如……何",
+    "meaning": "对……怎么办",
+    "sentence": "如太行王屋何（《愚公移山》）",
+    "familiarity": 0
+  },
+  {
+    "id": 820,
+    "char": "入",
+    "keyword": "入",
+    "meaning": "进入",
+    "sentence": "入木三分（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 821,
+    "char": "入",
+    "keyword": "入",
+    "meaning": "加入",
+    "sentence": "自四卿入军机，然后皇上与康先生之意始能少通（《谭嗣同传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 822,
+    "char": "入",
+    "keyword": "入",
+    "meaning": "收入",
+    "sentence": "殚其地之出，竭其庐之入（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 823,
+    "char": "若",
+    "keyword": "若",
+    "meaning": "似，好像",
+    "sentence": "仿佛若有光（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 824,
+    "char": "若",
+    "keyword": "若",
+    "meaning": "你",
+    "sentence": "若入前为寿，寿毕，请以剑舞（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 825,
+    "char": "若",
+    "keyword": "若",
+    "meaning": "你的",
+    "sentence": "更若役，复若赋（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 826,
+    "char": "若",
+    "keyword": "若",
+    "meaning": "比得上",
+    "sentence": "徐公不若君之美也（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 827,
+    "char": "若",
+    "keyword": "若",
+    "meaning": "假如，如果",
+    "sentence": "若反国，将为乱（《史记·赵世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 828,
+    "char": "若",
+    "keyword": "若属",
+    "meaning": "你们",
+    "sentence": "不者，若属皆且为所虏（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 829,
+    "char": "若",
+    "keyword": "若夫",
+    "meaning": "引出下文，无实义",
+    "sentence": "若夫淫雨霏霏（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 830,
+    "char": "塞",
+    "keyword": "塞",
+    "meaning": "堵塞",
+    "sentence": "不宜妄自菲薄，引喻失义，以塞忠谏之路也（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 831,
+    "char": "塞",
+    "keyword": "塞",
+    "meaning": "填塞，充满",
+    "sentence": "见红女白婆，填塞门户（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 832,
+    "char": "塞",
+    "keyword": "塞",
+    "meaning": "搪塞，应付",
+    "sentence": "留待限期，以塞官责（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 833,
+    "char": "塞",
+    "keyword": "塞",
+    "meaning": "边关，边塞",
+    "sentence": "而世主不敢交阳侯之塞（《战国策·秦策》）",
+    "familiarity": 0
+  },
+  {
+    "id": 834,
+    "char": "色",
+    "keyword": "色",
+    "meaning": "脸色，面部表情",
+    "sentence": "侯生视公子色终不变，乃谢客就车（《史记·魏公子列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 835,
+    "char": "色",
+    "keyword": "色",
+    "meaning": "姿色",
+    "sentence": "年长色衰，委身为贾人妇（《琵琶行》并序）",
+    "familiarity": 0
+  },
+  {
+    "id": 836,
+    "char": "色",
+    "keyword": "色",
+    "meaning": "颜色",
+    "sentence": "满面尘灰烟火色，两鬓苍苍十指黑（《卖炭翁》）",
+    "familiarity": 0
+  },
+  {
+    "id": 837,
+    "char": "色",
+    "keyword": "色",
+    "meaning": "景色",
+    "sentence": "两峰秀色，俱可手揽（《徐霞客游记·游黄山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 838,
+    "char": "善",
+    "keyword": "善",
+    "meaning": "好，好的",
+    "sentence": "择其善者而从之，其不善者而改之（《论语·述而》）",
+    "familiarity": 0
+  },
+  {
+    "id": 839,
+    "char": "善",
+    "keyword": "善",
+    "meaning": "交好，形作动",
+    "sentence": "素善留侯张良（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 840,
+    "char": "善",
+    "keyword": "善",
+    "meaning": "擅长，善于",
+    "sentence": "君子生非异也，善假于物也（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 841,
+    "char": "稍",
+    "keyword": "稍",
+    "meaning": "稍微",
+    "sentence": "门人弟子填其室，未尝稍降辞色（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 842,
+    "char": "稍",
+    "keyword": "稍",
+    "meaning": "渐渐地",
+    "sentence": "稍出近之，慭慭然，莫相知（《黔之驴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 843,
+    "char": "少",
+    "keyword": "少",
+    "meaning": "数量小，不多",
+    "sentence": "险以远，则至者少（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 844,
+    "char": "少",
+    "keyword": "少",
+    "meaning": "以……为少，认为……少，意动",
+    "sentence": "且夫我尝闻少仲尼之闻而轻伯夷之义者（《秋水》）",
+    "familiarity": 0
+  },
+  {
+    "id": 845,
+    "char": "少",
+    "keyword": "少",
+    "meaning": "缺少，缺乏",
+    "sentence": "今少一人，愿君即以遂备员而行矣（《史记·平原君虞卿列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 846,
+    "char": "少",
+    "keyword": "少",
+    "meaning": "年轻",
+    "sentence": "衡少善属文，游于三辅，因入京师（《后汉书·张衡传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 847,
+    "char": "少",
+    "keyword": "少",
+    "meaning": "稍微",
+    "sentence": "公宜少从众（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 848,
+    "char": "少",
+    "keyword": "少年",
+    "meaning": "年轻人",
+    "sentence": "村中少年好事者驯养一虫（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 849,
+    "char": "舍",
+    "keyword": "舍",
+    "meaning": "客舍",
+    "sentence": "舍相如广成传舍（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 850,
+    "char": "舍",
+    "keyword": "舍",
+    "meaning": "房屋",
+    "sentence": "屋舍俨然（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 851,
+    "char": "舍",
+    "keyword": "舍",
+    "meaning": "休息，停留",
+    "sentence": "唐浮图慧褒始舍于其址（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 852,
+    "char": "舍",
+    "keyword": "舍",
+    "meaning": "舍弃，放弃",
+    "sentence": "锲而舍之，朽木不折（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 853,
+    "char": "舍",
+    "keyword": "舍",
+    "meaning": "计量单位，三十里为一舍",
+    "sentence": "退避三舍（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 854,
+    "char": "涉",
+    "keyword": "涉",
+    "meaning": "徒步渡水",
+    "sentence": "送子涉淇，至于顿丘（《诗经·氓》）",
+    "familiarity": 0
+  },
+  {
+    "id": 855,
+    "char": "涉",
+    "keyword": "涉",
+    "meaning": "渡过",
+    "sentence": "楚人有涉江者（《吕氏春秋·察今》）",
+    "familiarity": 0
+  },
+  {
+    "id": 856,
+    "char": "涉",
+    "keyword": "涉",
+    "meaning": "进入，到",
+    "sentence": "涉寒暑不避（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 857,
+    "char": "涉",
+    "keyword": "涉",
+    "meaning": "经历",
+    "sentence": "涉危历险（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 858,
+    "char": "涉",
+    "keyword": "涉猎",
+    "meaning": "浏览群书",
+    "sentence": "孤常读书，自以为大有所益（《孙权劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 859,
+    "char": "审",
+    "keyword": "审",
+    "meaning": "细察",
+    "sentence": "审视，巨身修尾（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 860,
+    "char": "审",
+    "keyword": "审",
+    "meaning": "仔细地",
+    "sentence": "审谛之，短小，黑赤色，顿非前物（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 861,
+    "char": "审",
+    "keyword": "审",
+    "meaning": "审慎",
+    "sentence": "言审莫过圣人（《论衡》）",
+    "familiarity": 0
+  },
+  {
+    "id": 862,
+    "char": "审",
+    "keyword": "审",
+    "meaning": "审问，讯问",
+    "sentence": "余经秋审，皆减等发配（《狱中杂记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 863,
+    "char": "甚",
+    "keyword": "甚",
+    "meaning": "很，非常",
+    "sentence": "甚矣，汝之不惠（《愚公移山》）",
+    "familiarity": 0
+  },
+  {
+    "id": 864,
+    "char": "甚",
+    "keyword": "甚",
+    "meaning": "厉害，严重",
+    "sentence": "未若复吾赋不幸之甚也（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 865,
+    "char": "甚",
+    "keyword": "甚",
+    "meaning": "超过，胜过",
+    "sentence": "生亦我所欲，所欲有甚于生者（《鱼我所欲也》）",
+    "familiarity": 0
+  },
+  {
+    "id": 866,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "生长",
+    "sentence": "草木生之（《荀子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 867,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "出生",
+    "sentence": "生乎吾前（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 868,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "产生，发生",
+    "sentence": "积水成渊，蛟龙生焉（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 869,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "生命",
+    "sentence": "舍生而取义者也（《鱼我所欲也》）",
+    "familiarity": 0
+  },
+  {
+    "id": 870,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "一生",
+    "sentence": "一生之计（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 871,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "活的",
+    "sentence": "生人作死别（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 872,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "年轻人",
+    "sentence": "后生可畏（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 873,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "对读书人的称呼",
+    "sentence": "东阳马生君则（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 874,
+    "char": "生",
+    "keyword": "生",
+    "meaning": "同“性”，天性",
+    "sentence": "君子生非异也，善假于物也（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 875,
+    "char": "胜",
+    "keyword": "胜",
+    "meaning": "胜利，战胜",
+    "sentence": "战必胜矣（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 876,
+    "char": "胜",
+    "keyword": "胜",
+    "meaning": "胜过，超过",
+    "sentence": "青出于蓝而胜于蓝（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 877,
+    "char": "胜",
+    "keyword": "胜",
+    "meaning": "优美的，好的",
+    "sentence": "予观夫巴陵胜状，在洞庭一湖（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 878,
+    "char": "胜",
+    "keyword": "胜",
+    "meaning": "经得起，承受得起",
+    "sentence": "沛公不胜杯杓，不能辞（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 879,
+    "char": "胜",
+    "keyword": "胜",
+    "meaning": "尽",
+    "sentence": "杀人如不能举，刑人如恐不胜（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 880,
+    "char": "盛",
+    "keyword": "盛",
+    "meaning": "多",
+    "sentence": "赵亦盛设兵以待秦（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 881,
+    "char": "盛",
+    "keyword": "盛",
+    "meaning": "旺盛",
+    "sentence": "气盛言宜（《答李翊书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 882,
+    "char": "盛",
+    "keyword": "盛",
+    "meaning": "兴盛",
+    "sentence": "盛衰之理，虽曰天命，岂非人事哉！（《伶官传序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 883,
+    "char": "盛",
+    "keyword": "盛",
+    "meaning": "高，大",
+    "sentence": "位卑则足羞，官盛则近谀（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 884,
+    "char": "师",
+    "keyword": "师",
+    "meaning": "军队",
+    "sentence": "十年春，齐师伐我（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 885,
+    "char": "师",
+    "keyword": "师",
+    "meaning": "老师",
+    "sentence": "师者，所以传道受业解惑也（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 886,
+    "char": "师",
+    "keyword": "师",
+    "meaning": "学习，名作动",
+    "sentence": "吾师道也，夫庸知其年之先后生于吾乎（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 887,
+    "char": "师",
+    "keyword": "师",
+    "meaning": "以……为师，意动",
+    "sentence": "生乎吾前，其闻道也固先乎吾，吾从而师之（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 888,
+    "char": "施",
+    "keyword": "施",
+    "meaning": "设置，放宽",
+    "sentence": "施八尺屏障（《口技》）",
+    "familiarity": 0
+  },
+  {
+    "id": 889,
+    "char": "施",
+    "keyword": "施",
+    "meaning": "施行，实施",
+    "sentence": "靡计不施，迄无济（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 890,
+    "char": "施",
+    "keyword": "施",
+    "meaning": "给予",
+    "sentence": "留待作遗施，于今无会图（《古诗十九首》）",
+    "familiarity": 0
+  },
+  {
+    "id": 891,
+    "char": "施",
+    "keyword": "施",
+    "meaning": "恩惠",
+    "sentence": "未报秦施，而伐其师（《秦晋殽之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 892,
+    "char": "识",
+    "keyword": "识",
+    "meaning": "懂得，认识",
+    "sentence": "因笑谓迈曰：“汝识之乎？”（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 893,
+    "char": "识",
+    "keyword": "识",
+    "meaning": "知识，见识",
+    "sentence": "贾生志大而量小，才有余而识不足也(《贾谊论》)",
+    "familiarity": 0
+  },
+  {
+    "id": 894,
+    "char": "识",
+    "keyword": "识",
+    "meaning": "同“志”，记住",
+    "sentence": "小子识之，苛政猛于虎也（《礼记·檀弓下》）",
+    "familiarity": 0
+  },
+  {
+    "id": 895,
+    "char": "识",
+    "keyword": "识",
+    "meaning": "标记",
+    "sentence": "识以柳枝，命本部涉济（《金史》）",
+    "familiarity": 0
+  },
+  {
+    "id": 896,
+    "char": "实",
+    "keyword": "实",
+    "meaning": "果实",
+    "sentence": "其实味不同（《晏子使楚》）",
+    "familiarity": 0
+  },
+  {
+    "id": 897,
+    "char": "实",
+    "keyword": "实",
+    "meaning": "结果实，名作动",
+    "sentence": "且硕茂，早实以蕃（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 898,
+    "char": "实",
+    "keyword": "实",
+    "meaning": "充实，坚实",
+    "sentence": "仓廪实而知礼节（《论积贮疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 899,
+    "char": "实",
+    "keyword": "实",
+    "meaning": "事实",
+    "sentence": "实事求是（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 900,
+    "char": "实",
+    "keyword": "实",
+    "meaning": "真实，诚实",
+    "sentence": "实迷途其未远（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 901,
+    "char": "实",
+    "keyword": "实",
+    "meaning": "实在，的确",
+    "sentence": "实是欲界之仙都（《答谢中书书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 902,
+    "char": "实",
+    "keyword": "实",
+    "meaning": "实际上",
+    "sentence": "实迷途其未远（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 903,
+    "char": "实",
+    "keyword": "其实",
+    "meaning": "这实际上",
+    "sentence": "其实百倍（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 904,
+    "char": "食",
+    "keyword": "食",
+    "meaning": "吃",
+    "sentence": "食不重味（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 905,
+    "char": "食",
+    "keyword": "食",
+    "meaning": "食物",
+    "sentence": "衣食所安（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 906,
+    "char": "食",
+    "keyword": "食",
+    "meaning": "同“饲”，饲养，喂养",
+    "sentence": "谨食之，时而献焉（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 907,
+    "char": "使",
+    "keyword": "使",
+    "meaning": "派遣，命令",
+    "sentence": "秦王使使者告赵王（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 908,
+    "char": "使",
+    "keyword": "使",
+    "meaning": "使，让",
+    "sentence": "使六国各爱其人（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 909,
+    "char": "使",
+    "keyword": "使",
+    "meaning": "出使",
+    "sentence": "王必无人，臣愿奉璧往使（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 910,
+    "char": "使",
+    "keyword": "使",
+    "meaning": "使唤",
+    "sentence": "节用而爱人，使民以时（《论语·学而》）",
+    "familiarity": 0
+  },
+  {
+    "id": 911,
+    "char": "使",
+    "keyword": "使",
+    "meaning": "使者",
+    "sentence": "大王遣一介之使至赵（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 912,
+    "char": "使",
+    "keyword": "使",
+    "meaning": "使命",
+    "sentence": "臣愿奉璧往使（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 913,
+    "char": "使",
+    "keyword": "使",
+    "meaning": "主使，指使",
+    "sentence": "是时以大中丞抚吴者为魏之私人，周公之逮所由使也（《五人墓碑记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 914,
+    "char": "使",
+    "keyword": "使",
+    "meaning": "假使",
+    "sentence": "向使三国各爱其地（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 915,
+    "char": "恃",
+    "keyword": "恃",
+    "meaning": "依靠，凭借，倚仗",
+    "sentence": "子何恃而往（《为学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 916,
+    "char": "是",
+    "keyword": "是",
+    "meaning": "正确，对",
+    "sentence": "实迷途其未远，觉今是而昨非（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 917,
+    "char": "是",
+    "keyword": "是",
+    "meaning": "以……为是，认为……正确，意动",
+    "sentence": "是己而非人，俗之同病（《问说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 918,
+    "char": "是",
+    "keyword": "是",
+    "meaning": "这个，这样",
+    "sentence": "是日也（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 919,
+    "char": "是",
+    "keyword": "是",
+    "meaning": "宾语提前标志，不译",
+    "sentence": "惟命是从（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 920,
+    "char": "是",
+    "keyword": "是以",
+    "meaning": "因此",
+    "sentence": "是以众议举宠为督（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 921,
+    "char": "是",
+    "keyword": "是故",
+    "meaning": "因此",
+    "sentence": "是故无贵无贱（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 922,
+    "char": "适",
+    "keyword": "适",
+    "meaning": "到……去",
+    "sentence": "余自齐安舟行适临汝（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 923,
+    "char": "适",
+    "keyword": "适",
+    "meaning": "出嫁",
+    "sentence": "贫贱有此女，始适还家门（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 924,
+    "char": "适",
+    "keyword": "适",
+    "meaning": "顺从，适合",
+    "sentence": "处分适兄意，那得自任专（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 925,
+    "char": "适",
+    "keyword": "适",
+    "meaning": "舒适",
+    "sentence": "是芙蕖也者，无一时一刻不适耳目之观（《闲情偶寄·种植部》）",
+    "familiarity": 0
+  },
+  {
+    "id": 926,
+    "char": "适",
+    "keyword": "适",
+    "meaning": "享用，享受",
+    "sentence": "而吾与子之所共适（《前赤壁赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 927,
+    "char": "适",
+    "keyword": "适",
+    "meaning": "恰好",
+    "sentence": "自下望之则高岩峭壁，从上观之适于地平（《雁荡山》）",
+    "familiarity": 0
+  },
+  {
+    "id": 928,
+    "char": "适",
+    "keyword": "适",
+    "meaning": "刚才",
+    "sentence": "适得府君书（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 929,
+    "char": "适",
+    "keyword": "适",
+    "meaning": "同“谪”，调发",
+    "sentence": "发闾左适戍渔阳（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 930,
+    "char": "释",
+    "keyword": "释",
+    "meaning": "解释，注释",
+    "sentence": "乃使行人奚斯释言于齐（《国语·吴语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 931,
+    "char": "释",
+    "keyword": "释",
+    "meaning": "解除，消除",
+    "sentence": "不以一己之害为害，而使天下释其害（《原君》）",
+    "familiarity": 0
+  },
+  {
+    "id": 932,
+    "char": "释",
+    "keyword": "释",
+    "meaning": "放下",
+    "sentence": "有卖油翁释担而立（《卖油翁》）",
+    "familiarity": 0
+  },
+  {
+    "id": 933,
+    "char": "释",
+    "keyword": "释",
+    "meaning": "解开，松开",
+    "sentence": "主人释服（《仪礼》）",
+    "familiarity": 0
+  },
+  {
+    "id": 934,
+    "char": "释",
+    "keyword": "释",
+    "meaning": "释放",
+    "sentence": "则虫集冠上，力叮不释（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 935,
+    "char": "书",
+    "keyword": "书",
+    "meaning": "写，记下",
+    "sentence": "乃丹书帛曰（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 936,
+    "char": "书",
+    "keyword": "书",
+    "meaning": "书法",
+    "sentence": "悦亲戚之情话，乐琴书以消忧（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 937,
+    "char": "书",
+    "keyword": "书",
+    "meaning": "文字",
+    "sentence": "乃丹书帛曰（《陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 938,
+    "char": "书",
+    "keyword": "书",
+    "meaning": "书信",
+    "sentence": "烽火连三月，家书抵万金（《春望》）",
+    "familiarity": 0
+  },
+  {
+    "id": 939,
+    "char": "书",
+    "keyword": "书",
+    "meaning": "公文",
+    "sentence": "今以一郡一国之众，对无应书者，是王道往往而绝也（《汉书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 940,
+    "char": "书",
+    "keyword": "书",
+    "meaning": "书籍",
+    "sentence": "好读书，不求甚解（《五柳先生传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 941,
+    "char": "书",
+    "keyword": "书",
+    "meaning": "《尚书》",
+    "sentence": "《书》曰：“满招损，谦受益。”（《伶官传序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 942,
+    "char": "疏",
+    "keyword": "疏",
+    "meaning": "疏通",
+    "sentence": "禹疏沟洫，随山浚川（《史记·河渠书赞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 943,
+    "char": "疏",
+    "keyword": "疏",
+    "meaning": "疏忽",
+    "sentence": "有疏，则为强国制也（《韩非子·五蠹》）",
+    "familiarity": 0
+  },
+  {
+    "id": 944,
+    "char": "疏",
+    "keyword": "疏",
+    "meaning": "疏远",
+    "sentence": "疏屈平而信上夫大夫，令严子兰（《史记·屈原贾生列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 945,
+    "char": "疏",
+    "keyword": "疏",
+    "meaning": "稀疏",
+    "sentence": "疏条交映，有时见日（《与朱元思书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 946,
+    "char": "疏",
+    "keyword": "疏",
+    "meaning": "粗疏，粗劣",
+    "sentence": "饭疏食饮水（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 947,
+    "char": "疏",
+    "keyword": "疏",
+    "meaning": "分条陈述的奏章",
+    "sentence": "谏太宗十思疏（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 948,
+    "char": "疏",
+    "keyword": "疏",
+    "meaning": "分条陈述，名作动",
+    "sentence": "抚军大悦，以金笼进上，细疏其能（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 949,
+    "char": "属",
+    "keyword": "属",
+    "meaning": "隶属，属于",
+    "sentence": "名属教坊第一部（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 950,
+    "char": "属",
+    "keyword": "属",
+    "meaning": "类",
+    "sentence": "有良田美池桑竹之属（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 951,
+    "char": "属",
+    "keyword": "属",
+    "meaning": "连接，连缀",
+    "sentence": "属引凄异（《三峡》）",
+    "familiarity": 0
+  },
+  {
+    "id": 952,
+    "char": "属",
+    "keyword": "属",
+    "meaning": "撰写",
+    "sentence": "平原属草稿未定（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 953,
+    "char": "属",
+    "keyword": "属",
+    "meaning": "劝酒",
+    "sentence": "举酒属客，诵明月之诗，歌窈窕之章（《前赤壁赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 954,
+    "char": "属",
+    "keyword": "属",
+    "meaning": "同“嘱”，嘱咐",
+    "sentence": "属予作文以记之（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 955,
+    "char": "数",
+    "keyword": "数",
+    "meaning": "数目，数数",
+    "sentence": "数目（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 956,
+    "char": "数",
+    "keyword": "数",
+    "meaning": "几，几个",
+    "sentence": "数口之家（《寡人之于国也》）",
+    "familiarity": 0
+  },
+  {
+    "id": 957,
+    "char": "数",
+    "keyword": "数",
+    "meaning": "命运，天数",
+    "sentence": "则胜负之数，存亡之理（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 958,
+    "char": "数",
+    "keyword": "数",
+    "meaning": "技艺，方术",
+    "sentence": "今夫弈之为数，小数也（《弈秋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 959,
+    "char": "数",
+    "keyword": "数",
+    "meaning": "计算",
+    "sentence": "数典忘祖（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 960,
+    "char": "数",
+    "keyword": "数",
+    "meaning": "列举（罪状）",
+    "sentence": "以侈自败者多矣，不可遍数（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 961,
+    "char": "数",
+    "keyword": "数",
+    "meaning": "屡次",
+    "sentence": "范增数目项王（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 962,
+    "char": "率",
+    "keyword": "率",
+    "meaning": "带领，率领",
+    "sentence": "率疲弊之卒，将数百之众（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 963,
+    "char": "率",
+    "keyword": "率",
+    "meaning": "坦率",
+    "sentence": "率心奉上，不顾嫌疑《魏书·张衮传》",
+    "familiarity": 0
+  },
+  {
+    "id": 964,
+    "char": "率",
+    "keyword": "率",
+    "meaning": "轻率",
+    "sentence": "子路率尔而对曰（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 965,
+    "char": "率",
+    "keyword": "率",
+    "meaning": "全部，一概",
+    "sentence": "六国互丧，率赂秦耶（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 966,
+    "char": "顺",
+    "keyword": "顺",
+    "meaning": "顺着，沿着",
+    "sentence": "顺风而呼（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 967,
+    "char": "顺",
+    "keyword": "顺",
+    "meaning": "顺应，顺从",
+    "sentence": "能顺木之天，以致其性焉尔（《种树郭驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 968,
+    "char": "顺",
+    "keyword": "顺",
+    "meaning": "和顺，通顺",
+    "sentence": "知子之顺之，杂佩以问之;知子之好之，杂佩以报之（《诗·郑风·女曰鸡鸣》）",
+    "familiarity": 0
+  },
+  {
+    "id": 969,
+    "char": "顺",
+    "keyword": "顺",
+    "meaning": "顺利",
+    "sentence": "今日拒之，事更不顺（《资治通鉴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 970,
+    "char": "说",
+    "keyword": "说",
+    "meaning": "讲，讲明",
+    "sentence": "勾践说于国人（《国语·越语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 971,
+    "char": "说",
+    "keyword": "说",
+    "meaning": "言论，说法，主张",
+    "sentence": "然是说，余尤疑之（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 972,
+    "char": "说",
+    "keyword": "说",
+    "meaning": "文体的一种",
+    "sentence": "爱莲说（《爱莲说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 973,
+    "char": "说",
+    "keyword": "说",
+    "meaning": "劝说，说服",
+    "sentence": "范增说项羽曰（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 974,
+    "char": "说",
+    "keyword": "说",
+    "meaning": "同“悦”，高兴",
+    "sentence": "学而时习之，不亦说乎（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 975,
+    "char": "私",
+    "keyword": "私",
+    "meaning": "私人的，自己的",
+    "sentence": "以先国家之急而后私仇也（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 976,
+    "char": "私",
+    "keyword": "私",
+    "meaning": "偏爱",
+    "sentence": "吾妻之美我者，私我也（《邹忌讽齐王纳谏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 977,
+    "char": "私",
+    "keyword": "私",
+    "meaning": "私下，秘密地",
+    "sentence": "项伯乃夜驰之沛公军，私见张良（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 978,
+    "char": "速",
+    "keyword": "速",
+    "meaning": "迅速",
+    "sentence": "兵贵神速（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 979,
+    "char": "速",
+    "keyword": "速",
+    "meaning": "招致",
+    "sentence": "始速祸焉（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 980,
+    "char": "速",
+    "keyword": "速",
+    "meaning": "召请",
+    "sentence": "不速之客（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 981,
+    "char": "速",
+    "keyword": "速",
+    "meaning": "迅速",
+    "sentence": "兵贵神速（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 982,
+    "char": "速",
+    "keyword": "速",
+    "meaning": "招致",
+    "sentence": "丹以荆卿为计，始速祸焉（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 983,
+    "char": "速",
+    "keyword": "速",
+    "meaning": "召请",
+    "sentence": "不速之客（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 984,
+    "char": "素",
+    "keyword": "素",
+    "meaning": "白绢",
+    "sentence": "十三能织素，十四学裁衣（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 985,
+    "char": "素",
+    "keyword": "素",
+    "meaning": "白色的",
+    "sentence": "素湍绿潭，回清倒影（《三峡》）",
+    "familiarity": 0
+  },
+  {
+    "id": 986,
+    "char": "素",
+    "keyword": "素",
+    "meaning": "朴素",
+    "sentence": "可以调素琴，阅金经（《陋室铭》）",
+    "familiarity": 0
+  },
+  {
+    "id": 987,
+    "char": "素",
+    "keyword": "素",
+    "meaning": "空，白白地",
+    "sentence": "彼君子兮，不素飧兮（《诗·魏风·伐檀》）",
+    "familiarity": 0
+  },
+  {
+    "id": 988,
+    "char": "素",
+    "keyword": "素",
+    "meaning": "向来，一向",
+    "sentence": "素善留侯张良（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 989,
+    "char": "遂",
+    "keyword": "遂",
+    "meaning": "成就，顺利地做到",
+    "sentence": "既反国而隐焉，又范君之所有志而不遂者也（《复庵记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 990,
+    "char": "遂",
+    "keyword": "遂",
+    "meaning": "喂大",
+    "sentence": "遂而鸡豚（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 991,
+    "char": "遂",
+    "keyword": "遂",
+    "meaning": "于是，就",
+    "sentence": "于是遂去，乃留张良谢（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 992,
+    "char": "汤",
+    "keyword": "汤",
+    "meaning": "热水",
+    "sentence": "赴汤蹈火（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 993,
+    "char": "汤",
+    "keyword": "汤",
+    "meaning": "汤药",
+    "sentence": "臣侍汤药，未曾废离（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 994,
+    "char": "涕",
+    "keyword": "涕",
+    "meaning": "眼泪",
+    "sentence": "念天地之悠悠，独怆然而涕下（《登幽州台歌》）",
+    "familiarity": 0
+  },
+  {
+    "id": 995,
+    "char": "涕",
+    "keyword": "涕",
+    "meaning": "流眼泪，名作动",
+    "sentence": "儿涕而去（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 996,
+    "char": "涕",
+    "keyword": "涕",
+    "meaning": "鼻涕",
+    "sentence": "涕泗横流（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 997,
+    "char": "通",
+    "keyword": "通",
+    "meaning": "通过，通行，通达",
+    "sentence": "道远难通（《国语·晋语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 998,
+    "char": "通",
+    "keyword": "通",
+    "meaning": "交往",
+    "sentence": "数通使相窥观（《汉书·李广苏建传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 999,
+    "char": "通",
+    "keyword": "通",
+    "meaning": "通畅，顺利",
+    "sentence": "政通人和（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1000,
+    "char": "通",
+    "keyword": "通",
+    "meaning": "通晓，精通",
+    "sentence": "因入京师，观太学，遂通五经（《后汉书·张衡传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1001,
+    "char": "通",
+    "keyword": "通",
+    "meaning": "普遍，整个",
+    "sentence": "六艺经传皆通习之（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1002,
+    "char": "痛",
+    "keyword": "痛",
+    "meaning": "疼痛",
+    "sentence": "痛彻心扉（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1003,
+    "char": "痛",
+    "keyword": "痛",
+    "meaning": "悲痛，伤心",
+    "sentence": "古人之云：“死生亦大矣。”岂不痛哉！（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1004,
+    "char": "痛",
+    "keyword": "痛",
+    "meaning": "怨恨，痛恨",
+    "sentence": "叹息痛恨（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1005,
+    "char": "痛",
+    "keyword": "痛",
+    "meaning": "尽情地",
+    "sentence": "痛哭流涕（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1006,
+    "char": "图",
+    "keyword": "图",
+    "meaning": "地图，图册",
+    "sentence": "有司案图（《史记·廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1007,
+    "char": "图",
+    "keyword": "图",
+    "meaning": "图画",
+    "sentence": "至见其图，状貌如妇人好女（《史记·留侯世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1008,
+    "char": "图",
+    "keyword": "图",
+    "meaning": "考虑，想",
+    "sentence": "阿母大拊掌，不图子自归（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1009,
+    "char": "图",
+    "keyword": "图",
+    "meaning": "希望",
+    "sentence": "本图宦达，不矜名节（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1010,
+    "char": "图",
+    "keyword": "图",
+    "meaning": "图谋，谋求",
+    "sentence": "图谋不轨（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1011,
+    "char": "徒",
+    "keyword": "徒",
+    "meaning": "徒弟，弟子",
+    "sentence": "门徒（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1012,
+    "char": "徒",
+    "keyword": "徒",
+    "meaning": "一类人",
+    "sentence": "郯子之徒，其贤不及孔子（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1013,
+    "char": "徒",
+    "keyword": "徒",
+    "meaning": "空，光",
+    "sentence": "少壮不努力，老大徒伤悲（《长歌行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1014,
+    "char": "徒",
+    "keyword": "徒",
+    "meaning": "徒然，白白地",
+    "sentence": "欲予秦，秦城恐不可得，徒见欺（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1015,
+    "char": "徒",
+    "keyword": "徒",
+    "meaning": "只，仅仅",
+    "sentence": "强秦之所以不敢加兵于赵者，徒以吾两人在耳（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1016,
+    "char": "徒",
+    "keyword": "徒",
+    "meaning": "只，仅仅",
+    "sentence": "蔺相如徒以口舌为劳（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1017,
+    "char": "徒",
+    "keyword": "非徒",
+    "meaning": "不仅",
+    "sentence": "汝非徒身当服行，当以训汝子孙，使知前辈之风俗云（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1018,
+    "char": "退",
+    "keyword": "退",
+    "meaning": "退却，后退",
+    "sentence": "攻一时敌退(《清稗类钞·战事类》)",
+    "familiarity": 0
+  },
+  {
+    "id": 1019,
+    "char": "退",
+    "keyword": "退",
+    "meaning": "返回",
+    "sentence": "退而甘食其土之有（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1020,
+    "char": "退",
+    "keyword": "退",
+    "meaning": "减退，衰退",
+    "sentence": "以图国用，而进退之（《周礼·小司寇》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1021,
+    "char": "退",
+    "keyword": "退",
+    "meaning": "辞去官职",
+    "sentence": "是进亦忧，退亦忧（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1022,
+    "char": "亡",
+    "keyword": "亡",
+    "meaning": "逃亡，逃跑",
+    "sentence": "臣尝有罪，窃计欲亡走燕（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1023,
+    "char": "亡",
+    "keyword": "亡",
+    "meaning": "逃跑的败兵，动作名",
+    "sentence": "追亡逐北，伏尸百万（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1024,
+    "char": "亡",
+    "keyword": "亡",
+    "meaning": "丢失，损失",
+    "sentence": "秦无亡矢遗镞之费（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1025,
+    "char": "亡",
+    "keyword": "亡",
+    "meaning": "死亡，灭亡",
+    "sentence": "存亡不可知（《汉书·李广苏建传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1026,
+    "char": "亡",
+    "keyword": "亡",
+    "meaning": "使……灭亡，使动",
+    "sentence": "振长策而御宇内，吞二周而亡诸侯《过秦论》",
+    "familiarity": 0
+  },
+  {
+    "id": 1027,
+    "char": "亡",
+    "keyword": "亡",
+    "meaning": "同“无”，没有",
+    "sentence": "河曲智叟亡以应（《愚公移山》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1028,
+    "char": "王",
+    "keyword": "王",
+    "meaning": "君主，帝王",
+    "sentence": "沛公为汉王，王巴、蜀（《史记·留侯世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1029,
+    "char": "王",
+    "keyword": "王",
+    "meaning": "称王，名作动",
+    "sentence": "沛公欲王关中，使子婴为相（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1030,
+    "char": "王",
+    "keyword": "王",
+    "meaning": "使……为王，使……做王",
+    "sentence": "先破秦入咸阳者王之（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1031,
+    "char": "王",
+    "keyword": "王",
+    "meaning": "同“旺”",
+    "sentence": "泽雉十步一啄，百步一饮，不蕲畜乎樊中，神虽王，不善也。（《庄子·养生主》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1032,
+    "char": "望",
+    "keyword": "望",
+    "meaning": "远看",
+    "sentence": "吾尝跂而望矣（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1033,
+    "char": "望",
+    "keyword": "望",
+    "meaning": "盼望，希望",
+    "sentence": "日夜望将军至（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1034,
+    "char": "望",
+    "keyword": "望",
+    "meaning": "声望，名望",
+    "sentence": "先达德隆望尊（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1035,
+    "char": "望",
+    "keyword": "望",
+    "meaning": "农历每月十五",
+    "sentence": "三月之望（《五人墓碑记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1036,
+    "char": "望",
+    "keyword": "既望",
+    "meaning": "农历十六",
+    "sentence": "壬戌之秋，七月既望（《前赤壁赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1037,
+    "char": "微",
+    "keyword": "微",
+    "meaning": "小，轻",
+    "sentence": "名微而众寡（ 《三国志·诸葛亮传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1038,
+    "char": "微",
+    "keyword": "微",
+    "meaning": "稍微，略微",
+    "sentence": "但微颔之（《归田录》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1039,
+    "char": "微",
+    "keyword": "微",
+    "meaning": "暗中，悄悄地",
+    "sentence": "微指左公处，则席地倚墙而坐（《左忠毅公逸事》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1040,
+    "char": "微",
+    "keyword": "微",
+    "meaning": "地位低下，卑贱",
+    "sentence": "猥以微贱，当侍东宫（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1041,
+    "char": "微",
+    "keyword": "微",
+    "meaning": "如果不是，如果没有",
+    "sentence": "微斯人，吾谁与归（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1042,
+    "char": "微",
+    "keyword": "微行",
+    "meaning": "隐藏身份改装出行",
+    "sentence": "从数骑出，微行入古寺（《左忠毅公逸事》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1043,
+    "char": "闻",
+    "keyword": "闻",
+    "meaning": "听见，听说",
+    "sentence": "且夫我尝闻少仲尼之闻而轻伯夷之义者，始吾弗信（《秋水》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1044,
+    "char": "闻",
+    "keyword": "闻",
+    "meaning": "使（皇帝）听到，使动",
+    "sentence": "臣具以表闻，辞不就职（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1045,
+    "char": "闻",
+    "keyword": "闻",
+    "meaning": "闻名，著称",
+    "sentence": "名闻天下（《史记·魏公子列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1046,
+    "char": "闻",
+    "keyword": "闻",
+    "meaning": "名声，名望",
+    "sentence": "况草野之无闻者欤（《五人墓碑记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1047,
+    "char": "闻",
+    "keyword": "闻",
+    "meaning": "懂得，理解",
+    "sentence": "生乎吾前，其闻道也固先乎吾（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1048,
+    "char": "闻",
+    "keyword": "闻",
+    "meaning": "见闻，学识",
+    "sentence": "且夫我尝闻少仲尼之闻而轻伯夷之义者，始吾弗信（《秋水》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1049,
+    "char": "务",
+    "keyword": "务",
+    "meaning": "从事，致力",
+    "sentence": "内立法度，务耕织（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1050,
+    "char": "务",
+    "keyword": "务",
+    "meaning": "事务，事情",
+    "sentence": "军中多务（《资治通鉴·汉纪》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1051,
+    "char": "务",
+    "keyword": "务",
+    "meaning": "务必，一定",
+    "sentence": "君子之事君也。务引其君以当道（《孟子·告天下》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1052,
+    "char": "恶",
+    "keyword": "恶(è)",
+    "meaning": "坏，不好",
+    "sentence": "士志于道而耻恶衣恶食者（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1053,
+    "char": "恶",
+    "keyword": "恶(è)",
+    "meaning": "丑",
+    "sentence": "俭，德之共也；侈，恶之大也（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1054,
+    "char": "恶",
+    "keyword": "恶(è)",
+    "meaning": "罪恶",
+    "sentence": "恶积祸盈（《与陈伯之书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1055,
+    "char": "恶",
+    "keyword": "恶(è)",
+    "meaning": "坏人",
+    "sentence": "元恶不待教而诛（《荀子·王制》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1056,
+    "char": "恶",
+    "keyword": "恶(wū)",
+    "meaning": "哪里，怎么",
+    "sentence": "君子去仁，恶乎成名（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1057,
+    "char": "恶",
+    "keyword": "恶(wù)",
+    "meaning": "讨厌，不喜欢",
+    "sentence": "贫与贱，是人之所恶也（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1058,
+    "char": "悉",
+    "keyword": "悉",
+    "meaning": "详尽",
+    "sentence": "时上所问禽兽簿甚悉（《汉书·张释之传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1059,
+    "char": "悉",
+    "keyword": "悉",
+    "meaning": "详尽地知道，形作动",
+    "sentence": "丞相亮其悉朕意（《隆中对》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1060,
+    "char": "悉",
+    "keyword": "悉",
+    "meaning": "全，都",
+    "sentence": "毁其盆，悉埋于地（《病梅馆记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1061,
+    "char": "徙",
+    "keyword": "徙",
+    "meaning": "迁移",
+    "sentence": "视驼所种树，或迁徙（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1062,
+    "char": "徙",
+    "keyword": "徙",
+    "meaning": "调职",
+    "sentence": "衡不慕当世，所居之官辄积年不徙（《后汉书·张衡传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1063,
+    "char": "系",
+    "keyword": "系",
+    "meaning": "悬，挂",
+    "sentence": "以羽为巢，而编之以发，系之苇苕（《荀子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1064,
+    "char": "系",
+    "keyword": "系",
+    "meaning": "绑，拴",
+    "sentence": "方其系燕父子以组（《伶官传序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1065,
+    "char": "系",
+    "keyword": "系",
+    "meaning": "拘囚，关押",
+    "sentence": "制府檄下，几以捕系死（《指南录》后序）",
+    "familiarity": 0
+  },
+  {
+    "id": 1066,
+    "char": "系",
+    "keyword": "系",
+    "meaning": "关联，联系",
+    "sentence": "某命系于将军，惟将军怜之（ 《三国演义》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1067,
+    "char": "狭",
+    "keyword": "狭",
+    "meaning": "狭窄",
+    "sentence": "初极狭（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1068,
+    "char": "鲜",
+    "keyword": "鲜",
+    "meaning": "新鲜",
+    "sentence": "芳草鲜美（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1069,
+    "char": "鲜",
+    "keyword": "鲜",
+    "meaning": "鲜明，鲜艳",
+    "sentence": "衣服常鲜于我（《汉书·广川惠王越传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1070,
+    "char": "鲜",
+    "keyword": "鲜",
+    "meaning": "少，缺少",
+    "sentence": "陶后鲜有闻（《爱莲说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1071,
+    "char": "向",
+    "keyword": "向",
+    "meaning": "对着，朝着",
+    "sentence": "磨刀霍霍向猪羊（《木兰诗》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1072,
+    "char": "向",
+    "keyword": "向",
+    "meaning": "先前，从前",
+    "sentence": "与向之噌吰者相应（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1073,
+    "char": "相",
+    "keyword": "相",
+    "meaning": "仔细看，审察",
+    "sentence": "当国者相见（《<指南录>后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1074,
+    "char": "相",
+    "keyword": "相",
+    "meaning": "容貌，貌相",
+    "sentence": "儿已薄禄相（《玉台新咏·古诗为焦仲卿妻作》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1075,
+    "char": "相",
+    "keyword": "相",
+    "meaning": "帮助，辅助",
+    "sentence": "至于幽暗昏惑而无物以相之（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1076,
+    "char": "相",
+    "keyword": "相",
+    "meaning": "宰相，丞相",
+    "sentence": "王侯将相宁有种乎（《史记·陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1077,
+    "char": "相",
+    "keyword": "相",
+    "meaning": "表示动作偏指一方，可称你、我、他",
+    "sentence": "吾已失恩义，会不相从许（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1078,
+    "char": "相",
+    "keyword": "相",
+    "meaning": "表示动作偏指一方，可称你、我、他",
+    "sentence": "便可白公姥，及时相遣归（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1079,
+    "char": "相",
+    "keyword": "相与",
+    "meaning": "一起",
+    "sentence": "飞鸟相与还（《饮酒》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1080,
+    "char": "效",
+    "keyword": "效",
+    "meaning": "效果，成效",
+    "sentence": "斯用兵之效也（《六国论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1081,
+    "char": "效",
+    "keyword": "效",
+    "meaning": "见效，奏效",
+    "sentence": "吾家读书久不效（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1082,
+    "char": "效",
+    "keyword": "效",
+    "meaning": "模仿，效仿",
+    "sentence": "虽窥伺效慕，莫能如也（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1083,
+    "char": "效",
+    "keyword": "效",
+    "meaning": "效力，献出",
+    "sentence": "信者效其忠（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1084,
+    "char": "谢",
+    "keyword": "谢",
+    "meaning": "推辞，谢绝",
+    "sentence": "阿母谢媒人：“女子先有誓，老姥岂敢言？”（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1085,
+    "char": "谢",
+    "keyword": "谢",
+    "meaning": "道歉，谢罪",
+    "sentence": "旦日不可不蚤自来谢项王（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1086,
+    "char": "谢",
+    "keyword": "谢",
+    "meaning": "辞别",
+    "sentence": "广不谢大将军而起行（《古诗为焦仲卿妻作》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1087,
+    "char": "谢",
+    "keyword": "谢",
+    "meaning": "感谢",
+    "sentence": "休谢之（《柳毅传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1088,
+    "char": "谢",
+    "keyword": "谢",
+    "meaning": "告诉",
+    "sentence": "多谢后世人，戒之慎勿忘（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1089,
+    "char": "谢",
+    "keyword": "谢",
+    "meaning": "凋落，凋谢",
+    "sentence": "多谢后世人（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1090,
+    "char": "谢",
+    "keyword": "辞谢",
+    "meaning": "婉言道歉",
+    "sentence": "秦王恐其破璧，乃辞谢（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1091,
+    "char": "信",
+    "keyword": "信",
+    "meaning": "诚实，真实",
+    "sentence": "信言不美，美言不信（《老子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1092,
+    "char": "信",
+    "keyword": "信",
+    "meaning": "讲信用",
+    "sentence": "海客谈洲，烟涛微茫信难求（《梦游天姥吟留别》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1093,
+    "char": "信",
+    "keyword": "信",
+    "meaning": "相信，信任",
+    "sentence": "低眉信手续续弹，说尽心中无限事（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1094,
+    "char": "信",
+    "keyword": "信",
+    "meaning": "凭证，信物",
+    "sentence": "是皆不足以执信也（《中山狼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1095,
+    "char": "信",
+    "keyword": "信",
+    "meaning": "确实，实在，的确",
+    "sentence": "海客谈瀛洲，烟涛微茫信难求（《梦游天姥吟留别》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1096,
+    "char": "信",
+    "keyword": "信",
+    "meaning": "随意，随便",
+    "sentence": "低眉信手续续弹，说尽心中无限事（《琵琶行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1097,
+    "char": "信",
+    "keyword": "信",
+    "meaning": "同“伸”，伸张",
+    "sentence": "孤不度德量力，欲信大义于天下（《隆中对》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1098,
+    "char": "兴",
+    "keyword": "兴",
+    "meaning": "起身，起床",
+    "sentence": "从者病，莫能兴（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1099,
+    "char": "兴",
+    "keyword": "兴",
+    "meaning": "兴起，发生",
+    "sentence": "积土成山，风雨兴焉（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1100,
+    "char": "兴",
+    "keyword": "兴",
+    "meaning": "发动",
+    "sentence": "怀王怒，大兴师伐秦（《屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1101,
+    "char": "兴",
+    "keyword": "兴",
+    "meaning": "兴盛",
+    "sentence": "百废具兴（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1102,
+    "char": "兴",
+    "keyword": "兴",
+    "meaning": "复兴",
+    "sentence": "兴复汉室，还于旧都（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1103,
+    "char": "兴",
+    "keyword": "兴",
+    "meaning": "兴致",
+    "sentence": "兴尽悲来，识盈虚之有数（《滕王阁序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1104,
+    "char": "形",
+    "keyword": "形",
+    "meaning": "形状",
+    "sentence": "视之，形若土狗（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1105,
+    "char": "形",
+    "keyword": "形",
+    "meaning": "形势",
+    "sentence": "由此言之，勇怯，势也;强弱，形也（《报任安书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1106,
+    "char": "形",
+    "keyword": "形",
+    "meaning": "身体",
+    "sentence": "无丝竹之乱耳，无案牍之劳形（《陋室铭》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1107,
+    "char": "形",
+    "keyword": "形",
+    "meaning": "表现，显露",
+    "sentence": "喜形于色（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1108,
+    "char": "形",
+    "keyword": "形",
+    "meaning": "对照，对比",
+    "sentence": "相形见绌（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1109,
+    "char": "行",
+    "keyword": "行",
+    "meaning": "走",
+    "sentence": "三人行，则必有我师（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1110,
+    "char": "行",
+    "keyword": "行",
+    "meaning": "去、离开；前往",
+    "sentence": "赵王畏秦，欲毋行（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1111,
+    "char": "行",
+    "keyword": "行",
+    "meaning": "畅行，传布",
+    "sentence": "残贼公行（《论积贮疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1112,
+    "char": "行",
+    "keyword": "行",
+    "meaning": "实行，做",
+    "sentence": "余嘉其能行古道（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1113,
+    "char": "行",
+    "keyword": "行",
+    "meaning": "行为，品行",
+    "sentence": "君子博学而日参省乎己，则知明而行无过矣（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1114,
+    "char": "行",
+    "keyword": "行",
+    "meaning": "将，将要",
+    "sentence": "感吾生之行休（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1115,
+    "char": "行",
+    "keyword": "行",
+    "meaning": "行列，队伍",
+    "sentence": "陈胜、吴广皆次当行（《史记·陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1116,
+    "char": "行",
+    "keyword": "行",
+    "meaning": "古诗的一种体裁",
+    "sentence": "《琵琶行》",
+    "familiarity": 0
+  },
+  {
+    "id": 1117,
+    "char": "行",
+    "keyword": "行伍",
+    "meaning": "军队",
+    "sentence": "蹑足行伍之间，而倔起阡陌之中（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1118,
+    "char": "幸",
+    "keyword": "幸",
+    "meaning": "幸运",
+    "sentence": "幸甚至哉，歌以咏志（《观沧海》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1119,
+    "char": "幸",
+    "keyword": "幸",
+    "meaning": "侥幸，幸亏",
+    "sentence": "幸亡阻我（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1120,
+    "char": "幸",
+    "keyword": "幸",
+    "meaning": "宠爱",
+    "sentence": "夫赵强而燕弱，而君幸于赵王（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1121,
+    "char": "幸",
+    "keyword": "幸",
+    "meaning": "皇帝到某处去",
+    "sentence": "缦立远视，而望幸焉（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1122,
+    "char": "幸",
+    "keyword": "幸",
+    "meaning": "希望",
+    "sentence": "幸可广问讯，不得便相许（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1123,
+    "char": "修",
+    "keyword": "修",
+    "meaning": "修饰，装饰",
+    "sentence": "修饰辞令（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1124,
+    "char": "修",
+    "keyword": "修",
+    "meaning": "治理，整治",
+    "sentence": "内立法度，务耕织，修守战之具（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1125,
+    "char": "修",
+    "keyword": "修",
+    "meaning": "修建，修造",
+    "sentence": "乃重修岳阳楼（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1126,
+    "char": "修",
+    "keyword": "修",
+    "meaning": "修订，修改",
+    "sentence": "欲自修改（《世说新语·自新》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1127,
+    "char": "修",
+    "keyword": "修",
+    "meaning": "学习，求进步",
+    "sentence": "修己以安人（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1128,
+    "char": "修",
+    "keyword": "修",
+    "meaning": "长，高",
+    "sentence": "此地有崇山峻岭，茂林修竹（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1129,
+    "char": "徐",
+    "keyword": "徐",
+    "meaning": "缓慢，慢慢地",
+    "sentence": "清风徐来，水波不兴（《前赤壁赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1130,
+    "char": "许",
+    "keyword": "许",
+    "meaning": "答应，允许",
+    "sentence": "均之二策，宁许以负秦曲（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1131,
+    "char": "许",
+    "keyword": "许",
+    "meaning": "赞许，赞同",
+    "sentence": "杂然相许（《愚公移山》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1132,
+    "char": "许",
+    "keyword": "许",
+    "meaning": "期望，期许",
+    "sentence": "塞上长城空自许，镜中衰鬓已先斑（《书愤》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1133,
+    "char": "许",
+    "keyword": "许",
+    "meaning": "左右（表约数）",
+    "sentence": "潭中鱼可百许头（《小石潭记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1134,
+    "char": "许",
+    "keyword": "许",
+    "meaning": "处所，地方",
+    "sentence": "先生不知何许人也，亦不详其姓字（《五柳先生传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1135,
+    "char": "许",
+    "keyword": "许",
+    "meaning": "这样",
+    "sentence": "问渠那得清如许，为有源头活水来（《观书有感》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1136,
+    "char": "寻",
+    "keyword": "寻",
+    "meaning": "古代长度单位，八尺为一寻",
+    "sentence": "飞来峰上千寻塔（《登飞来峰》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1137,
+    "char": "寻",
+    "keyword": "寻",
+    "meaning": "寻找",
+    "sentence": "寻向所志（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1138,
+    "char": "寻",
+    "keyword": "寻",
+    "meaning": "不久",
+    "sentence": "寻蒙国恩，除臣洗马（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1139,
+    "char": "延",
+    "keyword": "延",
+    "meaning": "延长，延续",
+    "sentence": "延及孝文王、庄襄王（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1140,
+    "char": "延",
+    "keyword": "延",
+    "meaning": "扩展，蔓延",
+    "sentence": "延及于平民（《书·吕刑》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1141,
+    "char": "延",
+    "keyword": "延",
+    "meaning": "邀请",
+    "sentence": "余人各复延至其家，皆出酒食（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1142,
+    "char": "延",
+    "keyword": "延",
+    "meaning": "迎接，迎击",
+    "sentence": "秦人开关延敌《过秦论》",
+    "familiarity": 0
+  },
+  {
+    "id": 1143,
+    "char": "阳",
+    "keyword": "阳",
+    "meaning": "山的南面，水的北面",
+    "sentence": "所谓华山洞者，以其华山之阳名之也（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1144,
+    "char": "阳",
+    "keyword": "阳",
+    "meaning": "阳光",
+    "sentence": "阳春召我以烟景（《春夜宴从弟桃花园序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1145,
+    "char": "阳",
+    "keyword": "阳",
+    "meaning": "表面上，假装",
+    "sentence": "阳奉阴违（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1146,
+    "char": "要",
+    "keyword": "要",
+    "meaning": "重要",
+    "sentence": "要言不烦（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1147,
+    "char": "要",
+    "keyword": "要",
+    "meaning": "险要",
+    "sentence": "筑石寨土堡于要隘（《冯婉贞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1148,
+    "char": "要",
+    "keyword": "要",
+    "meaning": "需要",
+    "sentence": "扫云物以贞观，要万涂而来归（《文选·陆机·吊魏武帝文》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1149,
+    "char": "要",
+    "keyword": "要",
+    "meaning": "概括，总括",
+    "sentence": "帝王者各殊礼而异务，要以成功为统纪，岂可绲乎？（《史记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1150,
+    "char": "要",
+    "keyword": "要",
+    "meaning": "约定",
+    "sentence": "虽与府吏要，渠会永无缘《孔雀东南飞》",
+    "familiarity": 0
+  },
+  {
+    "id": 1151,
+    "char": "要",
+    "keyword": "要",
+    "meaning": "同“邀”，邀请",
+    "sentence": "便要还家，设酒杀鸡作食《桃花源记》",
+    "familiarity": 0
+  },
+  {
+    "id": 1152,
+    "char": "业",
+    "keyword": "业",
+    "meaning": "学业",
+    "sentence": "师者，所以传道受业解惑也（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1153,
+    "char": "业",
+    "keyword": "业",
+    "meaning": "职业",
+    "sentence": "以捕鱼为业（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1154,
+    "char": "业",
+    "keyword": "业",
+    "meaning": "以……为业，从事，意动",
+    "sentence": "驼业种树（《种树郭橐驼传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1155,
+    "char": "业",
+    "keyword": "业",
+    "meaning": "事业，功业",
+    "sentence": "先帝创业未半而中道崩（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1156,
+    "char": "业",
+    "keyword": "业",
+    "meaning": "已经",
+    "sentence": "良业为取履，因长跪履之（《史记·留侯世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1157,
+    "char": "贻",
+    "keyword": "贻",
+    "meaning": "送给",
+    "sentence": "余嘉其能行古道，作《师说》以贻之《师说》",
+    "familiarity": 0
+  },
+  {
+    "id": 1158,
+    "char": "夷",
+    "keyword": "夷",
+    "meaning": "少数民族",
+    "sentence": "南抚夷越（《隆中对》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1159,
+    "char": "夷",
+    "keyword": "夷",
+    "meaning": "平坦",
+    "sentence": "夫夷以近，则游者众（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1160,
+    "char": "夷",
+    "keyword": "夷",
+    "meaning": "铲平",
+    "sentence": "夷为平地（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1161,
+    "char": "夷",
+    "keyword": "夷",
+    "meaning": "喜悦，愉快",
+    "sentence": "与之论辩，言和而色夷（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1162,
+    "char": "宜",
+    "keyword": "宜",
+    "meaning": "合适，适宜",
+    "sentence": "欲把西湖比西子，淡妆浓抹总相宜（《饮湖上初晴雨后》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1163,
+    "char": "宜",
+    "keyword": "宜",
+    "meaning": "应当，应该",
+    "sentence": "今大王亦宜斋戒五日（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1164,
+    "char": "遗",
+    "keyword": "遗(yí)",
+    "meaning": "遗失、丢失",
+    "sentence": "秦无亡矢遗镞之费，而天下诸侯已困矣（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1165,
+    "char": "遗",
+    "keyword": "遗(yí)",
+    "meaning": "遗漏，忽略",
+    "sentence": "小学而大遗，吾未见其明也（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1166,
+    "char": "遗",
+    "keyword": "遗(yí)",
+    "meaning": "遗留",
+    "sentence": "地有遗利，民有余力（《论贵粟疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1167,
+    "char": "遗",
+    "keyword": "遗(yí)",
+    "meaning": "遗留下来的，剩下的",
+    "sentence": "蒙故业，因遗策（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1168,
+    "char": "遗",
+    "keyword": "遗(wèi)",
+    "meaning": "送给，赠送",
+    "sentence": "秦昭王闻之，使人遗赵王书（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1169,
+    "char": "异",
+    "keyword": "异",
+    "meaning": "与众不同的，奇特的",
+    "sentence": "产异蛇（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1170,
+    "char": "异",
+    "keyword": "异",
+    "meaning": "与众不同的本领，奇特的本领，形作名",
+    "sentence": "成述其异，宰不信（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1171,
+    "char": "异",
+    "keyword": "异",
+    "meaning": "以……为异，感到奇怪，意动",
+    "sentence": "渔人甚异之（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1172,
+    "char": "易",
+    "keyword": "易",
+    "meaning": "交换、换取",
+    "sentence": "秦王以十五城请易寡人之璧（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1173,
+    "char": "易",
+    "keyword": "易",
+    "meaning": "改变、更改",
+    "sentence": "大阉之乱，缙绅而能不易其志者，四海之大，有几人欤（《五人墓碑记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1174,
+    "char": "易",
+    "keyword": "易",
+    "meaning": "容易",
+    "sentence": "天下事有难易乎（《为学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1175,
+    "char": "易",
+    "keyword": "易",
+    "meaning": "平坦，平易",
+    "sentence": "平易近人（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1176,
+    "char": "易",
+    "keyword": "易",
+    "meaning": "轻视，看不起",
+    "sentence": "贼易之，对饮酒，醉（《童区寄传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1177,
+    "char": "诣",
+    "keyword": "诣",
+    "meaning": "到……去",
+    "sentence": "乃强起扶杖，执图诣寺后（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1178,
+    "char": "诣",
+    "keyword": "诣",
+    "meaning": "拜见，拜访",
+    "sentence": "及郡下，诣太守，说如此（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1179,
+    "char": "益",
+    "keyword": "益",
+    "meaning": "增加",
+    "sentence": "曾益其所不能（《生于忧患，死于安乐》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1180,
+    "char": "益",
+    "keyword": "益",
+    "meaning": "利益，好处",
+    "sentence": "无益于事（词语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1181,
+    "char": "益",
+    "keyword": "益",
+    "meaning": "更加",
+    "sentence": "是故圣益圣，愚益愚（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1182,
+    "char": "益",
+    "keyword": "益",
+    "meaning": "渐渐地",
+    "sentence": "武益愈，单于使使晓武（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1183,
+    "char": "益",
+    "keyword": "益",
+    "meaning": "同“溢”",
+    "sentence": "澭水暴益，荆人弗知（《察今》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1184,
+    "char": "阴",
+    "keyword": "阴",
+    "meaning": "山北水南",
+    "sentence": "会于会稽山阴之兰亭（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1185,
+    "char": "阴",
+    "keyword": "阴",
+    "meaning": "阴天，没有阳光",
+    "sentence": "朝晖夕阴，气象万千（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1186,
+    "char": "阴",
+    "keyword": "阴",
+    "meaning": "阴冷、寒",
+    "sentence": "阴风怒号（《岳阳楼记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1187,
+    "char": "阴",
+    "keyword": "阴",
+    "meaning": "阴影，树荫",
+    "sentence": "绿杨阴里白沙堤（《钱塘湖春行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1188,
+    "char": "阴",
+    "keyword": "阴",
+    "meaning": "暗中，暗地里",
+    "sentence": "阴相与谋劫单于母阏氏归汉（《苏武传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1189,
+    "char": "引",
+    "keyword": "引",
+    "meaning": "拉弓",
+    "sentence": "引弓而射（《淮南子·说林训》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1190,
+    "char": "引",
+    "keyword": "引",
+    "meaning": "伸，伸长",
+    "sentence": "引亢高歌（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1191,
+    "char": "引",
+    "keyword": "引",
+    "meaning": "拉，牵",
+    "sentence": "左右或欲引相如去（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1192,
+    "char": "引",
+    "keyword": "引",
+    "meaning": "拿，举",
+    "sentence": "引壶觞以自酌，眄庭柯以怡颜（《归去来兮辞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1193,
+    "char": "引",
+    "keyword": "引",
+    "meaning": "引用",
+    "sentence": "不宜妄自菲薄，引喻失义（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1194,
+    "char": "引",
+    "keyword": "引",
+    "meaning": "导引，延请",
+    "sentence": "设九宾礼于庭，引赵使者蔺相如（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1195,
+    "char": "引",
+    "keyword": "引",
+    "meaning": "带领",
+    "sentence": "引军从华容道步走（《赤壁之战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1196,
+    "char": "引",
+    "keyword": "引",
+    "meaning": "退避，掉转",
+    "sentence": "相如引车避匿（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1197,
+    "char": "盈",
+    "keyword": "盈",
+    "meaning": "满，丰满，饱满",
+    "sentence": "盈科而后进（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1198,
+    "char": "盈",
+    "keyword": "盈",
+    "meaning": "充满，装满",
+    "sentence": "彼竭我盈，故克之（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1199,
+    "char": "余",
+    "keyword": "余",
+    "meaning": "剩余，剩下",
+    "sentence": "秦有余力而制其弊（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1200,
+    "char": "余",
+    "keyword": "余",
+    "meaning": "剩余的，多余的",
+    "sentence": "父有余(余)财（《吴仲山碑》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1201,
+    "char": "余",
+    "keyword": "余",
+    "meaning": "其他的，别的",
+    "sentence": "得十九人，余无可取者，无以满二十人（《史记·平原君虞卿列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1202,
+    "char": "余",
+    "keyword": "余",
+    "meaning": "多，表零数",
+    "sentence": "一车炭重千余斤（《卖炭翁》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1203,
+    "char": "余",
+    "keyword": "余",
+    "meaning": "我",
+    "sentence": "古之人不余欺也（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1204,
+    "char": "逾",
+    "keyword": "逾",
+    "meaning": "超过",
+    "sentence": "录毕，走送之，不敢稍逾约（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1205,
+    "char": "逾",
+    "keyword": "逾",
+    "meaning": "越过，经过",
+    "sentence": "客逾庖而宴（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1206,
+    "char": "逾",
+    "keyword": "逾",
+    "meaning": "过度，过分",
+    "sentence": "时天下承平日久，自王侯以下莫不逾侈（《张衡传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1207,
+    "char": "狱",
+    "keyword": "狱",
+    "meaning": "案件",
+    "sentence": "小大之狱，虽不能察，必以情（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1208,
+    "char": "狱",
+    "keyword": "狱",
+    "meaning": "监狱",
+    "sentence": "哀我填寡，宜岸宜狱（《诗·小雅》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1209,
+    "char": "缘",
+    "keyword": "缘",
+    "meaning": "边缘，边沿",
+    "sentence": "低下头去把嘴唇搁在杯缘（《蚀·追求》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1210,
+    "char": "缘",
+    "keyword": "缘",
+    "meaning": "顺着，沿着",
+    "sentence": "缘溪行，忘路之远近（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1211,
+    "char": "缘",
+    "keyword": "缘",
+    "meaning": "攀援",
+    "sentence": "以若所为，求若所欲，犹缘木而求鱼也（《孟子·梁惠王上》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1212,
+    "char": "缘",
+    "keyword": "缘",
+    "meaning": "缘分，机缘",
+    "sentence": "虽与府吏要，渠会永无缘（《孔雀东南飞》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1213,
+    "char": "缘",
+    "keyword": "缘",
+    "meaning": "因为",
+    "sentence": "不识庐山真面目，只缘身在此山中（《题西林壁》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1214,
+    "char": "远",
+    "keyword": "远",
+    "meaning": "遥远，差距大",
+    "sentence": "任重而道远（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1215,
+    "char": "远",
+    "keyword": "远",
+    "meaning": "远离，避开，形作动",
+    "sentence": "小人寡欲，则能谨身节用，远罪丰家（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1216,
+    "char": "远",
+    "keyword": "远",
+    "meaning": "久远，长远",
+    "sentence": "肉食者鄙，未能远谋（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1217,
+    "char": "远",
+    "keyword": "远",
+    "meaning": "深远，深奥",
+    "sentence": "人无远虑，必有近忧（《论语·卫灵公》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1218,
+    "char": "云",
+    "keyword": "云",
+    "meaning": "云气，云雾，云彩",
+    "sentence": "云青青兮欲雨，水澹澹兮生烟（《梦游天姥吟留别》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1219,
+    "char": "云",
+    "keyword": "云",
+    "meaning": "像云一样地，名作状",
+    "sentence": "天下云集响应（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1220,
+    "char": "云",
+    "keyword": "云",
+    "meaning": "说，记载",
+    "sentence": "《水经》云：“彭蠡之口有石钟山焉。”（《石钟山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1221,
+    "char": "云",
+    "keyword": "云",
+    "meaning": "句末语气助词，无实义",
+    "sentence": "当以训汝子孙，使知前辈之风俗云（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1222,
+    "char": "云",
+    "keyword": "云尔",
+    "meaning": "如此而已",
+    "sentence": "不知老之将至云尔（《论语》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1223,
+    "char": "再",
+    "keyword": "再",
+    "meaning": "两次",
+    "sentence": "庭中始为篱，已为墙，凡再变矣（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1224,
+    "char": "再",
+    "keyword": "再",
+    "meaning": "第二次",
+    "sentence": "一鼓作气，再而衰，三而竭（《曹刿论战》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1225,
+    "char": "再",
+    "keyword": "再拜",
+    "meaning": "拜两拜",
+    "sentence": "谨使臣良奉白璧一双，再拜献大王足下（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1226,
+    "char": "造",
+    "keyword": "造",
+    "meaning": "到……去",
+    "sentence": "径造庐访成（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1227,
+    "char": "造",
+    "keyword": "造",
+    "meaning": "制造",
+    "sentence": "造舟为梁（《诗经·大雅》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1228,
+    "char": "造",
+    "keyword": "造",
+    "meaning": "制定，建立",
+    "sentence": "怀王使屈原造为宪令（《史记·屈原贾生列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1229,
+    "char": "责",
+    "keyword": "责",
+    "meaning": "索取，所要",
+    "sentence": "每责一头，辄倾数家之产（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1230,
+    "char": "责",
+    "keyword": "责",
+    "meaning": "责令，督促",
+    "sentence": "试使斗而才，因责常供（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1231,
+    "char": "责",
+    "keyword": "责",
+    "meaning": "要求",
+    "sentence": "躬自厚而薄责于人（《论语·卫灵公》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1232,
+    "char": "责",
+    "keyword": "责",
+    "meaning": "责任",
+    "sentence": "亦恐二世诛之，故欲以法诛将军以塞责（《史记·项羽本纪》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1233,
+    "char": "责",
+    "keyword": "责",
+    "meaning": "询问，责问",
+    "sentence": "收奴婢十余人去，责以杀婢事（《汉书·赵严韩张两王传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1234,
+    "char": "责",
+    "keyword": "责",
+    "meaning": "责备，责罚",
+    "sentence": "当其为里正、受扑责时（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1235,
+    "char": "责",
+    "keyword": "责",
+    "meaning": "同“债”",
+    "sentence": "谁习计会，能为文收责于薛者乎（《战国策·齐策》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1236,
+    "char": "章",
+    "keyword": "章",
+    "meaning": "花纹",
+    "sentence": "黑质而白章（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1237,
+    "char": "章",
+    "keyword": "章",
+    "meaning": "音乐的一曲或章节",
+    "sentence": "诵明月之诗，歌窈窕之章（《前赤壁赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1238,
+    "char": "章",
+    "keyword": "章",
+    "meaning": "文章",
+    "sentence": "积句而成章，积章而成篇（《文心雕龙》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1239,
+    "char": "章",
+    "keyword": "章",
+    "meaning": "奏章",
+    "sentence": "章以谢恩，奏以按劾，表以陈情，议以执异（《文心雕龙》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1240,
+    "char": "章",
+    "keyword": "章",
+    "meaning": "规章制度",
+    "sentence": "与父老约法三章耳（《史记·高祖本纪》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1241,
+    "char": "章",
+    "keyword": "章",
+    "meaning": "印章",
+    "sentence": "又用篆章一（《核舟记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1242,
+    "char": "振",
+    "keyword": "振",
+    "meaning": "抖动，摇动",
+    "sentence": "振衣裳，甲上冰霜迸落（《左忠毅公逸事》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1243,
+    "char": "振",
+    "keyword": "振",
+    "meaning": "举起",
+    "sentence": "振长策而御宇内（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1244,
+    "char": "振",
+    "keyword": "振",
+    "meaning": "奋起，振奋",
+    "sentence": "蹶而不复振（《教战守》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1245,
+    "char": "振",
+    "keyword": "振",
+    "meaning": "同“赈”，救济",
+    "sentence": "大命将泛，莫之振救（《论积贮疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1246,
+    "char": "振",
+    "keyword": "振",
+    "meaning": "同“震”，震慑",
+    "sentence": "威振四海（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1247,
+    "char": "知",
+    "keyword": "知",
+    "meaning": "知道、懂得",
+    "sentence": "人非生而知之者（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1248,
+    "char": "知",
+    "keyword": "知",
+    "meaning": "了解",
+    "sentence": "君何以知燕王（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1249,
+    "char": "知",
+    "keyword": "知",
+    "meaning": "知觉",
+    "sentence": "草木有生而无知（《荀子·王制》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1250,
+    "char": "知",
+    "keyword": "知",
+    "meaning": "识别",
+    "sentence": "孪子之相似者，唯其母能知之（《淮南子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1251,
+    "char": "知",
+    "keyword": "知",
+    "meaning": "知识",
+    "sentence": "吾生也有涯，而知也无涯（《庄子·养生主》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1252,
+    "char": "知",
+    "keyword": "知",
+    "meaning": "同“智”，智慧",
+    "sentence": "君子博学而日参省乎己，则知明而行无过矣（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1253,
+    "char": "直",
+    "keyword": "直",
+    "meaning": "笔直",
+    "sentence": "木直中绳，𫐓以为轮，其曲中规（《荀子·劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1254,
+    "char": "直",
+    "keyword": "直",
+    "meaning": "正直",
+    "sentence": "屈平正道直行，竭忠尽智，以事其君（《史记·屈原贾生列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1255,
+    "char": "直",
+    "keyword": "直",
+    "meaning": "径直，直接",
+    "sentence": "直走咸阳（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1256,
+    "char": "直",
+    "keyword": "直",
+    "meaning": "简直",
+    "sentence": "是直用管窥天，用锥指地也（《庄子·秋水》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1257,
+    "char": "直",
+    "keyword": "直",
+    "meaning": "同“值”，价钱",
+    "sentence": "昂其直，居为奇货（《促织》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1258,
+    "char": "止",
+    "keyword": "止",
+    "meaning": "停止",
+    "sentence": "树欲静而风不止，子欲养而亲不待也（《韩诗外传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1259,
+    "char": "止",
+    "keyword": "止",
+    "meaning": "阻止",
+    "sentence": "笑而止之（《列子·汤问》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1260,
+    "char": "止",
+    "keyword": "止",
+    "meaning": "只是，仅仅",
+    "sentence": "一屠晚归，担中肉尽，止有剩骨（《狼》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1261,
+    "char": "致",
+    "keyword": "致",
+    "meaning": "表达",
+    "sentence": "妇前致问（《石壕吏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1262,
+    "char": "致",
+    "keyword": "致",
+    "meaning": "达到",
+    "sentence": "假舆马者，非利足也，而致千里（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1263,
+    "char": "致",
+    "keyword": "致",
+    "meaning": "得到，取得",
+    "sentence": "家贫，无从致书以观（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1264,
+    "char": "致",
+    "keyword": "致",
+    "meaning": "招致，招纳",
+    "sentence": "以致天下之士，合从缔交，相与为一（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1265,
+    "char": "致",
+    "keyword": "致",
+    "meaning": "致使，使",
+    "sentence": "何意致不厚（《玉台新咏·古诗为焦仲卿妻作》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1266,
+    "char": "致",
+    "keyword": "致",
+    "meaning": "尽，极",
+    "sentence": "致赏则匮（《管子·君臣下》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1267,
+    "char": "致",
+    "keyword": "致",
+    "meaning": "情趣，意趣",
+    "sentence": "虽世殊事异，所以兴怀，其致一也（《兰亭集序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1268,
+    "char": "志",
+    "keyword": "志",
+    "meaning": "心意，心愿",
+    "sentence": "愿陛下矜悯愚诚，听臣微志（《陈情表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1269,
+    "char": "志",
+    "keyword": "志",
+    "meaning": "志向",
+    "sentence": "燕雀安知鸿鹄之志哉!（《史记·陈涉世家》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1270,
+    "char": "志",
+    "keyword": "志",
+    "meaning": "记",
+    "sentence": "亭以雨名，志喜也（《喜雨亭记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1271,
+    "char": "志",
+    "keyword": "志",
+    "meaning": "记述，记载",
+    "sentence": "《齐谐》者，志怪者也（《庄子·逍遥游》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1272,
+    "char": "志",
+    "keyword": "志",
+    "meaning": "标记",
+    "sentence": "便扶向路，处处志之（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1273,
+    "char": "质",
+    "keyword": "质",
+    "meaning": "抵押，信物，人质",
+    "sentence": "必以长安君为质，兵乃出（《触龙说赵太后》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1274,
+    "char": "质",
+    "keyword": "质",
+    "meaning": "询问",
+    "sentence": "余立侍左右，援疑质理（《送东阳马生序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1275,
+    "char": "质",
+    "keyword": "质",
+    "meaning": "质地，资质",
+    "sentence": "黑质而白章（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1276,
+    "char": "质",
+    "keyword": "质",
+    "meaning": "朴实、缺少文采",
+    "sentence": "以质信言，则见以为鄙（《韩非子·难言》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1277,
+    "char": "质",
+    "keyword": "质",
+    "meaning": "同“锧”，砧板",
+    "sentence": "君不如肉袒伏斧质请罪（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1278,
+    "char": "质",
+    "keyword": "质明",
+    "meaning": "天刚亮",
+    "sentence": "质明，避哨竹林中（《<指南录>后序》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1279,
+    "char": "治",
+    "keyword": "治",
+    "meaning": "管理、治理",
+    "sentence": "治国无法则乱（《吕氏春秋·察今》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1280,
+    "char": "治",
+    "keyword": "治",
+    "meaning": "安定，太平",
+    "sentence": "四境之内不治，则如之何（《孟子》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1281,
+    "char": "治",
+    "keyword": "治",
+    "meaning": "营建，修造",
+    "sentence": "治居第于封丘门内（《训俭示康》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1282,
+    "char": "治",
+    "keyword": "治",
+    "meaning": "医治",
+    "sentence": "如人有疾，不治则寝以深（《盐铁论·世务》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1283,
+    "char": "治",
+    "keyword": "治",
+    "meaning": "治罪，惩处",
+    "sentence": "不效则治臣之罪，以告先帝之灵（《出师表》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1284,
+    "char": "置",
+    "keyword": "置",
+    "meaning": "放置",
+    "sentence": "项王则受璧，置之坐上（《史记·项羽本纪》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1285,
+    "char": "置",
+    "keyword": "置",
+    "meaning": "放弃、丢下",
+    "sentence": "沛公则置车骑，脱身独骑（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1286,
+    "char": "置",
+    "keyword": "置",
+    "meaning": "摆，设",
+    "sentence": "置园邑三百家（《汉书·霍光传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1287,
+    "char": "中",
+    "keyword": "中(zhōng)",
+    "meaning": "内、里",
+    "sentence": "五帝之中无传政（《荀子·非相》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1288,
+    "char": "中",
+    "keyword": "中(zhōng)",
+    "meaning": "内心",
+    "sentence": "士生于世，使其中不自得，将何往而非病？（《黄州快哉亭记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1289,
+    "char": "中",
+    "keyword": "中(zhōng)",
+    "meaning": "中间，当中",
+    "sentence": "古者天子地方千里，中之而为都（《新书·属远》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1290,
+    "char": "中",
+    "keyword": "中(zhōng)",
+    "meaning": "一半，半",
+    "sentence": "夜中，星殒如雨（《春秋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1291,
+    "char": "中",
+    "keyword": "中(zhōng)",
+    "meaning": "中等",
+    "sentence": "受中赏（《战国策·齐策》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1292,
+    "char": "中",
+    "keyword": "中人",
+    "meaning": "平常的人",
+    "sentence": "才能不及中人（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1293,
+    "char": "中",
+    "keyword": "中(zhòng)",
+    "meaning": "击中，射中",
+    "sentence": "见其发矢十中八九，但微之（《卖油翁》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1294,
+    "char": "中",
+    "keyword": "中(zhòng)",
+    "meaning": "符合",
+    "sentence": "木直中绳，輮以为轮，其曲中规（《劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1295,
+    "char": "众",
+    "keyword": "众",
+    "meaning": "众人，许多人",
+    "sentence": "则众何为而不汹汹然? （《答司马谏议书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1296,
+    "char": "众",
+    "keyword": "众",
+    "meaning": "众多",
+    "sentence": "夫夷以近，则游者众（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1297,
+    "char": "众",
+    "keyword": "众",
+    "meaning": "普通的，一般的",
+    "sentence": "今之众人，其下圣人也亦远矣（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1298,
+    "char": "周",
+    "keyword": "周",
+    "meaning": "周密，周到，周全",
+    "sentence": "辅周则国必强（《孙子·谋政》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1299,
+    "char": "周",
+    "keyword": "周",
+    "meaning": "全",
+    "sentence": "瓦缝参差，多于周身之帛缕（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1300,
+    "char": "周",
+    "keyword": "周",
+    "meaning": "环绕",
+    "sentence": "垣墙周庭，以当南日（《项脊轩志》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1301,
+    "char": "周",
+    "keyword": "周",
+    "meaning": "四周，周围",
+    "sentence": "大城不可以不完，郭周不可以外通（《管子·八观》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1302,
+    "char": "专",
+    "keyword": "专",
+    "meaning": "专门，专一",
+    "sentence": "不专心致志则不得也（《孟子·告子上》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1303,
+    "char": "专",
+    "keyword": "专",
+    "meaning": "独有，独占",
+    "sentence": "有蒋氏者，专其利三世矣（《捕蛇者说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1304,
+    "char": "专",
+    "keyword": "专",
+    "meaning": "专断独行",
+    "sentence": "主弱臣强，专制擅权（《汉书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1305,
+    "char": "走",
+    "keyword": "走",
+    "meaning": "跑",
+    "sentence": "双兔傍地走，安能辨我是雄雌（《木兰诗》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1306,
+    "char": "走",
+    "keyword": "走",
+    "meaning": "逃跑",
+    "sentence": "臣尝有罪，窃计欲亡走燕（《廉颇蔺相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1307,
+    "char": "走",
+    "keyword": "走",
+    "meaning": "趋向",
+    "sentence": "山北构而西折，直走咸阳（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1308,
+    "char": "足",
+    "keyword": "足",
+    "meaning": "脚",
+    "sentence": "假舆马者，非利足也，而致千里（《荀子·劝学》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1309,
+    "char": "足",
+    "keyword": "足",
+    "meaning": "充足，满足",
+    "sentence": "声音不足（《孟子·梁惠王上》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1310,
+    "char": "足",
+    "keyword": "足",
+    "meaning": "足够",
+    "sentence": "方是时，余之力尚足以入，火尚足以明也（《游褒禅山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1311,
+    "char": "足",
+    "keyword": "足",
+    "meaning": "值得",
+    "sentence": "不足为外人道也（《桃花源记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1312,
+    "char": "卒",
+    "keyword": "卒",
+    "meaning": "士兵",
+    "sentence": "每得降卒必亲引问之（《资治通鉴·唐纪》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1313,
+    "char": "卒",
+    "keyword": "卒",
+    "meaning": "差役",
+    "sentence": "涕泣谋于禁卒（《左忠毅公逸事》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1314,
+    "char": "卒",
+    "keyword": "卒",
+    "meaning": "最终，终于",
+    "sentence": "卒相与欢，为刎颈之交（《廉颇相如列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1315,
+    "char": "卒",
+    "keyword": "卒",
+    "meaning": "死",
+    "sentence": "初，鲁肃闻刘表卒（《资治通鉴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1316,
+    "char": "卒",
+    "keyword": "卒",
+    "meaning": "同“猝”，突然，仓猝",
+    "sentence": "群臣惊愕，卒起不意（《荆轲刺秦王》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1317,
+    "char": "卒",
+    "keyword": "卒",
+    "meaning": "同“萃”，聚集",
+    "sentence": "人卒九州，谷食之所生（《秋水》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1318,
+    "char": "族",
+    "keyword": "族",
+    "meaning": "家族",
+    "sentence": "克明俊德，以亲九族（《书·尧典》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1319,
+    "char": "族",
+    "keyword": "族",
+    "meaning": "灭族",
+    "sentence": "族秦者秦也，非天下也（《阿房宫赋》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1320,
+    "char": "族",
+    "keyword": "族",
+    "meaning": "类、一类人",
+    "sentence": "士大夫之族，曰师曰弟子云者（《师说》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1321,
+    "char": "左",
+    "keyword": "左",
+    "meaning": "左边",
+    "sentence": "左天都（《徐霞客游记·游黄山记》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1322,
+    "char": "左",
+    "keyword": "左",
+    "meaning": "较低的地位，与“右”的尊贵相对",
+    "sentence": "旁门左道（成语）",
+    "familiarity": 0
+  },
+  {
+    "id": 1323,
+    "char": "左",
+    "keyword": "左",
+    "meaning": "不正，邪僻",
+    "sentence": "足下所治僻左，书问致简，益用增劳（《与吴质书》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1324,
+    "char": "左",
+    "keyword": "左迁",
+    "meaning": "贬谪",
+    "sentence": "元和十年，予左迁九江郡司马《琵琶行（并序）》",
+    "familiarity": 0
+  },
+  {
+    "id": 1325,
+    "char": "作",
+    "keyword": "作",
+    "meaning": "起来，起身",
+    "sentence": "舍瑟而作（《论语·先进》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1326,
+    "char": "作",
+    "keyword": "作",
+    "meaning": "发出，发动",
+    "sentence": "一夫作难而匕庙隳（《过秦论》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1327,
+    "char": "作",
+    "keyword": "作",
+    "meaning": "劳作，劳动",
+    "sentence": "日出而作，日入而息（《乐府诗集》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1328,
+    "char": "作",
+    "keyword": "作",
+    "meaning": "制作，建造",
+    "sentence": "将有作，则思知止以安人（《谏太宗十思疏》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1329,
+    "char": "作",
+    "keyword": "作",
+    "meaning": "创作",
+    "sentence": "屈平之作《离骚》，盖自怨生也（《史记·屈原列传》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1330,
+    "char": "作",
+    "keyword": "作",
+    "meaning": "作品",
+    "sentence": "临摹旧作（ 蔡元培《图画》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1331,
+    "char": "坐",
+    "keyword": "坐",
+    "meaning": "同“座”座位",
+    "sentence": "项王则受璧，置之坐上（《鸿门宴》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1332,
+    "char": "坐",
+    "keyword": "坐",
+    "meaning": "因为",
+    "sentence": "停车坐爱枫林晚，霜叶红于二月花（《山行》）",
+    "familiarity": 0
+  },
+  {
+    "id": 1333,
+    "char": "坐",
+    "keyword": "坐",
+    "meaning": "犯……罪",
+    "sentence": "“何坐？”曰：“坐盗。”（《晏子使楚》）",
+    "familiarity": 0
+  }
+]

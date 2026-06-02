@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文言实词复习</title>
+<link href="https://cdn.jsdelivr.net/gh/fontsource/fontsource@main/css/packages/noto-serif-sc/400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/fontsource/fontsource@main/css/packages/noto-sans-sc/400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/fontsource/fontsource@main/css/packages/noto-sans-sc/700.css" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;background:#f7f5ef;color:#2c2c2c;min-height:100vh}
+.container{max-width:860px;margin:0 auto;padding:24px;min-height:100vh}
+.page{display:none;opacity:0;transition:opacity .3s}.page.active{display:block;opacity:1}
+h1{font-family:'Noto Serif SC',serif;text-align:center;margin:70px 0 8px;font-size:2.3em;color:#2d2d2d;letter-spacing:6px;font-weight:400}
+.subtitle{text-align:center;color:#8a8578;font-size:0.95em;margin-bottom:60px;letter-spacing:2px}
+.main-menu{display:flex;flex-direction:column;align-items:center;gap:18px}
+.btn{padding:13px 40px;font-size:1.05em;border:1.5px solid #4a3f33;background:transparent;color:#4a3f33;cursor:pointer;border-radius:10px;font-family:inherit;transition:all .25s;width:220px;text-align:center;letter-spacing:2px}
+.btn:hover{background:#4a3f33;color:#f7f5ef;box-shadow:0 4px 14px rgba(74,63,51,.18)}
+.btn:active{transform:scale(.97)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn:disabled:hover{background:transparent;color:#4a3f33}
+.btn-primary{background:#4a3f33;color:#f7f5ef;border-color:#4a3f33}
+.btn-primary:hover:not(:disabled){background:#2e2419;border-color:#2e2419}
+.btn-sm{padding:6px 16px;font-size:0.85em;width:auto;letter-spacing:0}
+.btn-danger{border-color:#b33;color:#b33}
+.btn-danger:hover:not(:disabled){background:#b33;color:#fff}
+.btn-success{border-color:#3a8a5c;color:#3a8a5c}
+.btn-success:hover:not(:disabled){background:#3a8a5c;color:#fff}
+.btn-warn{border-color:#c87f2a;color:#c87f2a}
+.btn-warn:hover:not(:disabled){background:#c87f2a;color:#fff}
+.back-btn{padding:7px 14px;font-size:0.9em;cursor:pointer;border:1px solid #cfc9bd;background:transparent;color:#6b6359;border-radius:8px;transition:all .2s;font-family:inherit;margin-bottom:16px}
+.back-btn:hover{background:#e8e3d8}
+
+/* Review */
+.review-wrap{min-height:calc(100vh - 100px);display:flex;flex-direction:column;justify-content:center;align-items:center}
+.sentence-card{background:#fff;border-radius:18px;padding:40px 36px 32px;max-width:620px;width:100%;box-shadow:0 2px 20px rgba(0,0,0,.05);cursor:pointer;user-select:none;transition:box-shadow .3s,transform .45s,opacity .4s;transform-origin:center}
+.sentence-card:hover{box-shadow:0 4px 28px rgba(0,0,0,.09)}
+.sentence-card.card-exit{opacity:0;transform:translateY(-24px) scale(.97)}
+.sentence-card.card-enter{animation:cardIn .45s ease forwards}
+@keyframes cardIn{
+  from{opacity:0;transform:translateY(24px) scale(.97)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+.sentence-box{font-family:'Noto Serif SC',serif;font-size:1.55em;line-height:2;text-align:center;color:#2d2d2d;letter-spacing:1px}
+.keyword{color:#b33;font-weight:700;border-bottom:2px solid #e5a0a0;padding-bottom:1px}
+.char-tag{display:inline-block;font-size:.5em;background:#4a3f33;color:#f7f5ef;padding:2px 10px;border-radius:20px;vertical-align:middle;margin-right:6px;letter-spacing:1px;font-family:'Noto Sans SC',sans-serif}
+.meaning-box{margin-top:26px;padding:18px 22px;background:linear-gradient(135deg,#f9f4ea,#f2ead8);border-radius:12px;opacity:0;max-height:0;overflow:hidden;transition:opacity .4s .05s,max-height .45s,padding .3s}
+.meaning-box.show{opacity:1;max-height:200px;padding:18px 22px}
+.meaning-text{font-size:1.08em;color:#5a4a33;line-height:1.8;text-align:center}
+.familiarity-buttons{margin-top:22px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;opacity:0;max-height:0;overflow:hidden;transition:opacity .4s .1s,max-height .4s .1s}
+.familiarity-buttons.show{opacity:1;max-height:100px}
+.familiarity-buttons .btn{width:auto;padding:9px 22px;font-size:0.92em;transition:all .3s}
+.familiarity-buttons .btn.confirmed{background:#3a8a5c !important;color:#f7f5ef !important;border-color:#3a8a5c !important;transform:scale(1.02)}
+.familiarity-buttons .btn.dim{opacity:.35;transform:scale(.96)}
+.review-hint{text-align:center;color:#b0a898;margin-top:18px;font-size:0.85em;letter-spacing:1px;transition:opacity .3s}
+.review-hint.hide{opacity:0}
+.progress-wrap{max-width:620px;width:100%;margin-top:24px}
+.progress-info{display:flex;justify-content:space-between;align-items:center;font-size:.82em;color:#8a8578;margin-bottom:6px;letter-spacing:1px}
+.progress-info .stat-num{font-family:'Noto Serif SC',serif;font-size:1.3em;color:#4a3f33;font-weight:700}
+.progress-info .stat-label{font-size:.78em}
+.progress-bar{height:3px;background:#e5dfd2;border-radius:2px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,#b33,#d87070);transition:width .5s;width:0}
+
+/* Edit */
+.page-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+.page-head h2{font-family:'Noto Serif SC',serif;font-size:1.4em;font-weight:400;color:#2d2d2d;letter-spacing:2px}
+.toolbar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;align-items:center}
+.toolbar input[type="text"]{padding:7px 12px;border:1px solid #d6d0c4;border-radius:8px;font-size:0.9em;font-family:inherit;flex:1;min-width:150px;background:#fff}
+.toolbar input[type="text"]:focus{outline:none;border-color:#4a3f33}
+.stat{font-size:0.82em;color:#8a8578;align-self:center;white-space:nowrap}
+.stat strong{color:#b33;font-weight:600}
+.table-container{background:#fff;border-radius:14px;box-shadow:0 2px 14px rgba(0,0,0,.05);overflow:hidden;margin-bottom:20px}
+.table-scroll{overflow-x:auto;max-height:calc(100vh - 240px);overflow-y:auto}
+table{width:100%;border-collapse:collapse;font-size:0.88em}
+thead th{background:#f0ebe0;padding:11px 10px;text-align:left;font-weight:700;color:#4a3f33;border-bottom:2px solid #e2dccf;position:sticky;top:0;z-index:2;white-space:nowrap}
+thead th.sortable{cursor:pointer;user-select:none}
+thead th.sortable:hover{background:#e7e0d2}
+thead th .sort-arrow{opacity:.35;font-size:.75em;margin-left:2px}
+thead th.active-sort .sort-arrow{opacity:1;color:#b33}
+th.col-check,td.col-check{width:36px;text-align:center;padding-left:12px;padding-right:6px}
+tbody td{padding:10px;border-bottom:1px solid #f0ece2;vertical-align:top}
+tbody tr{transition:background .15s}
+tbody tr:hover{background:#fbf8f1}
+tbody tr.selected{background:#f0ebe0}
+tbody tr.group-first td{border-top:2px solid #e2dccf}
+td.cell-char{font-family:'Noto Serif SC',serif;font-size:1.25em;font-weight:700;text-align:center;color:#4a3f33;width:48px}
+td.cell-kw{color:#b33;font-weight:600;text-align:center;width:58px}
+td.cell-meaning{max-width:180px;line-height:1.6;color:#3d3d3d}
+td.cell-sentence{max-width:240px;line-height:1.6;font-family:'Noto Serif SC',serif;color:#2d2d2d}
+td.cell-fam{text-align:center;width:90px}
+td.cell-act{width:70px;text-align:center;white-space:nowrap}
+.row-check{width:16px;height:16px;cursor:pointer;accent-color:#4a3f33}
+.fam-bar{display:inline-block;width:50px;height:5px;background:#ece6d8;border-radius:3px;vertical-align:middle;margin-right:6px;overflow:hidden}
+.fam-bar-inner{display:block;height:100%;border-radius:3px;transition:width .3s}
+.fam-label{font-size:.82em;color:#8a8578;vertical-align:middle}
+.empty-row{text-align:center;padding:40px!important;color:#b0a898}
+.hint-text{font-size:.78em;color:#b0a898;margin-left:8px}
+.data-source{display:inline-block;font-size:.75em;color:#b0a898;background:#f0ebe0;padding:2px 8px;border-radius:10px;margin-left:8px}
+
+/* Modal */
+.modal-overlay{position:fixed;inset:0;background:rgba(30,25,18,.45);display:none;justify-content:center;align-items:center;z-index:100;padding:20px;opacity:0;transition:opacity .25s}
+.modal-overlay.show{display:flex;opacity:1}
+.modal{background:#fff;border-radius:16px;padding:28px;width:100%;max-width:520px;max-height:90vh;overflow-y:auto;box-shadow:0 10px 50px rgba(0,0,0,.2);transform:scale(.95);transition:transform .25s}
+.modal-overlay.show .modal{transform:scale(1)}
+.modal h3{font-family:'Noto Serif SC',serif;font-weight:400;margin-bottom:20px;color:#2d2d2d;font-size:1.2em;letter-spacing:2px}
+.form-group{margin-bottom:14px}
+.form-group label{display:block;margin-bottom:5px;font-size:0.88em;color:#6b6359;letter-spacing:1px}
+.form-group input,.form-group textarea{width:100%;padding:9px 12px;border:1px solid #d6d0c4;border-radius:8px;font-size:0.95em;font-family:inherit;background:#fdfcf9}
+.form-group input:focus,.form-group textarea:focus{outline:none;border-color:#4a3f33;background:#fff}
+.form-group textarea{min-height:70px;resize:vertical;line-height:1.6}
+.modal-buttons{display:flex;gap:10px;justify-content:flex-end;margin-top:22px}
+
+/* Toast */
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(80px);background:#2e2419;color:#f7f5ef;padding:11px 24px;border-radius:10px;font-size:0.9em;transition:transform .35s;z-index:200;pointer-events:none;letter-spacing:1px;box-shadow:0 4px 20px rgba(0,0,0,.2)}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+/* Loading */
+.loading-mask{position:fixed;inset:0;background:rgba(247,245,239,.85);display:flex;justify-content:center;align-items:center;z-index:300;font-family:'Noto Serif SC',serif;color:#4a3f33;letter-spacing:4px;font-size:1.1em}
+.loading-mask.hide{display:none}
+.spinner{display:inline-block;width:18px;height:18px;border:2px solid #e5dfd2;border-top-color:#4a3f33;border-radius:50%;margin-right:12px;animation:spin .8s linear infinite;vertical-align:middle}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+#fileInput{display:none}
+
+@media(max-width:600px){
+  .container{padding:14px}
+  h1{font-size:1.7em;margin-top:36px;letter-spacing:4px}
+  .subtitle{margin-bottom:40px}
+  .sentence-card{padding:28px 20px 22px}
+  .sentence-box{font-size:1.2em}
+  .btn{width:180px;padding:11px 20px;font-size:.95em}
+  td,th{padding:7px 5px;font-size:.8em}
+  .toolbar .btn-sm{padding:5px 10px;font-size:.78em}
+  .hint-text{display:none}
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 主页 -->
+  <div id="page-menu" class="page active">
+    <h1>文言实词复习</h1>
+    <p class="subtitle">— 日积月累 · 温故知新 —</p>
+    <div class="main-menu">
+      <button id="btnStart" class="btn btn-primary">开 始 复 习</button>
+      <button id="btnEdit" class="btn">编 辑 词 条</button>
+    </div>
+  </div>
+
+  <!-- 复习页 -->
+  <div id="page-review" class="page">
+    <button id="btnBackReview" class="back-btn">← 返回主页</button>
+    <div class="review-wrap">
+      <div class="sentence-card" id="sentenceCard">
+        <div class="sentence-box" id="sentenceBox"></div>
+        <div class="meaning-box" id="meaningBox">
+          <div class="meaning-text" id="meaningText"></div>
+        </div>
+        <div class="familiarity-buttons" id="familiarityBtns">
+          <button class="btn btn-danger btn-fam" data-level="0">不 认 识</button>
+          <button class="btn btn-warn btn-fam" data-level="50">模 糊</button>
+          <button class="btn btn-success btn-fam" data-level="100">熟 悉</button>
+        </div>
+      </div>
+      <div class="review-hint" id="reviewHint">点击句子查看释义</div>
+      <div class="progress-wrap">
+        <div class="progress-info">
+          <span class="stat-num" id="statTotal">0</span>
+          <span>
+            <span class="stat-label">累计已复习 </span>
+            <span class="stat-num" id="statCover">0</span>
+            <span class="stat-label"> 题 · 覆盖率 </span>
+            <span class="stat-num" id="statCoverPct">0%</span>
+          </span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 编辑页 -->
+  <div id="page-edit" class="page">
+    <div class="page-head">
+      <h2>词 条 管 理 <span class="data-source" id="dataSourceTag"></span></h2>
+      <button id="btnBackEdit" class="back-btn">← 返回主页</button>
+    </div>
+    <div class="toolbar">
+      <button id="btnAdd" class="btn btn-sm btn-primary">＋ 添加</button>
+      <button id="btnDelete" class="btn btn-sm btn-danger" disabled>删除选中</button>
+      <button id="btnSelectAll" class="btn btn-sm">全选当前</button>
+      <button id="btnClearSel" class="btn btn-sm">取消全选</button>
+      <button id="btnExport" class="btn btn-sm">导出 JSON</button>
+      <button id="btnImport" class="btn btn-sm">导入 JSON</button>
+      <input type="file" id="fileInput" accept=".json">
+      <input type="text" id="searchInput" placeholder="搜索字 / 关键词 / 释义 / 例句...">
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:6px">
+      <span class="hint-text">💡 点击行选中，按住 Ctrl/⌘ 多选，按住 Shift 范围选</span>
+      <span class="stat" id="statInfo"></span>
+    </div>
+    <div class="table-container">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th class="col-check"><input type="checkbox" id="checkAll" class="row-check" title="全选/取消"></th>
+              <th class="sortable" data-col="char">字 <span class="sort-arrow">⇅</span></th>
+              <th class="sortable" data-col="keyword">关键词 <span class="sort-arrow">⇅</span></th>
+              <th>释义</th>
+              <th>例句</th>
+              <th class="sortable" data-col="familiarity">熟悉度 <span class="sort-arrow">⇅</span></th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h3 id="modalTitle">添加词条</h3>
+    <input type="hidden" id="editId">
+    <div class="form-group"><label>字</label><input id="fChar" placeholder="如：哀"></div>
+    <div class="form-group"><label>关键词（例句中被考查的字）</label><input id="fKeyword" placeholder="如：哀"></div>
+    <div class="form-group"><label>释义</label><textarea id="fMeaning" placeholder="如：悲伤，悲哀，哀叹，哀悼"></textarea></div>
+    <div class="form-group"><label>例句（关键词应出现在句中）</label><textarea id="fSentence" placeholder="如：杜鹃啼血猿哀鸣（《琵琶行》）"></textarea></div>
+    <div class="modal-buttons">
+      <button class="btn btn-sm" id="btnCancel">取消</button>
+      <button class="btn btn-sm btn-primary" id="btnSave">保存</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<div class="loading-mask hide" id="loadingMask">
+  <span class="spinner"></span>
+  <span id="loadingText">加载中…</span>
+</div>
+
+<script>
+// ============ 常量 ============
+const STORAGE_KEY = 'wenyan_entries_v4';
+
+// 内置预设（兜底）
+const RAW = [
+  {c:"哀", k:"哀", items:[
+    ["悲伤，悲哀，哀叹，哀悼","杜鹃啼血猿哀鸣（《琵琶行》）"],
+    ["为……哀叹，为动","秦人不暇自哀（《阿房宫赋》）"],
+    ["怜悯，同情","君将哀而生之乎（《捕蛇者说》）"]
+  ]},
+  {c:"爱", k:"爱", items:[
+    ["喜爱","爱其子，择师而教之（《师说》）"],
+    ["爱护","使六国各爱其人（《阿房宫赋》）"],
+    ["吝惜","不爱珍器重宝肥饶之地，以致天下之士（《过秦论》）"],
+    ["吝惜，舍不得","国事至此，予不得爱身（《〈指南录〉后序》）"]
+  ]}
+];
+
+function buildDefaultEntries() {
+  const result = [];
+  let id = 1;
+  RAW.forEach(w => {
+    w.items.forEach(([meaning, sentence]) => {
+      result.push({ id: id++, char: w.c, keyword: w.k, meaning, sentence, familiarity: 0 });
+    });
+  });
+  return result;
+}
+
+function normalizeData(arr) {
+  if (!Array.isArray(arr)) return null;
+  const valid = arr.filter(d => d && typeof d === 'object' && d.id != null);
+  if (valid.length === 0) return null;
+  valid.forEach(d => {
+    if (typeof d.id !== 'number') d.id = Number(d.id) || 0;
+    if (typeof d.familiarity !== 'number') d.familiarity = 0;
+    d.familiarity = Math.max(0, Math.min(100, d.familiarity));
+    d.char = String(d.char || '');
+    d.keyword = String(d.keyword || '');
+    d.meaning = String(d.meaning || '');
+    d.sentence = String(d.sentence || '');
+  });
+  return valid;
+}
+
+// ============ 数据加载（优先 localStorage → default.json → 内置） ============
+let entries = [];
+let nextId = 1;
+let dataSource = '';  // 标记数据来源
+let loadPromise = null;
+
+async function loadData() {
+  showLoading('正在加载词条…');
+  // 1. 优先 localStorage
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      const norm = normalizeData(parsed);
+      if (norm) {
+        entries = norm;
+        nextId = Math.max(...entries.map(e => e.id), 0) + 1;
+        dataSource = '本地存储';
+        hideLoading();
+        return;
+      }
+    }
+  } catch (e) { /* ignore */ }
+
+  // 2. 尝试读取同目录 default.json
+  try {
+    const resp = await fetch('default.json', { cache: 'no-store' });
+    if (resp.ok) {
+      const data = await resp.json();
+      const norm = normalizeData(data);
+      if (norm) {
+        entries = norm;
+        nextId = Math.max(...entries.map(e => e.id), 0) + 1;
+        dataSource = 'default.json';
+        save();  // 写入 localStorage，下次直接读本地
+        hideLoading();
+        return;
+      }
+    }
+  } catch (e) {
+    // 本地 file:// 协议或网络错误，忽略
+  }
+
+  // 3. 兜底：内置预设
+  entries = buildDefaultEntries();
+  nextId = Math.max(...entries.map(e => e.id), 0) + 1;
+  dataSource = '内置预设';
+  save();
+  hideLoading();
+}
+
+function ensureLoaded() {
+  if (!loadPromise) loadPromise = loadData();
+  return loadPromise;
+}
+
+function save() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(entries)); } catch (e) {}
+}
+
+function showLoading(text) {
+  const el = document.getElementById('loadingMask');
+  if (text) document.getElementById('loadingText').textContent = text;
+  el.classList.remove('hide');
+}
+function hideLoading() {
+  document.getElementById('loadingMask').classList.add('hide');
+}
+
+// ============ 复习状态 ============
+let current = null;
+let history = [];             // 最近 10 条（避免近期重复）
+let coveredIds = new Set();   // 本次打开页面以来见过的不同条目（用于覆盖率）
+let totalAnswered = 0;
+let showingAnswer = false;
+let isTransitioning = false;
+
+// ============ 编辑状态 ============
+let selectedIds = new Set();
+let lastRenderedList = [];
+let lastClickedId = null;
+let sortCol = null;
+let sortAsc = true;
+let toastTimer = null;
+
+// ============ 页面切换 ============
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+function goMenu() { showPage('menu'); }
+
+// ============ 复习 ============
+async function startReview() {
+  await ensureLoaded();
+  if (entries.length === 0) { showToast('暂无词条，请先添加'); return; }
+  history = [];
+  coveredIds = new Set();
+  totalAnswered = 0;
+  showingAnswer = false;
+  isTransitioning = false;
+  showPage('review');
+  current = pickItem();
+  renderReviewCard();
+  updateProgress();
+}
+
+function pickItem() {
+  // 排除最近 10 次出现的例句
+  const recentSentences = new Set(history.slice(-10).map(x => x.sentence));
+  let pool = entries.filter(e => !recentSentences.has(e.sentence));
+  if (pool.length === 0) pool = entries.slice();
+
+  // 按熟悉度加权：熟悉度越低，权重越高
+  const weights = pool.map(e => Math.max(110 - e.familiarity, 5));
+  const total = weights.reduce((a, b) => a + b, 0);
+  let r = Math.random() * total;
+  for (let i = 0; i < pool.length; i++) {
+    r -= weights[i];
+    if (r <= 0) return pool[i];
+  }
+  return pool[pool.length - 1];
+}
+
+function highlightKeyword(sentence, keyword) {
+  if (!keyword || !sentence) return escapeHtml(sentence || '');
+  const idx = sentence.indexOf(keyword);
+  if (idx === -1) return escapeHtml(sentence);
+  return escapeHtml(sentence.slice(0, idx))
+    + '<span class="keyword">' + escapeHtml(keyword) + '</span>'
+    + escapeHtml(sentence.slice(idx + keyword.length));
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderReviewCard() {
+  if (!current) return;
+  showingAnswer = false;
+  document.getElementById('sentenceBox').innerHTML =
+    '<span class="char-tag">' + escapeHtml(current.char) + '</span>' +
+    highlightKeyword(current.sentence, current.keyword);
+  document.getElementById('meaningBox').classList.remove('show');
+  document.getElementById('familiarityBtns').classList.remove('show');
+  const hint = document.getElementById('reviewHint');
+  hint.textContent = '点击句子查看释义';
+  hint.classList.remove('hide');
+  document.querySelectorAll('.btn-fam').forEach(b => {
+    b.classList.remove('confirmed', 'dim');
+    b.disabled = false;
+  });
+}
+
+function revealAnswer() {
+  if (showingAnswer || !current || isTransitioning) return;
+  showingAnswer = true;
+  document.getElementById('meaningText').innerHTML = escapeHtml(current.meaning);
+  document.getElementById('meaningBox').classList.add('show');
+  document.getElementById('familiarityBtns').classList.add('show');
+  document.getElementById('reviewHint').classList.add('hide');
+}
+
+function setFamiliarity(level, clickedBtn) {
+  if (!current || !showingAnswer || isTransitioning) return;
+  isTransitioning = true;
+
+  // 视觉反馈
+  document.querySelectorAll('.btn-fam').forEach(b => {
+    if (b === clickedBtn) b.classList.add('confirmed');
+    else b.classList.add('dim');
+    b.disabled = true;
+  });
+
+  // 保存数据
+  const entry = entries.find(e => e.id === current.id);
+  if (entry) {
+    entry.familiarity = Math.max(0, Math.min(100, level));
+    save();
+  }
+  history.push({ id: current.id, sentence: current.sentence });
+  coveredIds.add(current.id);
+  totalAnswered++;
+  updateProgress();
+
+  // 卡片切换动画
+  const card = document.getElementById('sentenceCard');
+  setTimeout(() => {
+    card.classList.add('card-exit');
+    setTimeout(() => {
+      current = pickItem();
+      renderReviewCard();
+      card.classList.remove('card-exit');
+      card.classList.add('card-enter');
+      card.addEventListener('animationend', function onEnd() {
+        card.classList.remove('card-enter');
+        card.removeEventListener('animationend', onEnd);
+        isTransitioning = false;
+      });
+    }, 380);
+  }, 450);
+}
+
+function updateProgress() {
+  document.getElementById('statTotal').textContent = totalAnswered;
+  document.getElementById('statCover').textContent = coveredIds.size;
+  const pct = entries.length === 0 ? 0 : Math.min(100, Math.round(coveredIds.size / entries.length * 100));
+  document.getElementById('statCoverPct').textContent = pct + '%';
+  document.getElementById('progressFill').style.width = pct + '%';
+}
+
+// ============ 编辑表格 ============
+function getFilteredList() {
+  const search = document.getElementById('searchInput').value.trim().toLowerCase();
+  let list = entries;
+  if (search) {
+    list = entries.filter(e =>
+      (e.char || '').toLowerCase().includes(search) ||
+      (e.keyword || '').toLowerCase().includes(search) ||
+      (e.meaning || '').toLowerCase().includes(search) ||
+      (e.sentence || '').toLowerCase().includes(search)
+    );
+  }
+  if (sortCol) {
+    list = list.slice().sort((a, b) => {
+      let va = a[sortCol], vb = b[sortCol];
+      if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+      const cmp = va < vb ? -1 : va > vb ? 1 : 0;
+      return sortAsc ? cmp : -cmp;
+    });
+  }
+  return list;
+}
+
+function renderTable() {
+  const list = getFilteredList();
+  lastRenderedList = list;
+
+  document.querySelectorAll('thead th.sortable').forEach(th => {
+    th.classList.toggle('active-sort', th.dataset.col === sortCol);
+    const arrow = th.querySelector('.sort-arrow');
+    if (th.dataset.col === sortCol) arrow.textContent = sortAsc ? '▲' : '▼';
+    else arrow.textContent = '⇅';
+  });
+
+  const tbody = document.getElementById('tableBody');
+  if (list.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" class="empty-row">暂无词条</td></tr>';
+  } else {
+    let html = '';
+    let prevChar = null;
+    list.forEach(e => {
+      const isFirstOfChar = e.char !== prevChar;
+      prevChar = e.char;
+      const famColor = e.familiarity < 40 ? '#c0392b' : e.familiarity < 70 ? '#c87f2a' : '#3a8a5c';
+      const checked = selectedIds.has(e.id);
+      html += '<tr data-id="' + e.id + '" class="' + (isFirstOfChar ? 'group-first ' : '') + (checked ? 'selected' : '') + '">'
+        + '<td class="col-check"><input type="checkbox" class="row-check" data-id="' + e.id + '" ' + (checked ? 'checked' : '') + '></td>'
+        + '<td class="cell-char">' + (isFirstOfChar ? escapeHtml(e.char) : '') + '</td>'
+        + '<td class="cell-kw">' + escapeHtml(e.keyword) + '</td>'
+        + '<td class="cell-meaning">' + escapeHtml(e.meaning) + '</td>'
+        + '<td class="cell-sentence">' + escapeHtml(e.sentence) + '</td>'
+        + '<td class="cell-fam">'
+          + '<span class="fam-bar"><span class="fam-bar-inner" style="width:' + e.familiarity + '%;background:' + famColor + '"></span></span>'
+          + '<span class="fam-label">' + e.familiarity + '</span>'
+        + '</td>'
+        + '<td class="cell-act"><button class="btn btn-sm btn-edit" data-id="' + e.id + '">编辑</button></td>'
+        + '</tr>';
+    });
+    tbody.innerHTML = html;
+  }
+
+  const checkAll = document.getElementById('checkAll');
+  const visibleIds = list.map(e => e.id);
+  const allVisibleChecked = visibleIds.length > 0 && visibleIds.every(id => selectedIds.has(id));
+  const someVisibleChecked = visibleIds.some(id => selectedIds.has(id));
+  checkAll.checked = allVisibleChecked;
+  checkAll.indeterminate = someVisibleChecked && !allVisibleChecked;
+
+  const selCount = selectedIds.size;
+  const statEl = document.getElementById('statInfo');
+  let statText = '共 ' + entries.length + ' 条';
+  if (document.getElementById('searchInput').value.trim()) statText += '（筛选 ' + list.length + ' 条）';
+  if (selCount > 0) statText += ' · 已选 <strong>' + selCount + '</strong> 条';
+  statEl.innerHTML = statText;
+
+  document.getElementById('btnDelete').disabled = selCount === 0;
+  document.getElementById('btnDelete').textContent = selCount > 0 ? '删除选中 (' + selCount + ')' : '删除选中';
+
+  document.getElementById('dataSourceTag').textContent = '来源：' + dataSource;
+}
+
+function sortBy(col) {
+  if (sortCol === col) sortAsc = !sortAsc;
+  else { sortCol = col; sortAsc = true; }
+  renderTable();
+}
+
+function handleRowSelect(id, e) {
+  if (e.shiftKey && lastClickedId !== null) {
+    const ids = lastRenderedList.map(x => x.id);
+    const i1 = ids.indexOf(lastClickedId);
+    const i2 = ids.indexOf(id);
+    if (i1 !== -1 && i2 !== -1) {
+      const [lo, hi] = i1 < i2 ? [i1, i2] : [i2, i1];
+      for (let i = lo; i <= hi; i++) selectedIds.add(ids[i]);
+    }
+  } else if (e.ctrlKey || e.metaKey) {
+    if (selectedIds.has(id)) selectedIds.delete(id);
+    else selectedIds.add(id);
+    lastClickedId = id;
+  } else {
+    if (selectedIds.has(id) && selectedIds.size === 1) selectedIds.clear();
+    else {
+      selectedIds.clear();
+      selectedIds.add(id);
+    }
+    lastClickedId = id;
+  }
+  renderTable();
+}
+
+function toggleCheck(id, checked) {
+  if (checked) selectedIds.add(id);
+  else selectedIds.delete(id);
+  lastClickedId = id;
+  renderTable();
+}
+
+function selectAllVisible() {
+  lastRenderedList.forEach(e => selectedIds.add(e.id));
+  renderTable();
+}
+function clearSelection() {
+  selectedIds.clear();
+  lastClickedId = null;
+  renderTable();
+}
+
+// ============ 弹窗 ============
+function openModal() { document.getElementById('modalOverlay').classList.add('show'); }
+function closeModal() { document.getElementById('modalOverlay').classList.remove('show'); }
+
+function showAddModal() {
+  document.getElementById('modalTitle').textContent = '添加词条';
+  document.getElementById('editId').value = '';
+  document.getElementById('fChar').value = '';
+  document.getElementById('fKeyword').value = '';
+  document.getElementById('fMeaning').value = '';
+  document.getElementById('fSentence').value = '';
+  openModal();
+  setTimeout(() => document.getElementById('fChar').focus(), 100);
+}
+
+function showEditModal(id) {
+  const e = entries.find(x => x.id === id);
+  if (!e) return;
+  document.getElementById('modalTitle').textContent = '编辑词条';
+  document.getElementById('editId').value = e.id;
+  document.getElementById('fChar').value = e.char;
+  document.getElementById('fKeyword').value = e.keyword;
+  document.getElementById('fMeaning').value = e.meaning;
+  document.getElementById('fSentence').value = e.sentence;
+  openModal();
+}
+
+function saveEntry() {
+  const id = document.getElementById('editId').value;
+  const char = document.getElementById('fChar').value.trim();
+  const keyword = document.getElementById('fKeyword').value.trim();
+  const meaning = document.getElementById('fMeaning').value.trim();
+  const sentence = document.getElementById('fSentence').value.trim();
+  if (!char || !keyword || !meaning || !sentence) { showToast('请填写完整信息'); return; }
+  if (id) {
+    const e = entries.find(x => x.id === Number(id));
+    if (e) { e.char = char; e.keyword = keyword; e.meaning = meaning; e.sentence = sentence; }
+  } else {
+    entries.push({ id: nextId++, char, keyword, meaning, sentence, familiarity: 0 });
+  }
+  save();
+  closeModal();
+  renderTable();
+  showToast('已保存');
+}
+
+function deleteSelected() {
+  if (selectedIds.size === 0) { showToast('请先选中要删除的词条'); return; }
+  if (!confirm('确定删除选中的 ' + selectedIds.size + ' 条词条？')) return;
+  entries = entries.filter(e => !selectedIds.has(e.id));
+  selectedIds.clear();
+  lastClickedId = null;
+  save();
+  renderTable();
+  showToast('已删除');
+}
+
+// ============ 导入导出 ============
+function exportJson() {
+  const data = JSON.stringify(entries, null, 2);
+  const blob = new Blob([data], { type: 'application/json;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = '文言实词_' + new Date().toISOString().slice(0, 10) + '.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast('已导出 ' + entries.length + ' 条');
+}
+
+function importJson() { document.getElementById('fileInput').click(); }
+
+function handleImport(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      const norm = normalizeData(data);
+      if (!norm) throw new Error('格式错误');
+      if (!confirm('导入将替换当前所有词条（共 ' + entries.length + ' 条），确定继续？\n\n即将导入 ' + norm.length + ' 条')) return;
+      entries = norm;
+      nextId = Math.max(...entries.map(x => x.id), 0) + 1;
+      dataSource = '已导入文件';
+      selectedIds.clear();
+      save();
+      renderTable();
+      showToast('导入成功，共 ' + entries.length + ' 条');
+    } catch (err) {
+      showToast('文件格式错误');
+    }
+  };
+  reader.readAsText(file);
+  event.target.value = '';
+}
+
+// ============ Toast ============
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+// ============ 事件绑定（立即绑定，数据懒加载） ============
+function bindEvents() {
+  document.getElementById('btnStart').addEventListener('click', startReview);
+  document.getElementById('btnEdit').addEventListener('click', async function() {
+    await ensureLoaded();
+    showPage('edit');
+    renderTable();
+  });
+  document.getElementById('btnBackReview').addEventListener('click', goMenu);
+  document.getElementById('btnBackEdit').addEventListener('click', goMenu);
+
+  document.getElementById('sentenceCard').addEventListener('click', function(e) {
+    if (e.target.closest('.familiarity-buttons')) return;
+    revealAnswer();
+  });
+
+  document.getElementById('familiarityBtns').addEventListener('click', function(e) {
+    const btn = e.target.closest('.btn-fam');
+    if (!btn || btn.disabled) return;
+    e.stopPropagation();
+    setFamiliarity(Number(btn.dataset.level), btn);
+  });
+
+  document.getElementById('btnAdd').addEventListener('click', showAddModal);
+  document.getElementById('btnDelete').addEventListener('click', deleteSelected);
+  document.getElementById('btnSelectAll').addEventListener('click', selectAllVisible);
+  document.getElementById('btnClearSel').addEventListener('click', clearSelection);
+  document.getElementById('btnExport').addEventListener('click', exportJson);
+  document.getElementById('btnImport').addEventListener('click', importJson);
+  document.getElementById('fileInput').addEventListener('change', handleImport);
+  document.getElementById('searchInput').addEventListener('input', renderTable);
+
+  document.getElementById('checkAll').addEventListener('change', function(e) {
+    const visibleIds = lastRenderedList.map(x => x.id);
+    if (e.target.checked) visibleIds.forEach(id => selectedIds.add(id));
+    else visibleIds.forEach(id => selectedIds.delete(id));
+    renderTable();
+  });
+
+  document.querySelectorAll('thead th.sortable').forEach(th => {
+    th.addEventListener('click', function() { sortBy(th.dataset.col); });
+  });
+
+  document.getElementById('tableBody').addEventListener('click', function(e) {
+    const editBtn = e.target.closest('.btn-edit');
+    if (editBtn) {
+      e.stopPropagation();
+      showEditModal(Number(editBtn.dataset.id));
+      return;
+    }
+    const checkbox = e.target.closest('.row-check');
+    if (checkbox) {
+      e.stopPropagation();
+      toggleCheck(Number(checkbox.dataset.id), checkbox.checked);
+      return;
+    }
+    const tr = e.target.closest('tr');
+    if (tr && tr.dataset.id) {
+      handleRowSelect(Number(tr.dataset.id), e);
+    }
+  });
+
+  document.getElementById('btnCancel').addEventListener('click', closeModal);
+  document.getElementById('btnSave').addEventListener('click', saveEntry);
+  document.getElementById('modalOverlay').addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeModal();
+  });
+}
+
+// ============ 启动 ============
+bindEvents();
+</script>
+</body>
+</html>
+

@@ -17,20 +17,20 @@ for name in dev start; do
   fi
 done
 
-# 兜底：若 3000 端口仍被占用（残留的 next-server 子进程），强制释放
+# 兜底：若 3888 端口仍被占用（残留的 next-server 子进程），强制释放
 sleep 1
 if command -v ss >/dev/null 2>&1; then
-  port_pid=$(ss -tlnp 2>/dev/null | grep ':3000 ' | grep -oE 'pid=[0-9]+' | head -1 | cut -d= -f2)
+  port_pid=$(ss -tlnp 2>/dev/null | grep ':3888 ' | grep -oE 'pid=[0-9]+' | head -1 | cut -d= -f2)
   if [ -n "$port_pid" ]; then
     kill -9 "$port_pid" 2>/dev/null
-    echo "已强制释放 3000 端口 (PID $port_pid)"
+    echo "已强制释放 3888 端口 (PID $port_pid)"
     sleep 1
   fi
 fi
 
 # 最终确认
-if ss -tlnp 2>/dev/null | grep -q ':3000 '; then
-  echo "警告：3000 端口仍被占用，请手动检查: ss -tlnp | grep 3000"
+if ss -tlnp 2>/dev/null | grep -q ':3888 '; then
+  echo "警告：3888 端口仍被占用，请手动检查: ss -tlnp | grep 3888"
 else
-  echo "3000 端口已释放"
+  echo "3888 端口已释放"
 fi

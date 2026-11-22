@@ -37,9 +37,9 @@
 # 1. 首次部署：安装依赖 + 从 default.json 建库
 bash scripts/setup.sh
 
-# 2. 开发模式启动（后台运行，日志 logs/dev.log）
+# 2. 开发模式启动（后台运行，日志 logs/dev.log，端口 3888）
 bash scripts/dev.sh
-# 浏览器打开 http://localhost:3000
+# 浏览器打开 http://localhost:3888
 
 # 3. 生产模式启动（先构建再启动，日志 logs/start.log）
 bash scripts/start.sh

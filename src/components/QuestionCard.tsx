@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { QuizItem } from "@/lib/types";
 import type { ReviewResult } from "@/lib/types";
+import { keywordReading } from "@/lib/pinyin";
 
 interface Props {
   item: QuizItem;
@@ -34,8 +35,8 @@ export default function QuestionCard({
   const [showSimilar, setShowSimilar] = useState(false);
   const answered = feedback !== null;
 
-  const pronunciation =
-    word.keyword !== word.char ? `（${word.keyword.slice(word.char.length)}）` : "";
+  const reading = keywordReading(word.keyword, word.char);
+  const pronunciation = reading ? `（${reading}）` : "";
 
   const resultStyle = (opt: string): string => {
     if (!answered || mode !== "choice") return "border-gray-300 bg-white hover:bg-gray-50";

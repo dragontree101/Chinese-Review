@@ -56,7 +56,6 @@ describe("judgeFill", () => {
 });
 
 describe("pickDistractors", () => {
-  const all: Partial<Word> & { char: string } = {};
   it("优先同字其他含义，不足从其他字补足，去重且不含正确答案", () => {
     const words = [
       { id: 1, char: "爱", meaning: "吝惜", sentence: "s1" },
@@ -78,7 +77,6 @@ describe("pickDistractors", () => {
     // 第三个来自其他字
     expect(d.some((x) => ["兵器", "军队"].includes(x))).toBe(true);
   });
-  void all;
 });
 
 describe("buildChoiceQuestion", () => {

@@ -24,7 +24,6 @@ const RESULTS: ReviewResult[] = ["correct", "wrong", "unknown"];
 export async function POST(req: NextRequest): Promise<NextResponse> {
   const body = (await req.json()) as ReviewBody;
   const db = getDb();
-  const now = new Date().toISOString();
 
   if (body.overrideLogId !== undefined) {
     const info = db
@@ -35,7 +34,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     if (info.changes === 0) {
       return NextResponse.json({ error: "记录不存在" }, { status: 404 });
     }
-    return NextResponse.json({ ok: true });
+    return NextResponse.json({ ok: true, result: "correct" });
   }
 
   if (!body.wordId || !body.mode || !MODES.includes(body.mode)) {
@@ -56,15 +55,21 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: "无效 result" }, { status: 400 });
   }
 
-  db.prepare(
-    `INSERT INTO review_logs (wordId, mode, result, userAnswer, overridden, createdAt)
-     VALUES (@wordId, @mode, @result, @userAnswer, 0, @createdAt)`,
-  ).run({
-    wordId: body.wordId,
-    mode: body.mode,
+  const info = db
+    .prepare(
+      `INSERT INTO review_logs (wordId, mode, result, userAnswer, overridden, createdAt)
+       VALUES (@wordId, @mode, @result, @userAnswer, 0, @createdAt)`,
+    )
+    .run({
+      wordId: body.wordId,
+      mode: body.mode,
+      result,
+      userAnswer: body.input ?? null,
+      createdAt: new Date().toISOString(),
+    });
+  return NextResponse.json({
+    ok: true,
     result,
-    userAnswer: body.input ?? null,
-    createdAt: now,
+    logId: Number(info.lastInsertRowid),
   });
-  return NextResponse.json({ ok: true });
 }

@@ -78,3 +78,14 @@ export interface TrendRow {
   wrong: number;
   unknown: number;
 }
+
+/** 出题接口返回的单题（word 含 meaning 供答题后展示正确答案） */
+export interface QuizItem {
+  word: Word;
+  /** 选择题选项；fill 模式为 null */
+  options: string[] | null;
+  /** 选择题正确答案；fill 模式为 null */
+  answer: string | null;
+  /** 相同含义的其他例句 */
+  similar: string[];
+}

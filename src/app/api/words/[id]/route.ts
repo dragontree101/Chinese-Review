@@ -5,7 +5,7 @@ import type { Grade, WordPatch } from "@/lib/types";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const GRADES: Grade[] = ["七年级", "八年级", "九年级", "拓展"];
+const GRADES: Array<Grade | null> = ["七年级", "八年级", "九年级", "拓展", null];
 
 /** PATCH /api/words/[id] 编辑词条字段（translation/lesson/grade/source/meaning） */
 export async function PATCH(
@@ -26,11 +26,12 @@ export async function PATCH(
     return NextResponse.json({ error: "含义不能为空" }, { status: 400 });
   }
 
-  const fields: Partial<WordPatch> = {};
+  const updates: Record<string, string | null> = {};
   for (const key of ["translation", "lesson", "grade", "source", "meaning"] as const) {
-    if (body[key] !== undefined) fields[key] = body[key];
+    const v = body[key];
+    if (v !== undefined) updates[key] = v;
   }
-  const keys = Object.keys(fields);
+  const keys = Object.keys(updates);
   if (keys.length === 0) {
     return NextResponse.json({ error: "无可更新字段" }, { status: 400 });
   }
@@ -41,7 +42,7 @@ export async function PATCH(
     .prepare(
       `UPDATE words SET ${setSql}, updatedAt = @updatedAt WHERE id = @id`,
     )
-    .run({ ...fields, updatedAt: new Date().toISOString(), id: wordId });
+    .run({ ...updates, updatedAt: new Date().toISOString(), id: wordId });
   if (info.changes === 0) {
     return NextResponse.json({ error: "词条不存在" }, { status: 404 });
   }

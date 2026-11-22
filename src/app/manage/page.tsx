@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import WordTable from "@/components/WordTable";
 import WordEditDialog from "@/components/WordEditDialog";
+import WordCreateDialog from "@/components/WordCreateDialog";
 import type { Word } from "@/lib/types";
 
 const PAGE_SIZE = 20;
@@ -14,6 +15,7 @@ export default function ManagePage() {
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(true);
   const [editing, setEditing] = useState<Word | null>(null);
+  const [creating, setCreating] = useState(false);
   const debounce = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   function load(p: number, q: string) {
@@ -46,6 +48,12 @@ export default function ManagePage() {
     setEditing(null);
   }
 
+  function handleCreated(created: Word) {
+    setCreating(false);
+    // 回到第一页并刷新，确保新词条可见
+    load(1, "");
+  }
+
   return (
     <div className="space-y-4">
       <WordTable
@@ -56,6 +64,7 @@ export default function ManagePage() {
         onQueryChange={handleQueryChange}
         onPageChange={(p) => load(p, query)}
         onEdit={setEditing}
+        onCreate={() => setCreating(true)}
       />
       {loading && (
         <p className="text-center text-sm text-gray-400">加载中……</p>
@@ -65,6 +74,12 @@ export default function ManagePage() {
           word={editing}
           onSaved={handleSaved}
           onClose={() => setEditing(null)}
+        />
+      )}
+      {creating && (
+        <WordCreateDialog
+          onCreated={handleCreated}
+          onClose={() => setCreating(false)}
         />
       )}
     </div>

@@ -11,6 +11,7 @@ interface Props {
   onQueryChange: (q: string) => void;
   onPageChange: (page: number) => void;
   onEdit: (w: Word) => void;
+  onCreate: () => void;
 }
 
 function EmptyMark({ value }: { value: string | null }) {
@@ -30,6 +31,7 @@ export default function WordTable({
   onQueryChange,
   onPageChange,
   onEdit,
+  onCreate,
 }: Props) {
   const [q, setQ] = useState("");
   const [expanded, setExpanded] = useState<number | null>(null);
@@ -37,15 +39,23 @@ export default function WordTable({
 
   return (
     <div className="space-y-3">
-      <input
-        value={q}
-        onChange={(e) => {
-          setQ(e.target.value);
-          onQueryChange(e.target.value);
-        }}
-        placeholder="搜索字 / 含义 / 例句 / 出处 / 课文 / 年级"
-        className="w-full rounded border border-gray-300 px-3 py-2 text-sm"
-      />
+      <div className="flex gap-2">
+        <input
+          value={q}
+          onChange={(e) => {
+            setQ(e.target.value);
+            onQueryChange(e.target.value);
+          }}
+          placeholder="搜索字 / 含义 / 例句 / 出处 / 课文 / 年级"
+          className="flex-1 rounded border border-gray-300 px-3 py-2 text-sm"
+        />
+        <button
+          onClick={onCreate}
+          className="shrink-0 rounded bg-blue-600 px-4 py-2 text-sm font-medium text-white"
+        >
+          + 添加词条
+        </button>
+      </div>
 
       <div className="overflow-x-auto rounded-lg bg-white shadow">
         <table className="w-full min-w-[640px] text-sm">

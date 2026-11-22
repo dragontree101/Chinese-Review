@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDb } from "@/lib/db";
+import { createWord, type WordInput } from "@/lib/words";
 import type { Word } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -30,4 +31,14 @@ export function GET(req: NextRequest): NextResponse {
     )
     .all({ ...params, limit: pageSize, offset: (page - 1) * pageSize }) as unknown as Word[];
   return NextResponse.json({ items, total });
+}
+
+/** POST /api/words 手动添加词条（char/meaning 必填） */
+export async function POST(req: NextRequest): Promise<NextResponse> {
+  const body = (await req.json()) as WordInput;
+  if (!body.char?.trim() || !body.meaning?.trim()) {
+    return NextResponse.json({ error: "字与含义为必填" }, { status: 400 });
+  }
+  const word = createWord(getDb(), body);
+  return NextResponse.json({ item: word }, { status: 201 });
 }

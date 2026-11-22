@@ -1,7 +1,9 @@
 node_modules/
 .next/
 out/
-data/
+# 数据目录整体忽略，但翻译初稿需要进 git（各机器 clone 后 reset-db 即可恢复翻译）
+data/*
+!data/translations.json
 logs/
 .superpowers/
 *.tsbuildinfo

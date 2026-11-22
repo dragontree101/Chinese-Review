@@ -1,0 +1,2 @@
+# bash 脚本必须保持 LF，否则 WSL/Windows 检出后无法运行
+*.sh text eol=lf

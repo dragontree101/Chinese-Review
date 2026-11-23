@@ -6,6 +6,7 @@ import {
   pickDistractors,
   buildChoiceQuestion,
   judgeEnglishFill,
+  maskWordForFill,
 } from "../quiz";
 import { createSchema } from "../../db";
 import type { EnglishWord, Meaning } from "../types";
@@ -166,6 +167,33 @@ describe("buildChoiceQuestion", () => {
     expect(q.options).toContain("n. 苹果");
     expect(q.options).toHaveLength(4);
     expect(new Set(q.options).size).toBe(4);
+  });
+});
+
+describe("maskWordForFill", () => {
+  const full: EnglishWord = {
+    id: 1,
+    word: "apple",
+    level: "初中",
+    usphone: "ˈæpl",
+    ukphone: "ˈæp(ə)l",
+    meanings: [{ pos: "n", tran: "苹果" }],
+    sentences: [{ en: "I eat an apple.", cn: "我吃一个苹果。" }],
+    phrases: [{ en: "apple pie", cn: "苹果派" }],
+    createdAt: now,
+    updatedAt: now,
+  };
+
+  it("填空题脱敏：单词、音标、例句、短语全部清空，释义保留", () => {
+    const m = maskWordForFill(full);
+    expect(m.word).toBe("");
+    expect(m.usphone).toBeNull();
+    expect(m.ukphone).toBeNull();
+    expect(m.sentences).toEqual([]);
+    expect(m.phrases).toEqual([]);
+    expect(m.meanings).toEqual([{ pos: "n", tran: "苹果" }]);
+    expect(m.id).toBe(1);
+    expect(m.level).toBe("初中");
   });
 });
 

@@ -43,6 +43,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
   }
 
   let result = body.result;
+  let correctWord: string | undefined;
   if (body.input !== undefined && body.result === undefined) {
     const row = db
       .prepare("SELECT * FROM e_words WHERE id = ?")
@@ -50,9 +51,10 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     if (!row) {
       return NextResponse.json({ error: "词条不存在" }, { status: 404 });
     }
-    result = judgeEnglishFill(rowToEnglishWord(row), body.input)
-      ? "correct"
-      : "wrong";
+    const w = rowToEnglishWord(row);
+    // 填空题响应带正确拼写（出题时已脱敏，前端作答后展示用）
+    correctWord = w.word;
+    result = judgeEnglishFill(w, body.input) ? "correct" : "wrong";
   }
   if (!result || !RESULTS.includes(result)) {
     return NextResponse.json({ error: "无效 result" }, { status: 400 });
@@ -74,5 +76,6 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     ok: true,
     result,
     logId: Number(info.lastInsertRowid),
+    ...(correctWord !== undefined ? { correctWord } : {}),
   });
 }

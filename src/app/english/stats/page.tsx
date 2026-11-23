@@ -10,6 +10,7 @@ interface StatsData {
   summary: StatSummary;
   byLevel: StatRow[];
   byInitial: StatRow[];
+  byWord: StatRow[];
   trend: TrendRow[];
 }
 
@@ -36,7 +37,11 @@ export default function EnglishStatsPage() {
     <div className="space-y-4">
       <StatCards summary={data.summary} />
       <TrendChart trend={data.trend} />
-      <EnglishStatTables byLevel={data.byLevel} byInitial={data.byInitial} />
+      <EnglishStatTables
+        byLevel={data.byLevel}
+        byInitial={data.byInitial}
+        byWord={data.byWord}
+      />
     </div>
   );
 }

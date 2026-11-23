@@ -4,6 +4,7 @@ import {
   getSummary,
   getByLevel,
   getByInitial,
+  getWrongWords,
   getTrend,
 } from "@/lib/english/stats";
 
@@ -17,6 +18,7 @@ export function GET(): NextResponse {
     summary: getSummary(db),
     byLevel: getByLevel(db),
     byInitial: getByInitial(db),
+    byWord: getWrongWords(db, 20),
     trend: getTrend(db, 7),
   });
 }

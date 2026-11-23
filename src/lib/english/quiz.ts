@@ -30,6 +30,14 @@ export function judgeEnglishFill(word: EnglishWord, input: string): boolean {
   return input.trim().toLowerCase() === word.word.toLowerCase();
 }
 
+/**
+ * 填空题（中译英）出题脱敏：单词本身即答案，
+ * 清空单词、音标、例句（例句常含目标词）与短语，仅保留释义。
+ */
+export function maskWordForFill(word: EnglishWord): EnglishWord {
+  return { ...word, word: "", usphone: null, ukphone: null, sentences: [], phrases: [] };
+}
+
 /** 选择题干扰项：其他词的释义文本，去重且不含正确答案；不足时允许少于 n */
 export function pickDistractors(
   all: EnglishWord[],

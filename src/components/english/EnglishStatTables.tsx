@@ -5,9 +5,17 @@ import type { StatRow } from "@/lib/types";
 interface Props {
   byLevel: StatRow[];
   byInitial: StatRow[];
+  /** 错误单词排行（有答错或「不知道」记录的词，按错误次数降序） */
+  byWord: StatRow[];
 }
 
 const pct = (v: number): string => `${(v * 100).toFixed(0)}%`;
+
+function keyLabel(title: string): string {
+  if (title.includes("学段")) return "学段";
+  if (title.includes("首字母")) return "首字母";
+  return "单词";
+}
 
 function StatTable({
   title,
@@ -30,7 +38,7 @@ function StatTable({
         <table className="w-full text-sm">
           <thead>
             <tr className="text-left text-gray-500">
-              <th className="pb-1">{title.includes("学段") ? "学段" : "首字母"}</th>
+              <th className="pb-1">{keyLabel(title)}</th>
               <th className="pb-1 text-right">作答</th>
               <th className="pb-1 text-right">对</th>
               <th className="pb-1 text-right">错</th>
@@ -56,10 +64,11 @@ function StatTable({
   );
 }
 
-/** 英语统计的两个维度表 */
-export default function EnglishStatTables({ byLevel, byInitial }: Props) {
+/** 英语统计的三个维度表 */
+export default function EnglishStatTables({ byLevel, byInitial, byWord }: Props) {
   return (
     <div className="grid gap-4 md:grid-cols-2">
+      <StatTable title="错误单词（错误次数最多在前）" rows={byWord} />
       <StatTable title="按学段" rows={byLevel} />
       <StatTable title="按首字母（最弱在前）" rows={byInitial} showAccuracyAsc />
     </div>

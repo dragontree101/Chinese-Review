@@ -5,13 +5,20 @@ import type { EQuizItem } from "@/lib/english/types";
 import type { EReviewResult } from "@/lib/english/types";
 import { formatMeanings } from "@/lib/english/quiz";
 
+interface Feedback {
+  result: EReviewResult;
+  overrideDone?: boolean;
+  /** 填空题判定后由服务端返回的正确拼写 */
+  correctWord?: string;
+}
+
 interface Props {
   item: EQuizItem;
   index: number;
   total: number;
   mode: "choice" | "fill";
   /** 已提交后的反馈；null 表示未作答 */
-  feedback: { result: EReviewResult; overrideDone?: boolean } | null;
+  feedback: Feedback | null;
   onSelectOption: (option: string) => void;
   onSubmitFill: (input: string) => void;
   onUnknown: () => void;
@@ -49,13 +56,16 @@ export default function EnglishQuestionCard({
         <span className="rounded bg-blue-50 px-2 py-0.5 text-blue-700">{word.level}</span>
       </div>
 
-      <div className="text-center">
-        <div className="text-5xl font-bold tracking-wide">{word.word}</div>
-        <p className="mt-2 text-sm text-gray-500">
-          {word.usphone && <span className="mr-3">美 /{word.usphone}/</span>}
-          {word.ukphone && <span>英 /{word.ukphone}/</span>}
-        </p>
-      </div>
+      {/* 填空题（中译英）不展示单词与音标——单词即答案 */}
+      {mode === "choice" && (
+        <div className="text-center">
+          <div className="text-5xl font-bold tracking-wide">{word.word}</div>
+          <p className="mt-2 text-sm text-gray-500">
+            {word.usphone && <span className="mr-3">美 /{word.usphone}/</span>}
+            {word.ukphone && <span>英 /{word.ukphone}/</span>}
+          </p>
+        </div>
+      )}
 
       {mode === "choice" && options && (
         <div className="grid gap-2">
@@ -124,7 +134,7 @@ export default function EnglishQuestionCard({
                 : "✗ 答错了"}
           </p>
           <p className="mt-1">
-            正确拼写：<strong>{word.word}</strong>
+            正确拼写：<strong>{feedback!.correctWord ?? word.word}</strong>
           </p>
           <p className="mt-1">{formatMeanings(word.meanings)}</p>
           {word.sentences.length > 0 && (

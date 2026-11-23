@@ -11,20 +11,26 @@ type Phase = "setup" | "question" | "summary";
 interface Feedback {
   result: EReviewResult;
   overrideDone?: boolean;
+  /** 填空题判定后由服务端返回的正确拼写 */
+  correctWord?: string;
 }
 
 const EMPTY_STATS = { correct: 0, wrong: 0, unknown: 0 };
 
 async function postReview(
   body: Record<string, unknown>,
-): Promise<{ result: EReviewResult; logId: number }> {
+): Promise<{ result: EReviewResult; logId: number; correctWord?: string }> {
   const res = await fetch("/api/english/review", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body),
   });
   if (!res.ok) throw new Error(`提交作答失败: ${res.status}`);
-  return (await res.json()) as { result: EReviewResult; logId: number };
+  return (await res.json()) as {
+    result: EReviewResult;
+    logId: number;
+    correctWord?: string;
+  };
 }
 
 /** 英语复习主流程：设置单 → 逐题作答 → 小结 */
@@ -97,7 +103,7 @@ export default function EnglishReviewSession() {
       });
       applyResult(r.result);
       setLastLogId(r.logId);
-      setFeedback({ result: r.result });
+      setFeedback({ result: r.result, correctWord: r.correctWord });
     } catch {
       setError("提交失败，请重试");
     }

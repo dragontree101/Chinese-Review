@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDb } from "@/lib/db";
 import { rowToEnglishWord } from "@/lib/english/types";
-import { pickWords, pickDistractors, buildChoiceQuestion } from "@/lib/english/quiz";
+import { pickWords, pickDistractors, buildChoiceQuestion, maskWordForFill } from "@/lib/english/quiz";
 import type { EQuizItem, EQuizRule, EnglishWord } from "@/lib/english/types";
 
 export const runtime = "nodejs";
@@ -30,7 +30,8 @@ export function GET(req: NextRequest): NextResponse {
 
   const questions: EQuizItem[] = words.map((w) => {
     if (mode === "fill") {
-      return { word: w, options: null, answer: null };
+      // 单词本身即答案：脱敏后返回，防止前端拿到答案
+      return { word: maskWordForFill(w), options: null, answer: null };
     }
     const q = buildChoiceQuestion(w, pickDistractors(all, w, 3));
     return { word: w, options: q.options, answer: q.answer };

@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import Database from "better-sqlite3";
-import { getSummary, getByLevel, getByInitial, getTrend } from "../stats";
+import { getSummary, getByLevel, getByInitial, getTrend, getWrongWords } from "../stats";
 import { createSchema } from "../../db";
 
 const now = "2026-11-23T00:00:00.000Z";
@@ -114,6 +114,53 @@ describe("getByInitial", () => {
     expect(rows[0].accuracy).toBe(0);
     expect(rows[1].accuracy).toBe(1);
     expect(rows.some((r) => r.key === "P")).toBe(false);
+  });
+});
+
+describe("getWrongWords", () => {
+  it("按单词列出有错误记录的词与错误次数，全对的词不出现，按错误次数降序", () => {
+    const db = seedDb(
+      [
+        { word: "apple", level: "初中" },
+        { word: "banana", level: "初中" },
+        { word: "sophisticated", level: "高中" },
+      ],
+      [
+        { word: "apple", result: "wrong" },
+        { word: "apple", result: "wrong" },
+        { word: "apple", result: "unknown" },
+        { word: "sophisticated", result: "unknown" },
+        { word: "banana", result: "correct" },
+        { word: "banana", result: "correct" },
+      ],
+    );
+    const rows = getWrongWords(db, 20);
+    expect(rows.map((r) => r.key)).toEqual(["apple", "sophisticated"]);
+    expect(rows[0].total).toBe(3);
+    expect(rows[0].correct).toBe(0);
+    expect(rows[0].wrong).toBe(2);
+    expect(rows[0].unknown).toBe(1);
+    expect(rows[0].accuracy).toBe(0);
+    expect(rows[1].total).toBe(1);
+    expect(rows[1].unknown).toBe(1);
+  });
+
+  it("无错误记录时返回空数组", () => {
+    expect(getWrongWords(seedDb([{ word: "apple", level: "初中" }]))).toEqual([]);
+  });
+
+  it("limit 截断", () => {
+    const db = seedDb(
+      [
+        { word: "apple", level: "初中" },
+        { word: "pear", level: "高中" },
+      ],
+      [
+        { word: "apple", result: "wrong" },
+        { word: "pear", result: "wrong" },
+      ],
+    );
+    expect(getWrongWords(db, 1)).toHaveLength(1);
   });
 });
 

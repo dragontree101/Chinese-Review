@@ -117,9 +117,40 @@ export function getByInitial(db: Database): StatRow[] {
     .sort((a, b) => a.accuracy - b.accuracy || b.total - a.total);
 }
 
-/** 近 N 天趋势（本地时区按日聚合，只含有记录的日期） */
-export function getTrend(db: Database, days = 7): TrendRow[] {
+/** 错误单词排行：有答错或「不知道」记录的词，按错误次数降序 */
+export function getWrongWords(db: Database, limit = 20): StatRow[] {
   const rows = db
+    .prepare(
+      `SELECT w.word AS key,
+              COUNT(*) AS answered,
+              SUM(CASE WHEN l.result='correct' THEN 1 ELSE 0 END) AS correct,
+              SUM(CASE WHEN l.result='wrong' THEN 1 ELSE 0 END) AS wrong,
+              SUM(CASE WHEN l.result='unknown' THEN 1 ELSE 0 END) AS unknown
+       FROM e_review_logs l JOIN e_words w ON w.id = l.wordId
+       GROUP BY w.id
+       HAVING wrong + unknown > 0
+       ORDER BY (wrong + unknown) DESC, answered DESC
+       LIMIT ?`,
+    )
+    .all(Math.floor(limit)) as unknown as Array<{
+    key: string;
+    answered: number;
+    correct: number;
+    wrong: number;
+    unknown: number;
+  }>;
+  return rows.map((r) => ({
+    key: r.key,
+    total: r.answered,
+    correct: r.correct,
+    wrong: r.wrong,
+    unknown: r.unknown,
+    accuracy: ratio(r.correct, r.answered),
+  }));
+}
+
+/** 近 N 天趋势（本地时区按日聚合，只含有记录的日期） */
+export function getTrend(db: Database, days = 7): TrendRow[] {  const rows = db
     .prepare(
       `SELECT strftime('%m-%d', createdAt, 'localtime') AS date,
               SUM(CASE WHEN result='correct' THEN 1 ELSE 0 END) AS correct,

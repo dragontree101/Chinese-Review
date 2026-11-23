@@ -1,6 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import type { StatRow } from "@/lib/types";
+import EnglishWordDetailDialog from "./EnglishWordDetailDialog";
 
 interface Props {
   byLevel: StatRow[];
@@ -21,10 +23,13 @@ function StatTable({
   title,
   rows,
   showAccuracyAsc,
+  onSelectWord,
 }: {
   title: string;
   rows: StatRow[];
   showAccuracyAsc?: boolean;
+  /** 传入后每行可点击，查看单词详情 */
+  onSelectWord?: (word: string) => void;
 }) {
   const list = showAccuracyAsc
     ? [...rows].sort((a, b) => a.accuracy - b.accuracy)
@@ -47,16 +52,34 @@ function StatTable({
             </tr>
           </thead>
           <tbody>
-            {list.map((r) => (
-              <tr key={r.key} className="border-t border-gray-100">
-                <td className="py-1.5 font-medium">{r.key}</td>
-                <td className="py-1.5 text-right">{r.total}</td>
-                <td className="py-1.5 text-right text-green-700">{r.correct}</td>
-                <td className="py-1.5 text-right text-red-700">{r.wrong}</td>
-                <td className="py-1.5 text-right text-gray-600">{r.unknown}</td>
-                <td className="py-1.5 text-right">{pct(r.accuracy)}</td>
-              </tr>
-            ))}
+            {list.map((r) => {
+              const cell = (
+                <>
+                  <td className="py-1.5 font-medium">{r.key}</td>
+                  <td className="py-1.5 text-right">{r.total}</td>
+                  <td className="py-1.5 text-right text-green-700">{r.correct}</td>
+                  <td className="py-1.5 text-right text-red-700">{r.wrong}</td>
+                  <td className="py-1.5 text-right text-gray-600">{r.unknown}</td>
+                  <td className="py-1.5 text-right">{pct(r.accuracy)}</td>
+                </>
+              );
+              if (!onSelectWord) {
+                return (
+                  <tr key={r.key} className="border-t border-gray-100">
+                    {cell}
+                  </tr>
+                );
+              }
+              return (
+                <tr
+                  key={r.key}
+                  onClick={() => onSelectWord(r.key)}
+                  className="cursor-pointer border-t border-gray-100 hover:bg-blue-50"
+                >
+                  {cell}
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       )}
@@ -64,13 +87,26 @@ function StatTable({
   );
 }
 
-/** 英语统计的三个维度表 */
+/** 英语统计的三个维度表；错误单词表可点击查看详情 */
 export default function EnglishStatTables({ byLevel, byInitial, byWord }: Props) {
+  const [selected, setSelected] = useState<string | null>(null);
   return (
-    <div className="grid gap-4 md:grid-cols-2">
-      <StatTable title="错误单词（错误次数最多在前）" rows={byWord} />
-      <StatTable title="按学段" rows={byLevel} />
-      <StatTable title="按首字母（最弱在前）" rows={byInitial} showAccuracyAsc />
-    </div>
+    <>
+      <div className="grid gap-4 md:grid-cols-2">
+        <StatTable
+          title="错误单词（错误次数最多在前）"
+          rows={byWord}
+          onSelectWord={setSelected}
+        />
+        <StatTable title="按学段" rows={byLevel} />
+        <StatTable title="按首字母（最弱在前）" rows={byInitial} showAccuracyAsc />
+      </div>
+      {selected && (
+        <EnglishWordDetailDialog
+          word={selected}
+          onClose={() => setSelected(null)}
+        />
+      )}
+    </>
   );
 }

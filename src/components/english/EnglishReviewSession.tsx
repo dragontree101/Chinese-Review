@@ -171,7 +171,9 @@ export default function EnglishReviewSession() {
   return (
     <div className="space-y-3">
       {error && <p className="text-center text-sm text-red-600">{error}</p>}
+      {/* key 按题号重挂：切题时重置答题输入等组件内状态 */}
       <EnglishQuestionCard
+        key={idx}
         item={questions[idx]}
         index={idx}
         total={questions.length}

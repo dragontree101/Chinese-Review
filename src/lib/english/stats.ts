@@ -83,6 +83,8 @@ export function getByLevel(db: Database): StatRow[] {
 interface InitialAgg {
   answered: number;
   correct: number;
+  wrong: number;
+  unknown: number;
 }
 
 /** 按首字母聚合（首字母非列，JS 聚合；正确率升序、作答数降序） */
@@ -96,9 +98,11 @@ export function getByInitial(db: Database): StatRow[] {
   for (const r of rows) {
     const key = (r.word[0] ?? "").toUpperCase();
     if (!key) continue;
-    const a = agg.get(key) ?? { answered: 0, correct: 0 };
+    const a = agg.get(key) ?? { answered: 0, correct: 0, wrong: 0, unknown: 0 };
     a.answered++;
     if (r.result === "correct") a.correct++;
+    else if (r.result === "wrong") a.wrong++;
+    else if (r.result === "unknown") a.unknown++;
     agg.set(key, a);
   }
   return [...agg.entries()]
@@ -106,8 +110,8 @@ export function getByInitial(db: Database): StatRow[] {
       key,
       total: a.answered,
       correct: a.correct,
-      wrong: 0,
-      unknown: 0,
+      wrong: a.wrong,
+      unknown: a.unknown,
       accuracy: ratio(a.correct, a.answered),
     }))
     .sort((a, b) => a.accuracy - b.accuracy || b.total - a.total);

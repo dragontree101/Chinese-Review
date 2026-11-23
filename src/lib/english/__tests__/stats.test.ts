@@ -93,7 +93,7 @@ describe("getByLevel", () => {
 });
 
 describe("getByInitial", () => {
-  it("按首字母分组（大小写归一），无记录的字母不出现", () => {
+  it("按首字母分组（大小写归一），错与不知分别计数，无记录的字母不出现", () => {
     const db = seedDb(
       [
         { word: "Apple", level: "初中" },
@@ -102,11 +102,15 @@ describe("getByInitial", () => {
       ],
       [
         { word: "Apple", result: "wrong" },
+        { word: "Apple", result: "unknown" },
         { word: "banana", result: "correct" },
       ],
     );
     const rows = getByInitial(db);
     expect(rows.map((r) => r.key)).toEqual(["A", "B"]);
+    expect(rows[0].total).toBe(2);
+    expect(rows[0].wrong).toBe(1);
+    expect(rows[0].unknown).toBe(1);
     expect(rows[0].accuracy).toBe(0);
     expect(rows[1].accuracy).toBe(1);
     expect(rows.some((r) => r.key === "P")).toBe(false);

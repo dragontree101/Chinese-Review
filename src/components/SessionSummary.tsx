@@ -7,6 +7,8 @@ interface Props {
   wrong: number;
   unknown: number;
   total: number;
+  /** 「查看统计」跳转链接，默认文言文统计页 */
+  statsHref?: string;
   onRestart: () => void;
 }
 
@@ -16,6 +18,7 @@ export default function SessionSummary({
   wrong,
   unknown,
   total,
+  statsHref = "/stats",
   onRestart,
 }: Props) {
   return (
@@ -44,7 +47,7 @@ export default function SessionSummary({
           再来一轮
         </button>
         <Link
-          href="/stats"
+          href={statsHref}
           className="flex-1 rounded border border-gray-300 px-4 py-2.5 leading-8 text-gray-700"
         >
           查看统计

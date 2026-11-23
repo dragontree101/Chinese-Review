@@ -1,0 +1,5 @@
+[submodule "third_party/english-vocabulary"]
+	path = third_party/english-vocabulary
+	url = https://github.com/KyleBing/english-vocabulary
+[submodule "english-vocabulary"]
+	shallow = true

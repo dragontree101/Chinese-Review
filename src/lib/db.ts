@@ -35,6 +35,31 @@ export function createSchema(d: Database.Database): void {
       createdAt TEXT NOT NULL
     );
     CREATE INDEX IF NOT EXISTS idx_logs_word ON review_logs(wordId);
+    -- 英语单词模块（与文言文表结构独立，字段语义不同）
+    CREATE TABLE IF NOT EXISTS e_words (
+      id INTEGER PRIMARY KEY,
+      word TEXT NOT NULL,
+      level TEXT NOT NULL CHECK (level IN ('初中','高中')),
+      usphone TEXT,
+      ukphone TEXT,
+      meanings TEXT NOT NULL DEFAULT '[]',
+      sentences TEXT NOT NULL DEFAULT '[]',
+      phrases TEXT NOT NULL DEFAULT '[]',
+      createdAt TEXT NOT NULL,
+      updatedAt TEXT NOT NULL
+    );
+    CREATE INDEX IF NOT EXISTS idx_e_words_word ON e_words(word);
+    CREATE INDEX IF NOT EXISTS idx_e_words_level ON e_words(level);
+    CREATE TABLE IF NOT EXISTS e_review_logs (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      wordId INTEGER NOT NULL REFERENCES e_words(id),
+      mode TEXT NOT NULL CHECK (mode IN ('choice','fill')),
+      result TEXT NOT NULL CHECK (result IN ('correct','wrong','unknown')),
+      userAnswer TEXT,
+      overridden INTEGER NOT NULL DEFAULT 0,
+      createdAt TEXT NOT NULL
+    );
+    CREATE INDEX IF NOT EXISTS idx_e_logs_word ON e_review_logs(wordId);
   `);
 }
 

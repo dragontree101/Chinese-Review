@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div className="py-10">
-      <h1 className="text-center text-3xl font-bold">文言文生词复习</h1>
+      <h1 className="text-center text-3xl font-bold">生词复习</h1>
       <p className="mt-2 text-center text-gray-500">
         每天几分钟，熟悉初中文言文实词
       </p>

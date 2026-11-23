@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#8c1f28"/>
-  <text x="32" y="44" font-size="36" text-anchor="middle" fill="#f8f7f4" font-family="serif" font-weight="bold">文</text>
+  <rect width="64" height="64" rx="12" fill="#4f46e5"/>
+  <rect x="9" y="12" width="28" height="34" rx="5" fill="#ffffff"/>
+  <text x="23" y="36" font-size="22" text-anchor="middle" fill="#4f46e5" font-family="serif" font-weight="bold">词</text>
+  <rect x="31" y="22" width="24" height="30" rx="5" fill="#fbbf24"/>
+  <text x="43" y="44" font-size="18" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-weight="bold">A</text>
 </svg>

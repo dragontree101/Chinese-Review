@@ -1,8 +1,10 @@
 # 文言文生词复习
 
-帮助初中生学习和复习文言文实词的本地 Web 应用。基于 1333 条文言实词数据（覆盖 299 个字），提供多种规则的出题复习、多维度学习统计，以及数据在线编辑。
+帮助初中生学习和复习文言文实词与英语单词的本地 Web 应用。文言文部分基于 1333 条文言实词数据（覆盖 299 个字），英语部分基于 [KyleBing/english-vocabulary](https://github.com/KyleBing/english-vocabulary) 词库（初中 + 高中共 3927 词），提供多种规则的出题复习、多维度学习统计，以及数据在线编辑。
 
 ## 功能
+
+### 文言文复习
 
 ### 复习
 - **6 种出题规则**：随机、按年级（七/八/九年级/拓展）、按拼音首字母、按关键字、按频率（多义字优先）、错误率优先（薄弱点优先）
@@ -20,6 +22,13 @@
 - **手动添加词条**：字与含义必填，读音/例句/出处/课文/年级/翻译选填；添加后立即参与出题与统计
 - 行内编辑：含义、白话翻译、出处、课文、年级
 - 「相同含义的句子」「频率」由数据实时推导，编辑后立即生效
+
+### 英语单词复习（/english）
+- **词库**：english-vocabulary submodule，初中 + 高中两库去重合并共 3927 词（重叠 1817 词取最低学段归「初中」）
+- **4 种出题规则**：随机、按学段（初中/高中）、按首字母（A-Z）、错误率优先（薄弱点优先）
+- **2 种题型**：选择题（英译中，四选一）、填空题（中译英拼写，大小写不敏感、忽略首尾空白）
+- 答题卡显示单词、英/美音标、学段；作答后展示释义与全部例句；填空答错可「判我对」
+- **统计**：正确率 / 错误率 / 不知道率 / 已复习进度、按学段、按首字母（最弱在前）、近 7 天趋势
 
 ## 技术栈
 
@@ -47,14 +56,19 @@ bash scripts/start.sh
 # 4. 停止服务（dev / start 均可停）
 bash scripts/stop.sh
 
-# 5. 清空并重建数据库（重新导入 default.json 与 data/translations.json）
+# 5. 清空并重建数据库（重新导入 default.json 与 data/translations.json，含英语词库导入）
 bash scripts/reset-db.sh
 
-# 6. 运行单元测试
+# 6. 单独导入英语词库（submodule → e_words 表）
+bash scripts/import-english.sh
+
+# 7. 运行单元测试
 bash scripts/test.sh
 ```
 
 > 依赖：Node.js ≥ 20（推荐 22）。
+>
+> 首次 clone 后需先初始化 submodule：`git submodule update --init third_party/english-vocabulary`（约 100MB，已配置浅克隆）。
 
 ## 数据说明
 
@@ -72,8 +86,10 @@ bash scripts/test.sh
 
 ### 数据表
 
-- `words` — 词条（1333 条）
-- `review_logs` — 作答记录（一次作答一条；「判我对」就地更新原记录并打 `overridden` 标记，保证统计分母不膨胀）
+- `words` — 文言文词条（1333 条）
+- `review_logs` — 文言文作答记录（一次作答一条；「判我对」就地更新原记录并打 `overridden` 标记，保证统计分母不膨胀）
+- `e_words` — 英语词条（3927 条，meanings/sentences/phrases 存 JSON）
+- `e_review_logs` — 英语作答记录（同 review_logs 语义）
 
 ### 已知数据问题
 
@@ -83,12 +99,13 @@ bash scripts/test.sh
 
 ```
 scripts/            启停 / 测试 / 建库脚本（唯一运行入口）
-src/app/            页面（首页、复习、统计、数据管理）
-src/app/api/        Route Handlers（words / quiz / review / stats）
-src/components/     React 组件
-src/lib/            核心逻辑（数据库、出题、判定、统计、拼音）
-src/lib/__tests__/  单元测试
+src/app/            页面（文言文首页、复习、统计、数据管理；/english 英语板块）
+src/app/api/        Route Handlers（words / quiz / review / stats + english/*）
+src/components/     React 组件（english/ 子目录为英语板块组件）
+src/lib/            核心逻辑（数据库、出题、判定、统计、拼音；english/ 子目录为英语逻辑）
+src/lib/__tests__/  单元测试（含 src/lib/english/__tests__/）
 src/scripts/        数据导入、翻译合并等一次性脚本
+third_party/        english-vocabulary 词库 submodule
 data/               app.db 数据库、translations.json 翻译初稿（git 忽略）
 docs/               正式文档（验收记录等）
 discuss/            设计文档与实现计划
@@ -100,3 +117,6 @@ logs/               运行日志（git 忽略）
 - 设计文档：[discuss/2026-11-22-文言文复习应用-design.md](discuss/2026-11-22-文言文复习应用-design.md)
 - 实现计划：[discuss/2026-11-22-文言文复习应用-plan.md](discuss/2026-11-22-文言文复习应用-plan.md)
 - 端到端验收记录：[docs/2026-11-22-端到端验收记录.md](docs/2026-11-22-端到端验收记录.md)
+- 英语单词模块设计：[discuss/2026-11-23-英语单词复习-design.md](discuss/2026-11-23-英语单词复习-design.md)
+- 英语单词模块实现计划：[discuss/2026-11-23-英语单词复习-plan.md](discuss/2026-11-23-英语单词复习-plan.md)
+- 英语单词模块验收记录：[docs/2026-11-23-英语单词模块验收记录.md](docs/2026-11-23-英语单词模块验收记录.md)

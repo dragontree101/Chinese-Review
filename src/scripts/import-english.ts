@@ -1,7 +1,9 @@
 import { readFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import Database from "better-sqlite3";
+import type { Database as DB } from "better-sqlite3";
 import { parseLine, mergeWord, type RawVocabEntry } from "../lib/english/parse";
+import { remapReviewLogs, type OldLogRow } from "../lib/english/log-remap";
 import { createSchema } from "../lib/db";
 
 const ROOT = process.cwd();
@@ -16,13 +18,42 @@ const SOURCES = [
 interface ImportStats {
   file: string;
   lines: number;
-  unique: number;
+}
+
+/** 读取重导前的旧词条映射与作答记录（表不存在时返回空） */
+function loadOldHistory(
+  db: DB,
+): { oldIdToWord: Map<number, string>; oldLogs: OldLogRow[] } {
+  const hasTable = (name: string): boolean =>
+    !!db
+      .prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name=?")
+      .get(name);
+  const oldIdToWord = new Map<number, string>();
+  const oldLogs: OldLogRow[] = [];
+  if (hasTable("e_words")) {
+    const rows = db
+      .prepare("SELECT id, word FROM e_words")
+      .all() as unknown as Array<{ id: number; word: string }>;
+    for (const r of rows) oldIdToWord.set(r.id, r.word);
+  }
+  if (hasTable("e_review_logs")) {
+    const logs = db
+      .prepare(
+        "SELECT wordId, mode, result, userAnswer, overridden, createdAt FROM e_review_logs",
+      )
+      .all() as unknown as OldLogRow[];
+    oldLogs.push(...logs);
+  }
+  return { oldIdToWord, oldLogs };
 }
 
 function main(): void {
   const dbPath = path.join(ROOT, "data", "app.db");
   const db = new Database(dbPath);
   db.pragma("journal_mode = WAL");
+
+  // 保留旧作答历史（按词名迁移，词库重排/升级不丢记录）
+  const { oldIdToWord, oldLogs } = loadOldHistory(db);
 
   // 分词分组：同一单词在两库中的所有来源行归为一组
   const groups = new Map<string, RawVocabEntry[]>();
@@ -45,7 +76,7 @@ function main(): void {
       list.push(entry);
       groups.set(entry.headWord, list);
     }
-    fileStats.push({ file: src.file, lines: count, unique: 0 });
+    fileStats.push({ file: src.file, lines: count });
   }
 
   // 合并去重
@@ -62,9 +93,10 @@ function main(): void {
     INSERT INTO e_words (word, level, usphone, ukphone, meanings, sentences, phrases, createdAt, updatedAt)
     VALUES (@word, @level, @usphone, @ukphone, @meanings, @sentences, @phrases, @createdAt, @updatedAt)
   `);
+  const newWordToId = new Map<string, number>();
   db.transaction((words: NonNullable<ReturnType<typeof mergeWord>>[]) => {
     for (const w of words) {
-      insert.run({
+      const info = insert.run({
         word: w.word,
         level: w.level,
         usphone: w.usphone,
@@ -75,8 +107,19 @@ function main(): void {
         createdAt: now,
         updatedAt: now,
       });
+      newWordToId.set(w.word, Number(info.lastInsertRowid));
     }
   })(merged);
+
+  // 迁移旧作答记录到新 id
+  const remapped = remapReviewLogs(oldLogs, oldIdToWord, newWordToId);
+  const insertLog = db.prepare(
+    `INSERT INTO e_review_logs (wordId, mode, result, userAnswer, overridden, createdAt)
+     VALUES (@wordId, @mode, @result, @userAnswer, @overridden, @createdAt)`,
+  );
+  db.transaction((logs: OldLogRow[]) => {
+    for (const l of logs) insertLog.run(l);
+  })(remapped);
 
   const levelCount = { 初中: 0, 高中: 0 } as Record<string, number>;
   for (const w of merged) levelCount[w.level]++;
@@ -85,6 +128,7 @@ function main(): void {
   console.log(`高中文件行数: ${fileStats[1].lines}`);
   console.log(`去重后唯一词数: ${merged.length}`);
   console.log(`初中: ${levelCount["初中"]} / 高中: ${levelCount["高中"]}`);
+  console.log(`迁移作答记录: ${remapped.length} 条（旧记录共 ${oldLogs.length} 条）`);
   db.close();
 }
 

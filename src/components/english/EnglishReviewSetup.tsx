@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import CountInput from "../CountInput";
 import type { EQuizRule } from "@/lib/english/types";
 
 export const RULE_LABELS: Array<{ value: EQuizRule; label: string }> = [
@@ -101,16 +102,7 @@ export default function EnglishReviewSetup({ onStart }: Props) {
 
       <label className="block">
         <span className="mb-1 block text-sm text-gray-600">题目数量</span>
-        <input
-          type="number"
-          min={1}
-          max={50}
-          value={count}
-          onChange={(e) =>
-            setCount(Math.min(50, Math.max(1, Number(e.target.value) || 10)))
-          }
-          className="w-full rounded border border-gray-300 px-3 py-2"
-        />
+        <CountInput value={count} onChange={setCount} />
       </label>
 
       <button

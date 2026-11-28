@@ -1,18 +1,20 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDb } from "@/lib/db";
-import { createWord, getWordsByChar, type WordInput } from "@/lib/words";
-import type { Word } from "@/lib/types";
+import { createWord, type WordInput } from "@/lib/words";
+import { getWordErrorsByChar } from "@/lib/stats";
+import type { Word, WordWithErrors } from "@/lib/types";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-/** GET /api/words?page=1&pageSize=20&q=关键字搜索 | char=按字精确查询（多义字多条，id 升序） */
+/** GET /api/words?page=1&pageSize=20&q=关键字搜索 | char=按字精确查询（携带词条错误计数，错多在前） */
 export function GET(req: NextRequest): NextResponse {
   const sp = req.nextUrl.searchParams;
 
   const char = (sp.get("char") ?? "").trim();
   if (char) {
-    return NextResponse.json({ items: getWordsByChar(getDb(), char) });
+    const items = getWordErrorsByChar(getDb(), char);
+    return NextResponse.json({ items } as { items: WordWithErrors[] });
   }
 
   const page = Math.max(1, Number(sp.get("page") ?? "1") || 1);

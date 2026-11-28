@@ -6,6 +6,7 @@ import {
   getBySource,
   getByChar,
   getTrend,
+  getWrongEntries,
 } from "@/lib/stats";
 
 export const runtime = "nodejs";
@@ -19,6 +20,7 @@ export function GET(): NextResponse {
     byGrade: getByGrade(db),
     bySource: getBySource(db),
     byChar: getByChar(db),
+    byWord: getWrongEntries(db, 20),
     trend: getTrend(db, 7),
   });
 }

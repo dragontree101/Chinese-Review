@@ -7,8 +7,9 @@ for name in dev start; do
   if [ -f "$pidfile" ]; then
     pid=$(cat "$pidfile")
     if kill -0 "$pid" 2>/dev/null; then
-      # 杀掉整个进程组（nohup 启动的包装进程与子进程）
-      kill -- "-$pid" 2>/dev/null || kill "$pid" 2>/dev/null
+      # 先杀子进程（next-server），再杀包装进程；npm 不是组长，进程组 kill 不生效
+      pkill -TERM -P "$pid" 2>/dev/null
+      kill "$pid" 2>/dev/null
       echo "$name (PID $pid) 已停止"
     else
       echo "$name 未在运行"

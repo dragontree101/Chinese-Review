@@ -11,7 +11,7 @@ interface Props {
   total: number;
   mode: "choice" | "fill";
   /** 已提交后的反馈；null 表示未作答 */
-  feedback: { result: ReviewResult; overrideDone?: boolean } | null;
+  feedback: { result: ReviewResult; overrideDone?: boolean; srsHint?: string } | null;
   onSelectOption: (option: string) => void;
   onSubmitFill: (input: string) => void;
   onUnknown: () => void;
@@ -146,6 +146,9 @@ export default function QuestionCard({
           <p className="mt-1">
             正确含义：<strong>{word.meaning}</strong>
           </p>
+          {feedback!.srsHint && (
+            <p className="mt-1 text-sm opacity-80">{feedback!.srsHint}</p>
+          )}
           {word.translation && (
             <p className="mt-1 text-sm">译文：{word.translation}</p>
           )}

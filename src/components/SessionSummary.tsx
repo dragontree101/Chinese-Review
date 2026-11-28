@@ -9,6 +9,8 @@ interface Props {
   total: number;
   /** 「查看统计」跳转链接，默认文言文统计页 */
   statsHref?: string;
+  /** SRS 小结（升级/归零/毕业词数），无则不显示 */
+  srsSummary?: { promoted: number; demoted: number; graduated: number };
   onRestart: () => void;
 }
 
@@ -19,6 +21,7 @@ export default function SessionSummary({
   unknown,
   total,
   statsHref = "/stats",
+  srsSummary,
   onRestart,
 }: Props) {
   return (
@@ -39,6 +42,12 @@ export default function SessionSummary({
           <p className="text-sm text-gray-500">不知道</p>
         </div>
       </div>
+      {srsSummary && (
+        <p className="text-sm text-gray-500">
+          本次升级 {srsSummary.promoted} · 归零 {srsSummary.demoted} · 毕业{" "}
+          {srsSummary.graduated}
+        </p>
+      )}
       <div className="flex gap-2">
         <button
           onClick={onRestart}

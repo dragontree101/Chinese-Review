@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CountInput from "./CountInput";
 import type { QuizRule } from "@/lib/quiz";
 
 export const RULE_LABELS: Array<{ value: QuizRule; label: string }> = [
+  { value: "due", label: "智能复习（到期优先）" },
   { value: "random", label: "随机" },
   { value: "grade", label: "按年级" },
   { value: "initial", label: "按拼音首字母" },
@@ -28,10 +29,24 @@ interface Props {
 
 /** 复习前的出题设置单 */
 export default function ReviewSetup({ onStart }: Props) {
-  const [rule, setRule] = useState<QuizRule>("random");
+  const [rule, setRule] = useState<QuizRule>("due");
   const [value, setValue] = useState("");
   const [mode, setMode] = useState<"choice" | "fill">("choice");
   const [count, setCount] = useState(10);
+  const [srsInfo, setSrsInfo] = useState<{
+    dueCount: number;
+    unlearned: number;
+  } | null>(null);
+
+  useEffect(() => {
+    fetch("/api/srs/progress")
+      .then((r) => {
+        if (!r.ok) throw new Error(String(r.status));
+        return r.json() as Promise<{ dueCount: number; unlearned: number }>;
+      })
+      .then(setSrsInfo)
+      .catch(() => setSrsInfo(null));
+  }, []);
 
   const needsValue = rule === "grade" || rule === "initial" || rule === "keyword";
 
@@ -114,10 +129,17 @@ export default function ReviewSetup({ onStart }: Props) {
         </div>
       </div>
 
-      <label className="block">
-        <span className="mb-1 block text-sm text-gray-600">题目数量</span>
-        <CountInput value={count} onChange={setCount} />
-      </label>
+      {rule === "due" ? (
+        <div className="rounded bg-blue-50 px-3 py-2 text-sm text-blue-700">
+          今日到期 {srsInfo ? srsInfo.dueCount : "…"} 个 · 新词{" "}
+          {srsInfo ? srsInfo.unlearned : "…"} 个
+        </div>
+      ) : (
+        <label className="block">
+          <span className="mb-1 block text-sm text-gray-600">题目数量</span>
+          <CountInput value={count} onChange={setCount} />
+        </label>
+      )}
 
       <button
         onClick={() => onStart({ rule, value, mode, count })}

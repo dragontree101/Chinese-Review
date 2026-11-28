@@ -86,6 +86,8 @@ export default function ReviewSession() {
       setIdx(0);
       setStats(EMPTY_STATS);
       setFeedback(null);
+      setSrsDeltas({});
+      setLastLogId(null);
       setPhase("question");
     } catch (e) {
       setError(e instanceof Error ? e.message : "取题失败");

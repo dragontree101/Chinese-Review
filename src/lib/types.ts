@@ -71,6 +71,24 @@ export interface StatRow {
   accuracy: number;
 }
 
+/** 错误词条排行行（按 wordId 聚合，含词条信息） */
+export interface WordErrorRow {
+  wordId: number;
+  char: string;
+  meaning: string;
+  sentence: string;
+  wrong: number;
+  unknown: number;
+  total: number;
+}
+
+/** 携带错误计数的词条（按字查询用） */
+export type WordWithErrors = Word & {
+  wrong: number;
+  unknown: number;
+  total: number;
+};
+
 /** 近 N 天趋势行 */
 export interface TrendRow {
   date: string;

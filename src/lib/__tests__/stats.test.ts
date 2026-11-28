@@ -7,6 +7,8 @@ import {
   getBySource,
   getByChar,
   getTrend,
+  getWrongEntries,
+  getWordErrorsByChar,
 } from "../stats";
 import type { Word } from "../types";
 
@@ -125,5 +127,96 @@ describe("「判我对」口径", () => {
     // 作答总次数不变
     expect(s.correct + s.wrong + s.unknown).toBe(4);
     void (0 as unknown as Word);
+  });
+});
+
+describe("getWrongEntries / getWordErrorsByChar", () => {
+  /** 造词条（char 可重复，模拟多义字多条） */
+  function seedEntry(
+    db: Database.Database,
+    id: number,
+    char: string,
+    meaning: string,
+  ): void {
+    db.prepare(
+      `INSERT INTO words (id, char, keyword, meaning, sentence, source, translation, lesson, grade, familiarity, createdAt, updatedAt)
+       VALUES (?, ?, ?, ?, '例句句子', NULL, NULL, NULL, NULL, 0, '2026-01-01', '2026-01-01')`,
+    ).run(id, char, char, meaning);
+  }
+
+  function seedLog(
+    db: Database.Database,
+    wordId: number,
+    result: "correct" | "wrong" | "unknown",
+  ): void {
+    db.prepare(
+      `INSERT INTO review_logs (wordId, mode, result, userAnswer, overridden, createdAt)
+       VALUES (?, 'choice', ?, NULL, 0, '2026-06-01T10:00:00.000Z')`,
+    ).run(wordId, result);
+  }
+
+  /** A1=哀 错2对1；A2=哀 不知1；B=爱 全对3；C=乐 无日志 */
+  function seedErrorDb(): Database.Database {
+    const db = new Database(":memory:");
+    createSchema(db);
+    seedEntry(db, 1, "哀", "悲伤");
+    seedEntry(db, 2, "哀", "哀悼");
+    seedEntry(db, 3, "爱", "爱护");
+    seedEntry(db, 4, "乐", "快乐");
+    seedLog(db, 1, "wrong");
+    seedLog(db, 1, "wrong");
+    seedLog(db, 1, "correct");
+    seedLog(db, 2, "unknown");
+    seedLog(db, 3, "correct");
+    seedLog(db, 3, "correct");
+    seedLog(db, 3, "correct");
+    return db;
+  }
+
+  it("getWrongEntries 只含有错误记录的词条，按错误次数降序", () => {
+    const rows = getWrongEntries(seedErrorDb());
+    expect(rows.map((r) => r.wordId)).toEqual([1, 2]);
+    expect(rows[0]).toMatchObject({
+      wordId: 1,
+      char: "哀",
+      meaning: "悲伤",
+      sentence: "例句句子",
+      wrong: 2,
+      unknown: 0,
+      total: 3,
+    });
+    expect(rows[1]).toMatchObject({ wordId: 2, wrong: 0, unknown: 1, total: 1 });
+  });
+
+  it("getWrongEntries 同错误次数按作答总数降序、再按 wordId 升序", () => {
+    const db = new Database(":memory:");
+    createSchema(db);
+    seedEntry(db, 1, "甲", "义一");
+    seedEntry(db, 2, "乙", "义二");
+    seedEntry(db, 3, "丙", "义三");
+    // 1 和 2 各错 1 次；2 多作答一次全对 → 2 在 1 前
+    seedLog(db, 1, "wrong");
+    seedLog(db, 2, "wrong");
+    seedLog(db, 2, "correct");
+    seedLog(db, 3, "correct");
+    const rows = getWrongEntries(db);
+    expect(rows.map((r) => r.wordId)).toEqual([2, 1]);
+  });
+
+  it("getWordErrorsByChar 返回该字全部词条（含零记录），错多在前", () => {
+    const db = seedErrorDb();
+    seedEntry(db, 5, "哀", "怜悯"); // 无任何日志
+    const rows = getWordErrorsByChar(db, "哀");
+    expect(rows.map((r) => r.wordId)).toEqual([1, 2, 5]);
+    expect(rows[0]).toMatchObject({ wrong: 2, unknown: 0, total: 3 });
+    expect(rows[1]).toMatchObject({ wrong: 0, unknown: 1, total: 1 });
+    expect(rows[2]).toMatchObject({ wrong: 0, unknown: 0, total: 0 });
+    expect(rows[2].meaning).toBe("怜悯");
+  });
+
+  it("getWordErrorsByChar 其他字的词条不出现", () => {
+    const rows = getWordErrorsByChar(seedErrorDb(), "乐");
+    expect(rows.map((r) => r.wordId)).toEqual([4]);
+    expect(rows[0].total).toBe(0);
   });
 });

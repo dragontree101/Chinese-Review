@@ -1,5 +1,5 @@
 import type { Database } from "better-sqlite3";
-import type { StatSummary, StatRow, TrendRow } from "./types";
+import type { StatSummary, StatRow, TrendRow, WordErrorRow, WordWithErrors } from "./types";
 
 interface CountRow {
   result: string;
@@ -93,6 +93,65 @@ export function getBySource(db: Database): StatRow[] {
 
 export function getByChar(db: Database, limit = 20): StatRow[] {
   return aggregate(db, "char", limit);
+}
+
+/**
+ * 错误词条排行（句子粒度）：有答错或「不知道」记录的词条，按错误次数降序。
+ * 一个字有多个含义词条，错误发生在具体词条上，此函数给出比按字更精确的薄弱点。
+ */
+export function getWrongEntries(db: Database, limit = 20): WordErrorRow[] {
+  const rows = db
+    .prepare(
+      `SELECT w.id AS wordId,
+              w.char,
+              w.meaning,
+              w.sentence,
+              COUNT(*) AS answered,
+              SUM(CASE WHEN l.result='wrong' THEN 1 ELSE 0 END) AS wrong,
+              SUM(CASE WHEN l.result='unknown' THEN 1 ELSE 0 END) AS unknown
+       FROM review_logs l JOIN words w ON w.id = l.wordId
+       GROUP BY w.id
+       HAVING wrong + unknown > 0
+       ORDER BY (wrong + unknown) DESC, answered DESC, w.id ASC
+       LIMIT ?`,
+    )
+    .all(Math.floor(limit)) as unknown as Array<{
+    wordId: number;
+    char: string;
+    meaning: string;
+    sentence: string;
+    answered: number;
+    wrong: number;
+    unknown: number;
+  }>;
+  return rows.map((r) => ({
+    wordId: r.wordId,
+    char: r.char,
+    meaning: r.meaning,
+    sentence: r.sentence,
+    wrong: r.wrong,
+    unknown: r.unknown,
+    total: r.answered,
+  }));
+}
+
+/** 按字查询全部词条并携带错误计数（LEFT JOIN 保证零记录词条在列，错多在前） */
+export function getWordErrorsByChar(
+  db: Database,
+  char: string,
+): WordWithErrors[] {
+  return db
+    .prepare(
+      `SELECT w.*, w.id AS wordId,
+              COALESCE(SUM(CASE WHEN l.result='wrong' THEN 1 ELSE 0 END), 0) AS wrong,
+              COALESCE(SUM(CASE WHEN l.result='unknown' THEN 1 ELSE 0 END), 0) AS unknown,
+              COUNT(l.id) AS total
+       FROM words w LEFT JOIN review_logs l ON l.wordId = w.id
+       WHERE w.char = ?
+       GROUP BY w.id
+       ORDER BY wrong DESC, unknown DESC, w.id ASC`,
+    )
+    .all(char) as unknown as WordWithErrors[];
 }
 
 /** 近 N 天趋势（本地时区按日聚合，只含有记录的日期） */

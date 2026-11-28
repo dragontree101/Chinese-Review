@@ -2,10 +2,31 @@ import { NextRequest, NextResponse } from "next/server";
 import { getDb } from "@/lib/db";
 import { rowToEnglishWord } from "@/lib/english/types";
 import { judgeEnglishFill } from "@/lib/english/quiz";
+import { getSrsStateForWord, SRS_INTERVALS } from "@/lib/srs";
 import type { EReviewMode, EReviewResult } from "@/lib/english/types";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+
+/** 组装响应携带的 SRS 状态（服务端权威，前端不复制间隔表逻辑） */
+function srsPayload(
+  db: ReturnType<typeof getDb>,
+  wordId: number,
+  prevLevel: number,
+): {
+  prevLevel: number;
+  level: number;
+  graduated: boolean;
+  nextIntervalDays: number | null;
+} {
+  const next = getSrsStateForWord(db, "e_review_logs", wordId);
+  return {
+    prevLevel,
+    level: next.level,
+    graduated: next.graduated,
+    nextIntervalDays: next.graduated ? null : SRS_INTERVALS[next.level],
+  };
+}
 
 interface ReviewBody {
   wordId?: number;
@@ -27,6 +48,13 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
   const db = getDb();
 
   if (body.overrideLogId !== undefined) {
+    const row = db
+      .prepare("SELECT wordId FROM e_review_logs WHERE id = ?")
+      .get(body.overrideLogId) as { wordId: number } | undefined;
+    if (!row) {
+      return NextResponse.json({ error: "记录不存在" }, { status: 404 });
+    }
+    const prevLevel = getSrsStateForWord(db, "e_review_logs", row.wordId).level;
     const info = db
       .prepare(
         `UPDATE e_review_logs SET result='correct', overridden=1 WHERE id=@id`,
@@ -35,7 +63,11 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     if (info.changes === 0) {
       return NextResponse.json({ error: "记录不存在" }, { status: 404 });
     }
-    return NextResponse.json({ ok: true, result: "correct" });
+    return NextResponse.json({
+      ok: true,
+      result: "correct",
+      srs: srsPayload(db, row.wordId, prevLevel),
+    });
   }
 
   if (!body.wordId || !body.mode || !MODES.includes(body.mode)) {
@@ -60,6 +92,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: "无效 result" }, { status: 400 });
   }
 
+  const prevLevel = getSrsStateForWord(db, "e_review_logs", body.wordId).level;
   const info = db
     .prepare(
       `INSERT INTO e_review_logs (wordId, mode, result, userAnswer, overridden, createdAt)
@@ -77,5 +110,6 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     result,
     logId: Number(info.lastInsertRowid),
     ...(correctWord !== undefined ? { correctWord } : {}),
+    srs: srsPayload(db, body.wordId, prevLevel),
   });
 }

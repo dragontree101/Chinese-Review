@@ -2,12 +2,13 @@ import { NextRequest, NextResponse } from "next/server";
 import { getDb } from "@/lib/db";
 import { rowToEnglishWord } from "@/lib/english/types";
 import { pickWords, pickDistractors, buildChoiceQuestion, maskWordForFill } from "@/lib/english/quiz";
+import { pickDueWords } from "@/lib/srs";
 import type { EQuizItem, EQuizRule, EnglishWord } from "@/lib/english/types";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const RULES: EQuizRule[] = ["random", "level", "initial", "weakness"];
+const RULES: EQuizRule[] = ["due", "random", "level", "initial", "weakness"];
 
 /** GET /api/english/quiz?rule=random&value=&count=10&mode=choice|fill */
 export function GET(req: NextRequest): NextResponse {
@@ -21,7 +22,23 @@ export function GET(req: NextRequest): NextResponse {
   const count = Math.min(50, Math.max(1, Number(sp.get("count") ?? "10") || 10));
 
   const db = getDb();
-  const words = pickWords(db, rule, value, count);
+  let words: EnglishWord[];
+  let srsMeta: { dueCount: number; newCount: number } | undefined;
+  if (rule === "due") {
+    // 智能复习：到期词全出（封顶 30）→ 新词补齐（不分学段）；count 参数不生效
+    const r = pickDueWords(db, "e_words", "e_review_logs");
+    srsMeta = { dueCount: r.dueCount, newCount: r.newCount };
+    const byId = new Map(
+      (
+        db.prepare("SELECT * FROM e_words").all() as unknown as Array<
+          Record<string, unknown>
+        >
+      ).map((row) => [row.id as number, rowToEnglishWord(row) as EnglishWord]),
+    );
+    words = r.ids.map((id) => byId.get(id)).filter((w) => w !== undefined);
+  } else {
+    words = pickWords(db, rule, value, count);
+  }
   const all = (
     db.prepare("SELECT * FROM e_words").all() as unknown as Array<
       Record<string, unknown>
@@ -37,5 +54,8 @@ export function GET(req: NextRequest): NextResponse {
     return { word: w, options: q.options, answer: q.answer };
   });
 
-  return NextResponse.json({ questions });
+  return NextResponse.json({
+    questions,
+    ...(srsMeta ? { srsMeta } : {}),
+  });
 }

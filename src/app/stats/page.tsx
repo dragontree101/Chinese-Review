@@ -4,13 +4,14 @@ import { useEffect, useState } from "react";
 import StatCards from "@/components/StatCards";
 import TrendChart from "@/components/TrendChart";
 import StatTables from "@/components/StatTables";
-import type { StatRow, StatSummary, TrendRow } from "@/lib/types";
+import type { StatRow, StatSummary, TrendRow, WordErrorRow } from "@/lib/types";
 
 interface StatsData {
   summary: StatSummary;
   byGrade: StatRow[];
   bySource: StatRow[];
   byChar: StatRow[];
+  byWord: WordErrorRow[];
   trend: TrendRow[];
 }
 
@@ -41,6 +42,7 @@ export default function StatsPage() {
         byChar={data.byChar}
         byGrade={data.byGrade}
         bySource={data.bySource}
+        byWord={data.byWord}
       />
     </div>
   );

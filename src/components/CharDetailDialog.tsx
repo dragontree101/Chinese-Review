@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { Word } from "@/lib/types";
+import type { WordWithErrors } from "@/lib/types";
 import { keywordReading } from "@/lib/pinyin";
 
 interface Props {
@@ -10,16 +10,16 @@ interface Props {
   onClose: () => void;
 }
 
-/** 字详情弹窗：该字下全部词条（含义、例句、白话翻译、课文/年级/出处） */
+/** 字详情弹窗：该字下全部词条（含义、例句、白话翻译、错误次数） */
 export default function CharDetailDialog({ char, onClose }: Props) {
-  const [items, setItems] = useState<Word[] | null>(null);
+  const [items, setItems] = useState<WordWithErrors[] | null>(null);
   const [error, setError] = useState("");
 
   useEffect(() => {
     fetch(`/api/words?char=${encodeURIComponent(char)}`)
       .then((r) => {
         if (!r.ok) throw new Error(`加载失败: ${r.status}`);
-        return r.json() as Promise<{ items: Word[] }>;
+        return r.json() as Promise<{ items: WordWithErrors[] }>;
       })
       .then((d) => setItems(d.items))
       .catch((e: unknown) =>
@@ -64,7 +64,14 @@ export default function CharDetailDialog({ char, onClose }: Props) {
                       读音：{keywordReading(w.keyword, w.char)}
                     </p>
                   )}
-                  <p className="font-medium">{w.meaning}</p>
+                  <div className="flex items-start justify-between gap-2">
+                    <p className="font-medium">{w.meaning}</p>
+                    {w.wrong + w.unknown > 0 && (
+                      <span className="shrink-0 rounded bg-red-50 px-2 py-0.5 text-xs text-red-700">
+                        错 {w.wrong + w.unknown}
+                      </span>
+                    )}
+                  </div>
                   {w.sentence && (
                     <p className="mt-1 text-sm">{w.sentence}</p>
                   )}

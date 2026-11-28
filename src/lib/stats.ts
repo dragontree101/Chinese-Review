@@ -142,7 +142,7 @@ export function getWordErrorsByChar(
 ): WordWithErrors[] {
   return db
     .prepare(
-      `SELECT w.*, w.id AS wordId,
+      `SELECT w.*,
               COALESCE(SUM(CASE WHEN l.result='wrong' THEN 1 ELSE 0 END), 0) AS wrong,
               COALESCE(SUM(CASE WHEN l.result='unknown' THEN 1 ELSE 0 END), 0) AS unknown,
               COUNT(l.id) AS total

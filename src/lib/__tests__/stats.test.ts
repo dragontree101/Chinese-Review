@@ -207,7 +207,7 @@ describe("getWrongEntries / getWordErrorsByChar", () => {
     const db = seedErrorDb();
     seedEntry(db, 5, "哀", "怜悯"); // 无任何日志
     const rows = getWordErrorsByChar(db, "哀");
-    expect(rows.map((r) => r.wordId)).toEqual([1, 2, 5]);
+    expect(rows.map((r) => r.id)).toEqual([1, 2, 5]);
     expect(rows[0]).toMatchObject({ wrong: 2, unknown: 0, total: 3 });
     expect(rows[1]).toMatchObject({ wrong: 0, unknown: 1, total: 1 });
     expect(rows[2]).toMatchObject({ wrong: 0, unknown: 0, total: 0 });
@@ -216,7 +216,7 @@ describe("getWrongEntries / getWordErrorsByChar", () => {
 
   it("getWordErrorsByChar 其他字的词条不出现", () => {
     const rows = getWordErrorsByChar(seedErrorDb(), "乐");
-    expect(rows.map((r) => r.wordId)).toEqual([4]);
+    expect(rows.map((r) => r.id)).toEqual([4]);
     expect(rows[0].total).toBe(0);
   });
 });

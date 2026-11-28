@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import Database from "better-sqlite3";
 import { createSchema } from "../db";
-import { createWord, nextWordId } from "../words";
+import { createWord, getWordsByChar, nextWordId } from "../words";
 import type { WordInput } from "../words";
 
 function db(): Database.Database {
@@ -66,5 +66,27 @@ describe("createWord", () => {
     expect(w.grade).toBe("九年级");
     expect(w.translation).toBe("从前。");
     expect(w.keyword).toBe("曩(nǎng)");
+  });
+});
+
+describe("getWordsByChar", () => {
+  it("精确等值匹配：只返回 char 完全相等的词条，id 升序", () => {
+    const d = db();
+    seed(d, 1, "哀");
+    seed(d, 2, "哀");
+    // id 3 的含义中含「哀」，但 char 为「爱」，不得被带出
+    d.prepare(
+      `INSERT INTO words (id, char, keyword, meaning, sentence, source, translation, lesson, grade, familiarity, createdAt, updatedAt)
+       VALUES (3, '爱', '爱', '哀伤', '例句', NULL, NULL, NULL, NULL, 0, '2026-01-01', '2026-01-01')`,
+    ).run();
+    const result = getWordsByChar(d, "哀");
+    expect(result.map((w) => w.id)).toEqual([1, 2]);
+    expect(result.every((w) => w.char === "哀")).toBe(true);
+  });
+
+  it("无匹配返回空数组", () => {
+    const d = db();
+    seed(d, 1, "哀");
+    expect(getWordsByChar(d, "不存在")).toEqual([]);
   });
 });

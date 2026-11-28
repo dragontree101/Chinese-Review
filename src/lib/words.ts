@@ -23,6 +23,13 @@ export function nextWordId(db: Database): number {
   return (row.m ?? 0) + 1;
 }
 
+/** 按字精确查询全部词条（id 升序）；无匹配返回空数组 */
+export function getWordsByChar(db: Database, char: string): Word[] {
+  return db
+    .prepare("SELECT * FROM words WHERE char = ? ORDER BY id ASC")
+    .all(char) as unknown as Word[];
+}
+
 /** 手动添加词条（id 自增、时间戳即时生成），返回完整 Word */
 export function createWord(db: Database, input: WordInput): Word {
   const now = new Date().toISOString();

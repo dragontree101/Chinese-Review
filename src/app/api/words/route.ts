@@ -1,14 +1,20 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDb } from "@/lib/db";
-import { createWord, type WordInput } from "@/lib/words";
+import { createWord, getWordsByChar, type WordInput } from "@/lib/words";
 import type { Word } from "@/lib/types";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-/** GET /api/words?page=1&pageSize=20&q= 关键字搜索（字/含义/例句/出处/课文/年级） */
+/** GET /api/words?page=1&pageSize=20&q=关键字搜索 | char=按字精确查询（多义字多条，id 升序） */
 export function GET(req: NextRequest): NextResponse {
   const sp = req.nextUrl.searchParams;
+
+  const char = (sp.get("char") ?? "").trim();
+  if (char) {
+    return NextResponse.json({ items: getWordsByChar(getDb(), char) });
+  }
+
   const page = Math.max(1, Number(sp.get("page") ?? "1") || 1);
   const pageSize = Math.min(100, Math.max(1, Number(sp.get("pageSize") ?? "20") || 20));
   const q = (sp.get("q") ?? "").trim();

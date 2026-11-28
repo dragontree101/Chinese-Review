@@ -10,6 +10,7 @@ interface Feedback {
   overrideDone?: boolean;
   /** 填空题判定后由服务端返回的正确拼写 */
   correctWord?: string;
+  srsHint?: string;
 }
 
 interface Props {
@@ -136,6 +137,9 @@ export default function EnglishQuestionCard({
           <p className="mt-1">
             正确拼写：<strong>{feedback!.correctWord ?? word.word}</strong>
           </p>
+          {feedback!.srsHint && (
+            <p className="mt-1 text-sm opacity-80">{feedback!.srsHint}</p>
+          )}
           <p className="mt-1">{formatMeanings(word.meanings)}</p>
           {word.sentences.length > 0 && (
             <ul className="mt-2 space-y-1 text-left text-sm text-gray-600">

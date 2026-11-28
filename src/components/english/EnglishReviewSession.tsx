@@ -8,18 +8,32 @@ import type { EQuizItem, EReviewResult } from "@/lib/english/types";
 
 type Phase = "setup" | "question" | "summary";
 
+/** 作答响应携带的 SRS 状态（服务端权威） */
+interface SrsResponse {
+  prevLevel: number;
+  level: number;
+  graduated: boolean;
+  nextIntervalDays: number | null;
+}
+
 interface Feedback {
   result: EReviewResult;
   overrideDone?: boolean;
   /** 填空题判定后由服务端返回的正确拼写 */
   correctWord?: string;
+  srsHint?: string;
 }
 
 const EMPTY_STATS = { correct: 0, wrong: 0, unknown: 0 };
 
 async function postReview(
   body: Record<string, unknown>,
-): Promise<{ result: EReviewResult; logId: number; correctWord?: string }> {
+): Promise<{
+  result: EReviewResult;
+  logId: number;
+  correctWord?: string;
+  srs?: SrsResponse;
+}> {
   const res = await fetch("/api/english/review", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -30,7 +44,17 @@ async function postReview(
     result: EReviewResult;
     logId: number;
     correctWord?: string;
+    srs?: SrsResponse;
   };
+}
+
+/** 由 SRS 状态派生轻提示文案（前端不复制间隔表逻辑） */
+function srsHintFor(result: EReviewResult, srs: SrsResponse): string {
+  if (srs.graduated) return "🎉 毕业！这个词以后不再出现在智能复习里";
+  if (result === "correct") {
+    return `连对 ${srs.level} 次，${srs.nextIntervalDays} 天后见`;
+  }
+  return "明日再见";
 }
 
 /** 英语复习主流程：设置单 → 逐题作答 → 小结 */
@@ -44,6 +68,13 @@ export default function EnglishReviewSession() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [lastLogId, setLastLogId] = useState<number | null>(null);
+  /** 每题最新一次 SRS 变化（判我对时替换该题条目，避免小结双计） */
+  const [srsDeltas, setSrsDeltas] = useState<Record<number, SrsResponse>>({});
+
+  function recordSrs(idx: number, srs: SrsResponse | undefined): void {
+    if (!srs) return;
+    setSrsDeltas((d) => ({ ...d, [idx]: srs }));
+  }
 
   async function start(config: EReviewConfig) {
     setLoading(true);
@@ -79,18 +110,19 @@ export default function EnglishReviewSession() {
     const item = questions[idx];
     const result: EReviewResult = option === item.answer ? "correct" : "wrong";
     try {
-      await postReview({
+      const r = await postReview({
         wordId: item.word.id,
         mode: "choice",
         result,
         input: option,
       });
+      recordSrs(idx, r.srs);
+      setFeedback({ result, srsHint: r.srs ? srsHintFor(result, r.srs) : undefined });
     } catch {
       setError("提交失败，请重试");
       return;
     }
     applyResult(result);
-    setFeedback({ result });
   }
 
   async function submitFill(input: string) {
@@ -103,7 +135,12 @@ export default function EnglishReviewSession() {
       });
       applyResult(r.result);
       setLastLogId(r.logId);
-      setFeedback({ result: r.result, correctWord: r.correctWord });
+      recordSrs(idx, r.srs);
+      setFeedback({
+        result: r.result,
+        correctWord: r.correctWord,
+        srsHint: r.srs ? srsHintFor(r.result, r.srs) : undefined,
+      });
     } catch {
       setError("提交失败，请重试");
     }
@@ -112,25 +149,35 @@ export default function EnglishReviewSession() {
   async function markUnknown() {
     const item = questions[idx];
     try {
-      await postReview({ wordId: item.word.id, mode, result: "unknown" });
+      const r = await postReview({ wordId: item.word.id, mode, result: "unknown" });
+      recordSrs(idx, r.srs);
+      setFeedback({ result: "unknown", srsHint: r.srs ? srsHintFor("unknown", r.srs) : undefined });
     } catch {
       setError("提交失败，请重试");
       return;
     }
     applyResult("unknown");
-    setFeedback({ result: "unknown" });
   }
 
   async function overrideCorrect() {
     if (lastLogId === null) return;
     try {
-      await postReview({ overrideLogId: lastLogId });
+      const r = await postReview({ overrideLogId: lastLogId });
+      recordSrs(idx, r.srs); // 替换该题原有变化量，小结不双计
+      if (r.srs) {
+        setFeedback((f) =>
+          f
+            ? { ...f, result: "correct", overrideDone: true, srsHint: srsHintFor("correct", r.srs!) }
+            : f,
+        );
+      } else {
+        setFeedback((f) => (f ? { ...f, result: "correct", overrideDone: true } : f));
+      }
     } catch {
       setError("覆盖失败，请重试");
       return;
     }
     setStats((s) => ({ ...s, wrong: s.wrong - 1, correct: s.correct + 1 }));
-    setFeedback((f) => (f ? { ...f, result: "correct", overrideDone: true } : f));
   }
 
   function next() {
@@ -156,6 +203,19 @@ export default function EnglishReviewSession() {
   }
 
   if (phase === "summary") {
+    // 由每题最新 SRS 变化聚合小结（判我对以替换后的为准）
+    let promoted = 0;
+    let demoted = 0;
+    let graduated = 0;
+    for (const s of Object.values(srsDeltas)) {
+      if (s.graduated && s.prevLevel < 6) graduated++;
+      else if (s.level > s.prevLevel && s.level < 6) promoted++;
+      else if (s.level < s.prevLevel) demoted++;
+    }
+    const srsSummary =
+      promoted + demoted + graduated > 0
+        ? { promoted, demoted, graduated }
+        : undefined;
     return (
       <SessionSummary
         correct={stats.correct}
@@ -163,6 +223,7 @@ export default function EnglishReviewSession() {
         unknown={stats.unknown}
         total={questions.length}
         statsHref="/english/stats"
+        srsSummary={srsSummary}
         onRestart={() => setPhase("setup")}
       />
     );

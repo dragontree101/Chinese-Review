@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDb, rowToWord } from "@/lib/db";
 import { pickWords, pickDistractors, buildChoiceQuestion } from "@/lib/quiz";
+import { pickDueWords } from "@/lib/srs";
 import { groupByCharMeaning } from "@/lib/import-helpers";
 import type { QuizRule } from "@/lib/quiz";
 import type { Word } from "@/lib/types";
@@ -9,6 +10,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const RULES: QuizRule[] = [
+  "due",
   "random",
   "grade",
   "initial",
@@ -39,7 +41,21 @@ export function GET(req: NextRequest): NextResponse {
   const count = Math.min(50, Math.max(1, Number(sp.get("count") ?? "10") || 10));
 
   const db = getDb();
-  const words = pickWords(db, rule, value, count);
+  let words: Word[];
+  let srsMeta: { dueCount: number; newCount: number } | undefined;
+  if (rule === "due") {
+    // 智能复习：到期词全出（封顶 30）→ 新词补齐；count 参数不生效
+    const r = pickDueWords(db, "words", "review_logs");
+    srsMeta = { dueCount: r.dueCount, newCount: r.newCount };
+    const byId = new Map(
+      (db.prepare("SELECT * FROM words").all() as unknown as Word[]).map(
+        (w) => [w.id, w],
+      ),
+    );
+    words = r.ids.map((id) => byId.get(id)).filter((w) => w !== undefined);
+  } else {
+    words = pickWords(db, rule, value, count);
+  }
   const all = db.prepare("SELECT * FROM words").all() as unknown as Word[];
   const similarMap = groupByCharMeaning(
     all.map((w) => ({
@@ -63,5 +79,8 @@ export function GET(req: NextRequest): NextResponse {
     return { word, options: q.options, answer: q.answer, similar };
   });
 
-  return NextResponse.json({ questions });
+  return NextResponse.json({
+    questions,
+    ...(srsMeta ? { srsMeta } : {}),
+  });
 }

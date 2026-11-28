@@ -57,7 +57,7 @@ export interface EReviewLog {
 }
 
 /** 英语出题规则 */
-export type EQuizRule = "random" | "level" | "initial" | "weakness";
+export type EQuizRule = "due" | "random" | "level" | "initial" | "weakness";
 
 /** 出题接口返回的单题（fill 模式 answer 为 null，避免前端泄题） */
 export interface EQuizItem {

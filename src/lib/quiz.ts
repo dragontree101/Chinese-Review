@@ -3,6 +3,7 @@ import type { Word } from "./types";
 import { wordInitial } from "./pinyin";
 
 export type QuizRule =
+  | "due"
   | "random"
   | "grade"
   | "initial"

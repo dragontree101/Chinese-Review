@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { Word } from "@/lib/types";
+import { keywordReading } from "@/lib/pinyin";
 
 interface Props {
   /** 要查看的字（来自统计页按字排行） */
@@ -56,8 +57,12 @@ export default function CharDetailDialog({ char, onClose }: Props) {
                   key={w.id}
                   className={i > 0 ? "mt-4 border-t border-gray-100 pt-4" : ""}
                 >
-                  {w.keyword !== w.char && (
-                    <p className="text-sm text-gray-500">读音：{w.keyword}</p>
+                  {/* keyword≠char 有两种语义：括号读音（辟(bì)）与词形变体（安得）；
+                      keywordReading 只对前者返回拼音，词形变体返回 null */}
+                  {keywordReading(w.keyword, w.char) && (
+                    <p className="text-sm text-gray-500">
+                      读音：{keywordReading(w.keyword, w.char)}
+                    </p>
                   )}
                   <p className="font-medium">{w.meaning}</p>
                   {w.sentence && (
